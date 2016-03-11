@@ -5,22 +5,11 @@ description: "乾、坤、震、巽、坎、离、艮、兑"
 header-img: "img/twitter.jpg"
 ---
 
-欢迎来到博主八卦页，感谢关注，我是熊猫人。
+欢迎来到博主八卦页，感谢关注，我是 **熊猫人**，喜欢尝试各种新鲜事物。
 
+##### 联系：
 
-本着 **学习交流** 的目的，踏上了博客之旅，喜欢尝试各种新鲜事物。
-
-
-#### 关注：
-
-- LaTeX
-- Python
-
-#### 联系：
-
-- [博客：blog.zhaohengbo.com](blog.zhaohengbo.com)
-
-- [邮箱：mail@zhaohengbo.com](mail@zhaohengbo.com)
+- [邮箱：ceares@vip.qq.com](ceares@vip.qq.com)
 
 - [知乎：expipi](https://www.zhihu.com/people/expipi)
 
