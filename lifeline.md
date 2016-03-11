@@ -6,7 +6,7 @@ header-img: "img/orange.jpg"
 ---
 
 
-<ul class="listing" style="list-style-type:none;font-weight:normal;margin-top:0.5in">
+<ul class="listing" style="list-style-type:none;font-weight:normal;margin-top:2em;">
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
