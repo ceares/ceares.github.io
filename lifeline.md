@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Lifeline"
-description: "在这里留下生命的痕迹"
+description: "生命在这里留下了痕迹"
 header-img: "img/orange.jpg"
 ---
 
