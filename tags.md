@@ -5,9 +5,7 @@ description: "不要随意贴人标签"
 header-img: "img/semantic.jpg"  
 ---
 
-> Keywords
-
-<div id='tag_cloud' style="margin-top:1em;">
+<div id='tag_cloud' style="margin-top:1in;">
 {% for tag in site.tags %}
 <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 {% endfor %}
