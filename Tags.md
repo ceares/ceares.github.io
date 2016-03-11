@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "tags"
+title: "Tags"
 description: "不要随意贴人标签"  
 header-img: "img/semantic.jpg"  
 ---
