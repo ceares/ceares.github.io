@@ -8,13 +8,13 @@ header-img: "img/semantic.jpg"
 
 <div id='tag_cloud' style="font-weight:bold;">
 {% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="margin-left=2em;">{{ tag[0] }}</a>
 {% endfor %}
 </div>
 
-### List
 
-<ul class="listing" style="list-style-type: none;font-weight:bold;">
+
+<ul class="listing" style="list-style-type: none;font-weight:bold;margin-top:2em;">
 {% for tag in site.tags %}
   <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
 {% for post in tag[1] %}
