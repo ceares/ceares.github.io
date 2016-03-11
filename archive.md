@@ -13,9 +13,9 @@ header-img: "img/orange.jpg"
     {% assign year = y %}
     <li class="listing-seperator">{{ y }}</li>
   {% endif %}
-  <li class="listing-item" style="text-indent:3em;">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}" style=“font-weight:bold;”>{{ post.date | date:"%m/%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}" style="margin-left:0.5em;">{{ post.title }}</a>
+  <li class="listing-item" style="text-indent:3em;font-weight:bold;">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%m/%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}" style="margin-left:0.5em;font-weight:normal;">{{ post.title }}</a>
   </li>
 {% endfor %}
 </ul>
