@@ -10,9 +10,9 @@ header-img: "img/semantic.jpg"
 ### 基因库
 
 
-<div id='tag_cloud'>
+<div id='tag_cloud' style="font-weight:bold;">
 {% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="text-decoration: line-through;">{{ tag[0] }}</a>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 {% endfor %}
 </div>
 
@@ -24,7 +24,7 @@ header-img: "img/semantic.jpg"
 {% for post in tag[1] %}
   <li class="listing-item" style="text-indent:3em;font-weight:normal;">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y/%m/%d" }}</time>
-  <a href="{{ post.url }}" title="{{ post.title }}" style="text-indent:1em;">{{ post.title }}</a>
+  <a href="{{ post.url }}" title="{{ post.title }}" style="text-indent:1.5em;">{{ post.title }}</a>
   </li>
 {% endfor %}
 {% endfor %}
