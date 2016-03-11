@@ -17,7 +17,7 @@ header-img: "img/semantic.jpg"
 {% for tag in site.tags %}
   <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
 {% for post in tag[1] %}
-  <li class="listing-item" style="text-indent:4em;font-weight:normal;">
+  <li class="listing-item" style="text-indent:3em;font-weight:normal;">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y/%m/%d" }}</time>
   <a href="{{ post.url }}" title="{{ post.title }}" style="margin-left:1em;">{{ post.title }}</a>
   </li>
