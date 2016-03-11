@@ -5,9 +5,9 @@ description: "不要随意贴人标签"
 header-img: "img/semantic.jpg"  
 ---
 
-> Gene Pool
+> Keywords
 
-<div id='tag_cloud' style="font-weight:bold;margin-top:1em;">
+<div id='tag_cloud' style="margin-top:1em;">
 {% for tag in site.tags %}
 <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 {% endfor %}
