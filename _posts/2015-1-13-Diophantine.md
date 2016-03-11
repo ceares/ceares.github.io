@@ -140,7 +140,7 @@ $$\begin{bmatrix}x_{i+1}\\y_{i+1}\end{bmatrix}=\begin{bmatrix}x_1&ny_1\\y_1&x_1\
 
 由 $\sqrt{7}$ 的渐近分数列 $\\{\frac{p_i}{q_i}\\}=\frac{2}{1},\frac{3}{1},\frac{5}{2},\frac{8}{3},\cdots$，求得 $x^2 - 7y^2= 1$ 的基本解 $(8,3)$，其所有非平凡解 
 
-$$\\{x,y\\}=(8,3),(127,48),(2024,765),(32257,12192),(514088,194307),\cdots$$
+$$\\{x,y\\}=(8,3),(127,48),(2024,765),(32257,12192),\cdots$$
 
 ## 2、Diophantine Equation<sup>[[2]](https://projecteuler.net/problem=66 "Project Euler")</sup>
 
