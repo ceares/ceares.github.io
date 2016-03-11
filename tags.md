@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Tags"
-description: "莫要随意替人贴标签"  
+description: "不要随意贴人标签"  
 header-img: "img/semantic.jpg"  
 ---
 
@@ -18,13 +18,13 @@ header-img: "img/semantic.jpg"
 
 #### 性状表
 
-<ul class="listing" style="list-style-type: none;">
+<ul class="listing" style="list-style-type: none;font-weight:bold;">
 {% for tag in site.tags %}
   <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
 {% for post in tag[1] %}
-  <li class="listing-item" style="text-indent:3em;font-weight:bold;">
+  <li class="listing-item" style="text-indent:3em;font-weight:normal;">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y/%m/%d" }}</time>
-  <a href="{{ post.url }}" title="{{ post.title }}" style="text-indent:1em;font-weight:normal;">{{ post.title }}</a>
+  <a href="{{ post.url }}" title="{{ post.title }}" style="text-indent:1em;">{{ post.title }}</a>
   </li>
 {% endfor %}
 {% endfor %}
