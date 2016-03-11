@@ -11,7 +11,7 @@ header-img: "img/semantic.jpg"
 {% endfor %}
 </div>
 
-> Matching…
+> Matching gene…
 
 <ul class="listing" style="list-style-type: none;font-weight:bold;margin-top:1em;">
 {% for tag in site.tags %}
