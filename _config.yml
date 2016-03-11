@@ -13,8 +13,8 @@ owner:
   bio: "学行思新"
 
 # Data
-gavatar: "img/favicon.png"
-favicon: "img/favicon.ico"
+gavatar: 
+favicon: 
 
 douban_username:  
 twitter_username: 
