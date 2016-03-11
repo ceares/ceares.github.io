@@ -7,7 +7,7 @@ header-img: "img/twitter.jpg"
 
 
 <center>
-    <p><img src="img/cnfeat.jpg" align="center"></p>
+    <p><img src="http://7xrrbc.com1.z0.glb.clouddn.com/cnfeat.jpg" align="center"></p>
 </center>
 
 欢迎来到博主八卦页，感谢关注，我是熊猫人。
@@ -27,13 +27,13 @@ header-img: "img/twitter.jpg"
 
 - [邮箱：mail@zhaohengbo.com](mail@zhaohengbo.com)
 
-- [知乎：@expipi](https://www.zhihu.com/people/expipi)
+- [知乎：expipi](https://www.zhihu.com/people/expipi)
 
-- 公众号：Pandaman1992
+- 微信公众号：Pandaman1992
 
 
 <center>
-    <p><img src="img/code2.jpg" align="center"></p>
+    <p><img src="http://7xrrbc.com1.z0.glb.clouddn.com/code2.jpg" align="center"></p>
 </center>
 
 
