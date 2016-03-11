@@ -12,7 +12,7 @@ header-img: "img/twitter.jpg"
 
 欢迎来到博主八卦页，感谢关注！我是熊猫人，喜欢尝试各种新鲜事物。扫描上方二维码，即可关注我的微信公众号（Pandaman1992）。
 
-<p style="text-align:right;"><mail@zhaohengbo.com></p>
+<p style="text-align:right;">邮箱：mail@zhaohengbo.com</p>
 
 
 
