@@ -10,8 +10,9 @@ header-img: "img/zhihu.jpg"
     <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
 </center>
 
+### Links
 
-### 代表作：
+### Download
 
 
 - [《世界并非如你所见——用可供性来发现更大的世界》](http://www.jianshu.com/p/6f1404e0240d)
