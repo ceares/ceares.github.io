@@ -2,23 +2,23 @@
 title: Pandaman
 header-img: "img/green.jpg"
 tagline: "cn"  
-description: "熊猫人|那些回忆丶挥之不去"  
+description: "我不是熊猫人"  
 baseurl: ""
-url: "http://cnfeat"  
+url: "http://blog.zhaohengbo.com"  
 
 # About/contact
 owner: 
   name: " Pandaman"
   email: mail@zhaohengbo.com
-  bio: "宁静致远"
+  bio: "学行思新"
 
 # Data
-gavatar: http://dreamofbook.qiniudn.com/Az..png
+gavatar: http://7xrrbc.com1.z0.glb.clouddn.com/cnfeat.jpg
 favicon: img/favicon.png
 
 douban_username:  
 twitter_username: 
-github_username: 
+github_username: ceares
 facebook_username: 
 weibo_username: 
 zhihu_username: "expipi"
