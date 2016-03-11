@@ -7,7 +7,7 @@ header-img: "img/twitter.jpg"
 
 
 <center>
-    <p><img src="http://7xrrbc.com1.z0.glb.clouddn.com/cnfeat.jpg" align="center"></p>
+    <p><img src="http://7xrrbc.com1.z0.glb.clouddn.com/cnfeat.jpg" align="center" width="50%"></p>
 </center>
 
 欢迎来到博主八卦页，感谢关注，我是熊猫人。
