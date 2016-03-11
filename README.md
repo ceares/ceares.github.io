@@ -1,2 +1,2 @@
-> [Pandaman's Blog](http://blog.zhaohengbo.com)
+[Pandaman's Blog](http://blog.zhaohengbo.com)
 
