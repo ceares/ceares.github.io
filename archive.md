@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Archive"
-description: "你看到的，是我练习千字文的所有文章"
+title: "Life-Line"
+description: "生命在这里留下的轨迹"
 header-img: "img/orange.jpg"
 ---
 
 
-<ul class="listing">
+<ul class="listing" style="font-weight:bold;">
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
