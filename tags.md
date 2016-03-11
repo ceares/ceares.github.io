@@ -5,7 +5,7 @@ description: "不要随意贴人标签"
 header-img: "img/semantic.jpg"  
 ---
 
-> Gene：
+> Gene Pool
 
 <div id='tag_cloud' style="font-weight:bold;margin-top:1em;">
 {% for tag in site.tags %}
