@@ -48,6 +48,7 @@ $$x=a_0+\frac{1}{a_1+\frac{1}{a_2+\frac{1}{\ddots}}}=[a_0;a_1,a_2,\cdots]\,\text
 ```
 3 4 12 4
 ```
+
 ### 欧几里得 GCD 算法（辗转相除法）
 
 ```python
