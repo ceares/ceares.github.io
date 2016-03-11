@@ -1,2 +1,2 @@
-[Pandaman's Blog](blog.zhaohengbo.com  "target=_blank" )
+[Pandaman's Blog](https://blog.zhaohengbo.com)
 
