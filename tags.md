@@ -13,7 +13,7 @@ header-img: "img/semantic.jpg"
 
 > Matching Gene…
 
-<ul class="listing" style="list-style-type: none;font-weight:normal;margin-top:1em;">
+<ul class="listing" style="list-style-type: none;font-weight:normal;margin-top:0.5in;">
 {% for tag in site.tags %}
   <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
 {% for post in tag[1] %}
