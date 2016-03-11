@@ -7,7 +7,7 @@ header-img: "img/semantic.jpg"
 
 
 
-### 基因库
+# 基因库
 
 
 <div id='tag_cloud' style="font-weight:bold;">
@@ -16,7 +16,7 @@ header-img: "img/semantic.jpg"
 {% endfor %}
 </div>
 
-### 性状表
+# 性状表
 
 <ul class="listing" style="list-style-type: none;font-weight:bold;">
 {% for tag in site.tags %}
