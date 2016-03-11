@@ -7,7 +7,7 @@ header-img: "img/semantic.jpg"
 
 ## 基因库
 
-<div id='tag_cloud' style="font-weight:bold;">
+<div id='tag_cloud' style="font-weight:bold;margin-top:1em;">
 {% for tag in site.tags %}
 <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 {% endfor %}
