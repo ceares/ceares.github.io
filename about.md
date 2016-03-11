@@ -14,9 +14,8 @@ header-img: "img/twitter.jpg"
 
 #### 联系方式
 
-- [邮箱：ceares@vip.qq.com](ceares@vip.qq.com)
+- [邮箱：mail@zhaohengbo.com](mail@zhaohengbo.com)
 
-- [知乎：expipi](https://www.zhihu.com/people/expipi)
 
 
 
