@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "shared"
+title: "Shared"
 description: "独乐乐不如众乐乐"
 header-img: "img/zhihu.jpg"
 ---
