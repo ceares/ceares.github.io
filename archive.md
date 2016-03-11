@@ -11,9 +11,9 @@ header-img: "img/orange.jpg"
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
-    <li class="listing-seperator" style="font-weight:bold;">{{ y }} 年</li>
+    <li class="listing-seperator" style="font-weight:bold;">{{ y }}</li>
   {% endif %}
-  <li class="listing-item" style="text-indent:4em;">
+  <li class="listing-item" style="text-indent:3em;">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%m-%d" }}</time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
