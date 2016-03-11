@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 连分数与丢番图方程简介
-date: 2016-3-11
+date: 2015-1-13
 categories: blog
 tags: [Python,数学,Lisp,Project Euler]
 description: 本文主要围绕两方面的内容进行简单介绍：1、连分数及其求解方法；2、佩尔方程及其求解方法。
