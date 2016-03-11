@@ -1,2 +1,2 @@
-[Welcome to My Blog!](http://blog.zhaohengbo.com)
+[Welcome to my blog！](http://blog.zhaohengbo.com)
 
