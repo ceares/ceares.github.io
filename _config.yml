@@ -16,11 +16,11 @@ owner:
 gavatar: "img/favicon.png"
 favicon: "favicon.ico"
 
-douban_username:  
+douban_username:  "ceares"
 twitter_username: 
 github_username: "ceares"
 facebook_username: 
-weibo_username: "u/1877868425"
+weibo_username: #"u/1877868425"
 zhihu_username: "expipi"
 
 # Build settings  
