@@ -1,0 +1,27 @@
+---
+layout: post
+title: tikz 宏包中循环 foreach 的使用方法 
+date: 2012-11-23
+categories: qa
+tags: [LaTeX,tikz,foreach]
+description: LaTeX
+---
+
+```latex
+\documentclass{article}  
+\usepackage{tikz}
+\begin{document}
+\def\lastx{10}
+\foreach \x[count=\xi from 2,remember=\x as \lastx] in {15,19,20,25} {
+This variable \x, the value before was \lastx\space  and it is the argument \xi\space in the list.\par}
+\end{document}
+```
+
+---
+
+```
+This variable 15, the value before was 10 and it is the argument 2 in the list.  
+This variable 19, the value before was 15 and it is the argument 3 in the list.  
+This variable 20, the value before was 19 and it is the argument 4 in the list.  
+This variable 25, the value before was 20 and it is the argument 5 in the list.
+```
