@@ -3,7 +3,7 @@ layout: post
 title: LaTeX常见错误对照表
 date: 2010-04-13
 categories: blog
-tags: [LaTeX,error]
+tags: [LaTeX,QA,error]
 description: LaTeX常见错误对照表
 ---
 
