@@ -12,7 +12,7 @@ description:
 ---
 
 
-![](http://7xrrbc.com1.z0.glb.clouddn.com/figure_name)
+![picture](http://7xrrbc.com1.z0.glb.clouddn.com/figure_name)
 
 ```
 
