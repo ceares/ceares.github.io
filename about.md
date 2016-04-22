@@ -6,7 +6,7 @@ header-img: "img/twitter.jpg"
 ---
 
 <center>
-    <p><img src="http://7xrrbc.com1.z0.glb.clouddn.com/code2.jpg" align="center"></p>
+    <p><img src="http://7xrrbc.com1.z0.glb.clouddn.com/wechat2code.jpg" align="center"></p>
 </center>
 
 
