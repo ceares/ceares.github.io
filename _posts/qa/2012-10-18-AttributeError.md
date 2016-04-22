@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AttributeError: 'module' object has no attribute 'reader'
+title: AttributeError：'module' object has no attribute 'reader'
 date: 2012-10-18
 categories: blog
 tags: [Python,QA,error]
