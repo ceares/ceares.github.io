@@ -238,7 +238,7 @@ description: LaTeX常见错误对照表
 <td>9</td>
 <td>e_math</td>
 <td>! Missing $ inserted</td>
-<td>Missing a starting or ending `$` in Math mode, e.g m_e instead of `$m_e$`</td>
+<td>Missing a starting or ending \$ in Math mode, e.g m_e instead of \$m_e\$</td>
 </tr>
 <tr>
 <td>10</td>
