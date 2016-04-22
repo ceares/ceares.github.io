@@ -3,7 +3,7 @@ layout: post
 title: AttributeError: 'module' object has no attribute 'reader'
 date: 2012-10-18
 categories: blog
-tags: [Python	,QA,error]
+tags: [Python,QA,error]
 description: Attribute Error
 ---
 
