@@ -7,15 +7,17 @@ tags: [LaTeX,QA,error]
 description: LaTeX常见错误对照表
 ---
 
-### 对表二第10项的进一步说明：
+### 对表二第10项的额外说明：
 
-想建立一个cnabstract环境
+想建立一个cnabstract环境：
 
 ```latex
 \newenvironment{cnabstract}[1]{摘\quad 要\par}{\\\noindent 关键词：#1}
 ```
 
-出现 `! Illegal parameter number in definition of...` 错误。原因可能是 `#1` 不能用于环境后的部分，因此改为：
+出现 `! Illegal parameter number in definition of...` 错误。
+
+原因可能是 `#1` 不能用于环境后的部分，因此改为：
 
 ```latex
 \newenvironment{cnabstract}[1]{\newcommand\keywordscn{#1}摘\quad 要\par}{\\\noindent 关键词：\keywordscn}
@@ -24,8 +26,8 @@ description: LaTeX常见错误对照表
 就能在正文中使用如下环境：
 
 ```latex
-\begin{cnabstract}{key words}
-abstract
+\begin{cnabstract}{keywords}
+  abstract
 \end{cnabstract}
 ```
 
