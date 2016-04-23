@@ -13,13 +13,13 @@ Markdown 是一种轻量级的 __标记语言__，相对于复杂的 [HTML](http
 
 所谓标记语言，就是标识一段文本在文档中的性质的代码。譬如上文中加粗的 `标记语言` 四个字，在 HTML 中就用 `<strong>标记语言</strong>` 来标识；又比如一级标题 `一、什么是 Markdown？` 在 HTML 中就用 `<h1>标记语言</h1>` 来标识。
 
-从上述例子中可以看出，使用 HTML 非常繁琐。M↓ 对这些标记符号进行了简化处理，使得作者更专注于内容而不是格式，并且源文件看上去清晰明了。
+从上述例子中可以看出，使用 HTML 非常繁琐。M↓ 对这些标记符号进行了简化处理，非常容易掌握，同时让作者更专注于内容而不是格式，并且源文件阅读起来清晰明了。
 
-可见 M↓ 来源于 HTML，但它不会取代 HTML。因为 HTML 是一种发布的格式，M↓ 是一种书写的格式。M↓ 的语法种类很少，只对应 HTML 标记的一小部分。但不在 M↓ 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。
+可见 M↓ 来源于 HTML，但它不会取代 HTML。因为 M↓ 只对应 HTML 标记的一小部分。但是，不在 M↓ 涵盖范围之内的 HTML 标签，都可以直接在文档里直接撰写。
 
 # 二、标准 Markdown 的语法规范
 
-Markdown 语法形式并不单一，譬如 `-` 、 `+` 与 `*` 都可以作为无序列表的标记，但本文只取其中一种形式介绍。
+Markdown 语法形式并不单一，譬如 `-` 、 `+` 与 `*` 都可以作为无序列表的标记，本文只取一种形式介绍。
 
 ## 1、标题
 
@@ -87,7 +87,7 @@ __加粗__ 、 _斜体_ 以及 ~~删除~~
 
 # 三、扩展的 Markdown 方言
 
-随着 Markdown 的不断发展，不断有人对其语法进行扩展，产生了许多方言。其中一个比较通用的扩展是表格：
+随着 Markdown 的不断发展，不断有人对其语法进行扩展，产生了许多方言。最重要的就是对表格的支持：
 
 ```markdown
 | 项目  | 单价  | 数量 |
@@ -102,49 +102,28 @@ __加粗__ 、 _斜体_ 以及 ~~删除~~
 | 手机  | \$120 | 340  |
 
 ```
-除此之外，还有脚注[^footnote]、流程图、时序图、Todo列表等。由于这些
-[^footnote]: 这里是脚注
-```
-
-除此之外，还有脚注[^footnote]、流程图、时序图、Todo列表等。由于这些
+定义型列表
+:   除此之外，还有脚注[^footnote]、流程图、时序图、Todo列表等多种扩展，但它们都跟 Markdown 的编辑平台相关，因此不作具体介绍。
 
 [^footnote]: 这里是脚注
-
-```seq
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
 ```
 
-```flow
-st=>start: Start:>https://www.zybuluo.com
-io=>inputoutput: verification
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-sub=>subroutine: Your Subroutine
-e=>end
+定义型列表
+:   除此之外，还有脚注[^footnote]、流程图、时序图、Todo列表等多种扩展，但它们都跟 Markdown 的编辑平台相关，因此不作具体介绍。
 
-st->io->op->cond
-cond(yes)->e
-cond(no)->sub->io
-```
-
-- [ ] **Cmd Markdown 开发**
-    - [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
-    - [ ] 支持以 PDF 格式导出文稿
-    - [x] 新增Todo列表功能 [语法参考](https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments)
-    - [x] 改进 LaTex 功能
-        - [x] 修复 LaTex 公式渲染问题
-        - [x] 新增 LaTex 公式编号功能 [语法参考](http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers)
-- [ ] **七月旅行准备**
-    - [ ] 准备邮轮上需要携带的物品
-    - [ ] 浏览日本免税店的物品
-    - [x] 购买蓝宝石公主号七月一日的船票
-
-名词 1
-:   定义 1（左侧有一个可见的冒号和四个不可见的空格）
-
-代码块 2
-:   这是代码块的定义（左侧有一个可见的冒号和四个不可见的空格）
+[^footnote]: 这里是脚注。
 
 # 四、Markdown 编辑平台简介
+
+Markdown 已被许多平台支持，如博客园、简书、作业部落、小书匠、为知笔记、马克飞象、GitHub、Pandoc等。
+
+```markdown
+其中，简书暂不支持 LaTex 公式，如 $c^2=a^2+b^2$ 。
+需要与数学公式打交道的就可以直接排除。
+```
+
+小书匠功能虽然强大到爆炸，但遗憾的是没有移动端，而且也违背了 Markdown 易读易写的初衷。
+
+为知笔记可以实现手机电脑同步，并且也拥有多样化的功能，推荐普通用户使用。
+
+值得一提的是 Pandoc，Pandoc 支持多种格式的互相转化。如命令 `pandoc file.md -o file.docx` 可将 M↓ 编辑的文档转化为 word 格式。
