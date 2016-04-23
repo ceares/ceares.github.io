@@ -8,7 +8,9 @@ description: Notepad++ 插件 NppExec 简介
 ---
 
 
-[Notepad++](http://notepad-plus-plus.org/) 是一款非常优秀的文本编辑器，非常适合编辑源代码。Notepad++ 安装时已经附带有 Compare 等优秀插件，通过其 Plugin Manager 可以下载更多实用插件。譬如：
+[Notepad++](http://notepad-plus-plus.org/) 是一款非常优秀的文本编辑器，非常适合编辑源代码。
+
+Notepad++ 安装时已经附带有 Compare 等优秀插件，通过其 Plugin Manager 可以下载更多实用插件。譬如：
 
 1. LightExplorer。轻量级资源管理器，优点在于将 Explorer 集成于 Notepad++ 内部。
 1. MultiClipboard。多文本剪贴板：剪贴板的增强工具，提供多组存储条目。
@@ -21,7 +23,7 @@ description: Notepad++ 插件 NppExec 简介
 
 - Python 的配置
 
-```
+```cmd
 NPP_SAVE     
 cd $(CURRENT_DIRECTORY)  
 cmd /k C:\Python34\python.exe "$(FULL_CURRENT_PATH)" & EXIT
@@ -29,7 +31,7 @@ cmd /k C:\Python34\python.exe "$(FULL_CURRENT_PATH)" & EXIT
 
 - LaTeX 的配置
 
-```
+```cmd
 NPP_SAVE                          
 cd $(CURRENT_DIRECTORY) 
 xelatex.exe $(NAME_PART).tex     
@@ -56,7 +58,7 @@ NPP_RUN $(NAME_PART).pdf
 
 配置如下：
 
-```
+```cmd
 NPP_SAVE                          
 cd $(CURRENT_DIRECTORY) 
 cmd /k cl "$(FILE_NAME)" & "$(NAME_PART).exe" & EXIT
