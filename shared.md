@@ -15,7 +15,7 @@ header-img: "img/zhihu.jpg"
 
 ### [LaTeX入门](https://book.douban.com/subject/24703731/)
 
-刘海洋 著。顾名思义，通俗易懂， 适合初学者快速入门。
+刘海洋 著。顾名思义，一本通俗易懂，适合初学者快速入门的LaTeX教材。
 
 
 
