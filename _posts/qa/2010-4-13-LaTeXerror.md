@@ -520,7 +520,7 @@ description: LaTeX常见错误对照表
 </table>
 <hr>
 
-### 对表二第10项的额外说明：
+## 对表二第10项的额外说明：
 
 想建立一个cnabstract环境：
 
