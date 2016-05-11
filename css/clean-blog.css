@@ -88,8 +88,7 @@ hr.small {
 .post-container a:focus {
   color: #6bb4bf;
 }
-.post-container ul, .post-container ol {
-    margin-bottom: 5px;
+.pager {
     text-align: left;
 }
 
