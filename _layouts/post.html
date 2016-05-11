@@ -176,6 +176,10 @@ var duoshuoQuery = {short_name:"pandaman"};
     							}
     							n = n + 1;
     						});
-    						$("#catalog").html(c);
+if(x.length!=0){
+  $("#catalog").html(c);
+}else{
+  $("#catalog").hide();
+}
     					});
     				</script>
