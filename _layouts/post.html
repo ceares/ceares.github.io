@@ -38,8 +38,8 @@ layout: default
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
               
                 <div class="post-content">
-					<div id="catalog"></div>
-                    {{ content }}
+			<div id="catalog" style="background: #efefef;padding: 10px 20px"></div>
+                	{{ content }}
                 </div>
 
              
@@ -169,13 +169,13 @@ var duoshuoQuery = {short_name:"pandaman"};
     							$(this).before("<a name='anchor" + n + "'></a>");
     							if ($(this).prop('tagName') == "H1") //不可用"h1"
     							{
-    								c=c+"<a href='#anchor"+n+"' class='anchor-h1'>"+$(this).text()+"</a><br/>";
+    								c=c+"<a href='#anchor"+n+"' class='anchor-h1' style='font-weight:bold'>"+$(this).text()+"</a><br/>";
     							}
     							else {
-    								c=c+"<a href='#anchor"+n+"' class='anchor-h2'>"+$(this).text()+"</a><br/>";
+    								c=c+"<a href='#anchor"+n+"' class='anchor-h2' style='margin-left:2em'>"+$(this).text()+"</a><br/>";
     							}
     							n = n + 1;
     						});
-    						$("#catalog").html('<p>目录结构：</p>'+c);
+    						$("#catalog").html(c);
     					});
     				</script>
