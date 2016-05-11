@@ -36,6 +36,13 @@ a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
+.Tags a{
+    color: white;
+}
+.Tags a:hover {
+    color: yellow;
+}
+
 article {
   overflow-x: hidden;
 }
@@ -284,9 +291,14 @@ hr.small {
   .intro-header .post-heading .subheading {
     font-size: 30px;
   }
-  .intro-header .post-heading .meta {
+
+.intro-header .post-heading .meta {
     font-size: 20px;
-  }
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+
 }
 .post-preview > a {
   color: #404040;
