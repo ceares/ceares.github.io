@@ -38,7 +38,7 @@ layout: default
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
               
                 <div class="post-content">
-			<div id="catalog" style="background: #efefef;padding: 10px 20px"></div>
+			<div id="catalog" style="background: #efefef;padding: 10px 20px;display:none"></div>
                 	{{ content }}
                 </div>
 
@@ -177,9 +177,7 @@ var duoshuoQuery = {short_name:"pandaman"};
     							n = n + 1;
     						});
 if(x.length!=0){
-  $("#catalog").html(c);
-}else{
-  $("#catalog").hide();
+  $("#catalog").html(c);$("#catalog").show();
 }
     					});
     				</script>
