@@ -79,7 +79,7 @@ layout: default
                 </div>
                 <!-- Duoshuo Share end-->
                 
-                 <ul class="pager">
+                 <ul class="pager"  style="text-align:left">
                     {% if page.previous.url %}
                     <li class="previous">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" >上一篇：{{page.previous.title}}</a>
@@ -144,6 +144,7 @@ var duoshuoQuery = {short_name:"pandaman"};
         anchors.add().remove('.intro-header h1').remove('.subheading');
     })
 </script>
+
 <style>
     /* place left on bigger screen */
     @media all and (min-width: 800px) {
