@@ -81,10 +81,12 @@ hr.small {
 .post-container a:focus {
   color: #6bb4bf;
 }
-.post-container ul,
-.post-container ol {
-  margin-bottom: 40px;
+.post-container ul, .post-container ol {
+    margin-bottom: 5px;
+    text-align: left;
 }
+
+
 .post-container ol ol,
 .post-container ol ul,
 .post-container ul ol,
@@ -365,7 +367,7 @@ hr.small {
 }
 footer {
   font-size: 20px;
-  padding: 50px 0 65px;
+  padding: 30px 0 65px;
 }
 footer .list-inline {
   margin: 0;
@@ -460,19 +462,17 @@ form .row:first-child .floating-label-form-group {
 .pager li > span {
   font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
-  text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
   letter-spacing: 1px;
-  padding: 10px 5px;
+  padding: 10px 20px;
   background-color: white;
-  border-radius: 0;
+ 
 }
 @media only screen and (min-width: 768px) {
   .pager li > a,
   .pager li > span {
     font-size: 14px;
-    padding: 15px 25px;
   }
 }
 .pager li > a {
