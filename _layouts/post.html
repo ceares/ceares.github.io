@@ -36,7 +36,7 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
-                <div id="catalog"></div>
+              
                 {{ content }}
 
                 <hr>
@@ -54,61 +54,9 @@ layout: default
                     {% endif %}
                 </ul>
             
-                    <!--目录结构生成-->
-    				<script type="text/javascript">
-    					$(document).ready(function() {
-    						//生成目录
-    						x = $(".col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container has-jax has-jax").find("h1,h2");
-    						n = 0;
-    						c = "";
-    						x.each(function() {
-    							$(this).before("<a name='anchor" + n + "'></a>");
-    							if ($(this).prop('tagName') == "H1") //不可用"h1"
-    							{
-    								c=c+"<a href='#anchor"+n+"' class='anchor-h1'>"+$(this).text()+"</a><br/>";
-    							}
-    							else {
-    								c=c+"<a href='#anchor"+n+"' class='anchor-h2'>"+$(this).text()+"</a><br/>";
-    							}
-    							n = n + 1;
-    						});
-    						$("#catalog").html('<p>目录结构：</p>'+c);
-    					});
-    				</script>
-             
+                   
 
-                <!-- Duoshuo Share start -->
-                <style>
-                    .ds-share{
-                        text-align: right;
-                    }
-                    
-                    @media only screen and (max-width: 700px) {
-                        .ds-share {
 
-                        }
-                    }
-                </style>
-
-                <div class="ds-share"
-                    data-thread-key="{{page.id}}" data-title="{{page.title}}"
-                    data-images="{{ site.url }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"
-                    data-content="{{ content | strip_html | truncate:80 }} | Pandaman's blog"
-                    data-url="{{site.url}}{{page.url}}">
-                    <div class="ds-share-inline">
-                      <ul  class="ds-share-icons-16">
-
-                        <li data-toggle="ds-share-icons-more"><a class="ds-more" href="#">分享到：</a></li>
-                        <li><a class="ds-wechat flat" href="javascript:void(0);" data-service="wechat">微信</a></li>
-                        <li><a class="ds-weibo flat" href="javascript:void(0);" data-service="weibo">微博</a></li>
-                        <li><a class="ds-douban flat" href="javascript:void(0);" data-service="douban">豆瓣</a></li>
-                      </ul>
-                      <div class="ds-share-icons-more">
-                      </div>
-                    </div>
-                <hr>
-                </div>
-                <!-- Duoshuo Share end-->
 
 
                 <!-- 多说评论框 start -->
