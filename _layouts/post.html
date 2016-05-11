@@ -53,11 +53,12 @@ layout: default
                     </li>
                     {% endif %}
                 </ul>
+                {% if site.catalog == true and page.catalog == true %}
                     <!--目录结构生成-->
     				<script type="text/javascript">
     					$(document).ready(function() {
     						//生成目录
-    						x = $(".container").find("h1,h2");
+    						x = $(".col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container has-jax has-jax").find("h1,h2");
     						n = 0;
     						c = "";
     						x.each(function() {
@@ -74,6 +75,8 @@ layout: default
     						$("#catalog").html('<p>目录结构：</p>'+c);
     					});
     				</script>
+                {% endif %}
+
                 <!-- Duoshuo Share start -->
                 <style>
                     .ds-share{
