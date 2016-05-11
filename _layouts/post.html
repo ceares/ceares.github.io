@@ -52,7 +52,7 @@ layout: default
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
                     </li>
                     {% endif %}
-                    {% if site.catalog == true and page.catalog == true %}
+                </ul>
                     <!--目录结构生成-->
     				<script type="text/javascript">
     					$(document).ready(function() {
@@ -74,9 +74,6 @@ layout: default
     						$("#catalog").html('<p>目录结构：</p>'+c);
     					});
     				</script>
-                {% endif %}
-                </ul>
-
                 <!-- Duoshuo Share start -->
                 <style>
                     .ds-share{
