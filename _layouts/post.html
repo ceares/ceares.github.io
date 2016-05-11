@@ -41,19 +41,7 @@ layout: default
 
                 <hr>
 
-                <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">{{page.previous.title}}</a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">{{page.next.title}}</a>
-                    </li>
-                    {% endif %}
-                </ul>
-            
+
                    
                 <!-- Duoshuo Share start -->
                 <style>
@@ -91,6 +79,18 @@ layout: default
                 </div>
                 <!-- Duoshuo Share end-->
                 
+                 <ul class="pager">
+                    {% if page.previous.url %}
+                    <li class="previous">
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" >{{page.previous.title}}</a>
+                    </li>
+                    {% endif %}
+                    {% if page.next.url %}
+                    <li class="next">
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" >{{page.next.title}}</a>
+                    </li>
+                    {% endif %}
+                </ul>               
                 
                 <!-- 多说评论框 start -->
                 <div class="comment">
