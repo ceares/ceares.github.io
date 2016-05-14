@@ -12,4 +12,4 @@ header-img: "img/twitter.jpg"
 
 欢迎来到博主八卦页，感谢关注！我是熊猫人，喜欢尝试各种新鲜事物。扫描上方二维码，即可关注我的微信公众号（Pandaman1992）。
 
-> <i class="fa-envelope"></i>：<mail@zhaohengbo.com>
+> <i class="fa fa-envelope">&nbsp;</i><mail@zhaohengbo.com>
