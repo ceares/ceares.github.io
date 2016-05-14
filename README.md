@@ -20,10 +20,11 @@ The blog used many tools or services:
 
 ## How to Build a Blog ?
 
-> - &nbsp;[打造你的 GitHub Pages 专属博客（小白教程）](http://azeril.me/blog/Build-Your-First-GitHub-Pages-Blog.html)
-> - &nbsp;[Jekyll 博客主题精选](http://azeril.me/blog/Selected-Collection-of-Jekyll-Themes.html)
+> 1. &nbsp;[Choose a Jekyll Theme](http://jekyllthemes.org/);
+> 2. &nbsp;[Fork it](http://blog.zhaohengbo.com/Shared/)!
+> 3. &nbsp;[Writting with Markdown](http://blog.zhaohengbo.com/blog/2014/02/22/Markdown/).
 
-
+[See More ...](http://azeril.me/blog/Build-Your-First-GitHub-Pages-Blog.html)
 
 
 
