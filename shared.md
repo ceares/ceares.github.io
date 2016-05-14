@@ -58,7 +58,7 @@ header-img: "img/orange.jpg"
 
 ## 撰写首篇博文
 
-博文存放在 `_posts/` 文件夹里面，其文件名只能采用形如 `2016-05-15-FirstArticle.md` 的格式，并且只支持 `.md` 或者 `.html` 两种类型。
+博文存放在 `_posts/` 文件夹里面，其文件名只能采用形如 `2016-05-15-FirstArticle.md` 的格式，并且只支持 Markdown、html 以及 Textile 三种类型。
 
 建议采用 Markdown 语法书写博客，其语法介绍参见「 [标记语言 Markdown 简介](http://blog.zhaohengbo.com/blog/2014/02/22/Markdown/) 」。示范如下：
 
@@ -77,7 +77,7 @@ description: 这是第一篇博文。
 这里是正文。
 ```
 
-其中，`---` 包围的部分应参考 `_posts/` 文件夹里原有博文的规范书写。
+其中，`---` 包围的头信息应参考 `_posts/` 文件夹里原有博文的规范书写。
 
 值得注意的是，由于多方面的原因，博文书写完成后，需要等待一段时间后才能生效。
 
@@ -99,5 +99,6 @@ description: 这是第一篇博文。
 
 
 
+![有帮助的截图]({{ site.url }}/img/pandaman.jpg)
 
 
