@@ -11,7 +11,7 @@ header-img: "img/semantic.jpg"
 <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><i class="fa fa-tags">&nbsp;&nbsp;</i>{{ tag[0] }}</a></div>
 </div>
 {% endfor %}
-
+</div>
 
 <div style="font-style:italic;color:gray;margin:0em 1em 0.5in"><i class="fa fa-spinner fa-spin"></i> &nbsp; Matching Gene</div>
 
