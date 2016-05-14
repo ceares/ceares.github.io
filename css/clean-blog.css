@@ -37,7 +37,7 @@ a img:focus {
   cursor: zoom-in;
 }
 .Tags a{
-    color: white;padding-right: 10px;
+    color: white;padding-right: 0.5em;
 }
 .Tags a:hover {
     color: yellow;
