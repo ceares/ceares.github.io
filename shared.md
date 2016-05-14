@@ -22,7 +22,12 @@ header-img: "img/orange.jpg"
 
 实际上，建立 GitHub 博客只需要非常简单的三个步骤就足够了：
 
-
+1. 注册一个 <i class="fa fa-github">&nbsp;&nbsp;</i>[GitHub](https://github.com/) 账户；
+2. 选择一个博客模版：
+  - http://jekyllthemes.org/
+  - http://azeril.me/blog/Selected-Collection-of-Jekyll-Themes.html
+然后 fork
+3. 发表致
 
 ## 个性化的域名
 
