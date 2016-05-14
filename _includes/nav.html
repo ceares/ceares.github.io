@@ -19,12 +19,12 @@
                 <li>
 					<a href="{{ page.url | prepend: site.baseurl }}"><i id="nav-{{ page.title }}">&nbsp;</i>{{ page.title }}</a>
                 </li>
-                {% endif %}{% endfor %}
+                {% endif %}{% endfor %}<!--
 				{% if site.github_username %}
 				<li>
                     <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github">&nbsp;</i>Github</a>
                 </li>
-				{% endif %}
+				{% endif %}-->
 				<li>
                     <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss">&nbsp;</i>RSS</a>
                 </li>
@@ -38,7 +38,7 @@
 <script type="text/javascript">
 	$(document).ready(function() {
 		$("#nav-About").addClass("fa fa-user"); 
-		$("#nav-Lifeline").addClass("fa fa-time"); 			
+		$("#nav-Lifeline").addClass("fa fa-clock-o"); 			
 		$("#nav-Shared").addClass("fa fa-heart"); 
 		$("#nav-Tags").addClass("fa fa-tags"); 
 	});
