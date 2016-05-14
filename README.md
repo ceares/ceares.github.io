@@ -20,8 +20,9 @@ The blog used many tools or services:
 
 ## How to Build a Blog ?
 
-> - [打造你的 GitHub Pages 专属博客（小白教程）](http://azeril.me/blog/Build-Your-First-GitHub-Pages-Blog.html)
-> - [Jekyll 博客主题精选](http://azeril.me/blog/Selected-Collection-of-Jekyll-Themes.html)
+> [打造你的 GitHub Pages 专属博客（小白教程）](http://azeril.me/blog/Build-Your-First-GitHub-Pages-Blog.html)
+> 
+> [Jekyll 博客主题精选](http://azeril.me/blog/Selected-Collection-of-Jekyll-Themes.html)
 
 
 
