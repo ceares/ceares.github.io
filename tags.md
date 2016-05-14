@@ -5,13 +5,13 @@ description: "不要随意贴人标签"
 header-img: "img/semantic.jpg"  
 ---
 
-<div id='tag_cloud' style="margin:0.5in 0em 2em;font-weight: normal;text-align:justify">
+<div id='tag_cloud' style="margin:0.5in 0em;font-weight: normal;text-align:justify">
 {% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="margin-right:1em;"><i class="fa fa-tag">&nbsp;{{ tag[0] }}</i></a>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><i class="fa fa-tag">&nbsp;{{ tag[0] }}</i></a>
 {% endfor %}
 </div>
 
-<div style="font-style:italic;color:gray;margin-left:1em"><i class="fa fa-spinner fa-spin"></i> &nbsp; Matching Gene</div>
+<div style="font-style:italic;color:gray;margin:0em 1em 0.5in"><i class="fa fa-spinner fa-spin"></i> &nbsp; Matching Gene</div>
 
 <ul class="listing" style="list-style-type: none;font-weight: bold">
 {% for tag in site.tags %}
