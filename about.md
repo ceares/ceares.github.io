@@ -14,10 +14,4 @@ header-img: "img/twitter.jpg"
 - &nbsp;<i class="fa fa-comments">&nbsp;&nbsp;&nbsp;</i>WeChat：Zhao-Hengbo
 - &nbsp;<i class="fa fa-envelope-o">&nbsp;&nbsp;&nbsp;</i>E-mail：<mail@zhaohengbo.com>
 
-本博客搭建于
-  <a href="https://github.com/{{ site.github_username }}">
-  <span class="fa-stack fa-lg">
-  <i class="fa fa-circle fa-stack-2x"></i>
-  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-  </span>
-  </a>
+本博客搭建于<a href="https://github.com/{{ site.github_username }}">&nbsp;&nbsp;<i class="fa fa-github">&nbsp;&nbsp;</i>GitHub</a>，非常感谢！
