@@ -20,6 +20,7 @@
                 </li>
                 {% for page in site.pages %}{% if page.title %}
                 <li>
+					<i id="nav-{{ page.title }}">&nbsp;</i>
                     <a href="{{ page.url | prepend: site.baseurl }}" id="nav-{{ page.title }}">{{ page.title }}</a>
                 </li>
                 {% endif %}{% endfor %}
