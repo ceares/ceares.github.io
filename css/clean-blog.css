@@ -36,9 +36,12 @@ a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
-.Tags a{
-    color: white;padding-right: 0.5em;
+.Tags a {
+    color: white;
+    padding-right: 0.5em;
+    text-decoration: none;
 }
+
 .Tags a:hover {
     color: yellow;
 }

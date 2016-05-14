@@ -110,13 +110,15 @@ layout: default
                  <ul class="pager"  style="text-align:left">
                     {% if page.previous.url %}
                     <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" >上一篇：{{page.previous.title}}</a>
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" >
+						<i class="fa fa-reply">&nbsp;&nbsp;</i>上一篇：{{page.previous.title}}</a>
                     </li>
                     {% endif %}
                     <br/>
                     {% if page.next.url %}
                     <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" >下一篇：{{page.next.title}}</a>
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" >
+						<i class="fa fa-share">&nbsp;&nbsp;</i>下一篇：{{page.next.title}}</a>
                     </li>
                     {% endif %}
                 </ul>               
