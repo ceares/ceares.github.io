@@ -52,18 +52,22 @@ description: 这是第一篇博文。
 这里是 __正文__ 。
 ```
 
-其中，`---` 包围的部分应参考 `_posts/` 文件夹里其余博文的规范书写。
+其中，`---` 包围的部分应参考 `_posts/` 文件夹里原有博文的规范书写。
 
 值得注意的是，由于多方面的原因，博文书写完成后，需要等待一段时间后，才能在博客上更新显示。
 
 ## 定制专属内容
 
- ![picture](http://7xrrbc.com1.z0.glb.clouddn.com/figure_name)
+
+更改博客的细节样式需要 HTML/CSS、JavaScript 等知识，[W3School](http://www.w3school.com.cn/h.asp)
+![picture](http://7xrrbc.com1.z0.glb.clouddn.com/figure_name) 上有非常详尽的教程。
 
 
-## 个性化的域名
+## 附录
 
-## 与电脑端和手机端同步
+### 与电脑端和手机端同步
+
+### 个性化的域名
 
 
 
