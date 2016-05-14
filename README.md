@@ -1,6 +1,6 @@
 # [Pandaman's Blog](http://blog.zhaohengbo.com/)
 
-This blog created by Pandaman, and forked from [cnfeat](https://github.com/cnfeat/cnfeat.github.io).
+This blog forked from [cnfeat](https://github.com/cnfeat/cnfeat.github.io), and created by Pandaman. You can contact me through the following ways:
 
 - &nbsp;<i class="fa fa-comments">&nbsp;&nbsp;&nbsp;</i>WeChat：Zhao-Hengbo
 - &nbsp;<i class="fa fa-envelope-o">&nbsp;&nbsp;&nbsp;</i>E-mail：<mail@zhaohengbo.com>
