@@ -7,7 +7,7 @@ header-img: "img/semantic.jpg"
 
 <div id='tag_cloud' style="margin:0.5in 0em;font-weight: normal;text-align:left;text-align-last:left">
 {% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="margin-right:1em"><i class="fa fa-tags">&nbsp;&nbsp;<span style='font-family:"Helvetica Neue",Arial,"Hiragino Sans GB","STHeiti","Microsoft YaHei","WenQuanYi Micro Hei",SimSun,sans-serif'>{{ tag[0] }}</span></i></a>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="margin-right:1.5em"><i class="fa fa-tags">&nbsp;&nbsp;<span style='font-family:"Helvetica Neue",Arial,"Hiragino Sans GB","STHeiti","Microsoft YaHei","WenQuanYi Micro Hei",SimSun,sans-serif'>{{ tag[0] }}</span></i></a>
 {% endfor %}
 </div>
 
