@@ -31,25 +31,28 @@ header-img: "img/orange.jpg"
 
 现在，已经可以通过 http://`username`.github.io 访问“自己”的博客了。在这里之所以将“自己”加引号，显而易见，这个博客除了源文件放在自己的仓库里以外，无论其外观还是内容都还是他人的。
 
-## `username`.github.io 的树形结构
+## 博客项目的典型结构
 
 - README.md
-- _config.yml
-- _includes
-- _layouts
-  - default.html
-  - post.html
-- _posts
-  - 2015-04-27-Like-Kissing.md
-- images
-  - Leah.png 
-- css
-- js
+- CNAME
 - index.html
 - About.md
 - 404.html
 - feed.xml
-- CNAME
+- _config.yml
+- _includes
+  - head.html
+  - foot.html
+- _layouts
+  - default.html
+  - post.html
+- _posts
+  - 2016-05-15-FirstArticle.md
+- imges
+  - favicon.ico
+- css
+- js
+
 
 ## 撰写首篇博文
 
