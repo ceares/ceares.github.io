@@ -11,7 +11,7 @@ header-img: "img/semantic.jpg"
 {% endfor %}
 </div>
 
-> <i class="fa fa-spinner">&nbsp;</i> Matching Gene
+<div style="font-style:italic;color:gray;margin-left:1em"><i class="fa fa-spinner">&nbsp;</i> Matching Gene</div>
 
 <ul class="listing" style="list-style-type: none;font-weight: bold">
 {% for tag in site.tags %}
