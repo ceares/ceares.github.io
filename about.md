@@ -15,7 +15,3 @@ header-img: "img/twitter.jpg"
 - <i class="fa fa-envelope-o">&nbsp;&nbsp;</i>E-mail：<mail@zhaohengbo.com>
 
 <br/>
-
-<!--
-<div style="text-align:right;margin:-1em 0.5em 3em;color:gray"><a href="mailto:mail@zhaohengbo.com"><i class="fa fa-envelope-o">&nbsp;&nbsp;</i>mail@zhaohengbo.com</a></div>
--->
