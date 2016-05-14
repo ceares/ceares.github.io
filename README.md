@@ -1,6 +1,6 @@
 # [Pandaman's Blog](http://blog.zhaohengbo.com/)
 
-This is a blog created by Pandaman. 
+This blog created by Pandaman, and forked from [cnfeat](https://github.com/cnfeat/cnfeat.github.io).
 
 ## Thanks !
 
@@ -14,8 +14,6 @@ The blog used many tool/service:
 * [Aliyun](https://wanwang.aliyun.com/), the DNS service provider who surport the domain name resolution;
 * [Duoshuo](http://duoshuo.com/), a socialization comments plugin.
 * [Qiniu](http://www.qiniu.com/), a cloud storage platform.
-* [cnfeat](https://github.com/cnfeat/cnfeat.github.io), this blog forked from cnfeat/cnfeat.github.io.
-* …
 
 ## How To Build A Github Blog ?
 
