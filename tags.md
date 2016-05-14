@@ -13,9 +13,9 @@ header-img: "img/semantic.jpg"
 
 > <i class="fa fa-spinner">&nbsp;</i> Matching Gene
 
-<ul class="listing" style="list-style-type: none;font-weight: bold;margin-top:0.5in;">
+<ul class="listing" style="list-style-type: none;font-weight: bold">
 {% for tag in site.tags %}
-  <li class="listing-seperator" id="{{ tag[0] }}" style="margin-bottom:1em">#&nbsp;{{ tag[0] }}</li>
+  <li class="listing-seperator" id="{{ tag[0] }}" style="margin:1em auto">#&nbsp;{{ tag[0] }}</li>
 {% for post in tag[1] %}
   <li class="listing-item" style="text-indent:1em;font-weight:normal;">
   <!--<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y/%m/%d" }}</time>-->
