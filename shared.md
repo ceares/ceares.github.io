@@ -33,6 +33,8 @@ header-img: "img/orange.jpg"
 
 ## 博客项目的典型结构
 
+[Jekyll](http://jekyllcn.com/) 博客目录的典型树形结构如下：
+
 - README.md
 - CNAME
 - index.html
