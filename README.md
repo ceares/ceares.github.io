@@ -7,7 +7,7 @@ This blog forked from [cnfeat](https://github.com/cnfeat/cnfeat.github.io), and 
 
 ## Thanks !
 
-The blog used many tool/service:
+The blog used many tools or services:
 
 * [Github](https://github.com/), all the data based on;
 * [Git](https://git-scm.com/), blogs and code files version control system;
@@ -19,6 +19,10 @@ The blog used many tool/service:
 * [Qiniu](http://www.qiniu.com/), a cloud storage platform.
 
 ## How to Build a Blog ?
+
+- forked
+- git
+- CNAME
 
 [How to Build a Blog ？](http://blog.zhaohengbo.com/shared/)
 
