@@ -29,6 +29,8 @@ header-img: "img/orange.jpg"
   - 点击右上角的 fork 按钮，将该项目 fork 至自己的 GitHub 仓库（repositories）中
 3. 登入自己的 GitHub 仓库，将该项目的名称更改为 `username`.github.io；并删除项目根目录中的 CNAME 文件（如果存在）。
 
+现在，已经可以通过 http://`username`.github.io 访问“自己”的博客了。在这里之所以将“自己”加引号是显而易见的，这个博客除了源文件放在自己的仓库里以外，无论是外观还是内容都还是他人的。
+
 ## 个性化的域名
 
 ## 与电脑端和手机端同步
