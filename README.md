@@ -13,7 +13,7 @@ The blog used many tools or services:
 * [Git](https://git-scm.com/), blogs and code files version control system;
 * [Jekyll](http://jekyllrb.com/), a static site generator;
 * [Clean Blog Theme](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll), a theme by Start Bootstrap;
-* [Markdown](https://daringfireball.net/projects/markdown/), a beautiful lightweight markup language.
+* [Markdown](http://blog.zhaohengbo.com/blog/2014/02/22/Markdown/), a beautiful lightweight markup language.
 * [Aliyun](https://wanwang.aliyun.com/), the DNS service provider who surport the domain name resolution;
 * [Duoshuo](http://duoshuo.com/), a socialization comments plugin.
 * [Qiniu](http://www.qiniu.com/), a cloud storage platform.
