@@ -23,11 +23,10 @@ header-img: "img/orange.jpg"
 实际上，建立 GitHub 博客只需要非常简单的三个步骤就足够了：
 
 1. 注册一个 [GitHub](https://github.com/) 账户，假设账户名为 `username`；
-2. 选择一个 [现成的博客模版](http://jekyllthemes.org/)，进入模版主页找到其项目源文件，然后 `fork` 它。以本博客为例：
-  - 如本博客的项目源文件：<https://github.com/ceares/ceares.github.io>
-  - 点击 `fork` 按钮![](http://7xrrbc.com1.z0.glb.clouddn.com/fork.png)
-  - 
-3. 发表致
+2. 选择一个 [现成的博客模版](http://jekyllthemes.org/)，进入模版主页找到其项目源文件，然后 fork 它。以本博客为例：
+  - 本博客的项目源文件：<https://github.com/ceares/ceares.github.io>
+  - 点击右上角的 fork 按钮，将该项目 fork 至自己的 GitHub 仓库（repositories）中
+3. 登入自己的 GitHub 仓库，将该项目的名称更改为 `username`.github.io；并删除项目根目录中的 CNAME 文件（如果存在）。
 
 ## 个性化的域名
 
