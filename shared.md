@@ -33,7 +33,25 @@ header-img: "img/orange.jpg"
 
 ## 撰写首篇博文
 
-博文存放在 `_posts/` 文件夹里面，其文件名只能采用形如「2016-05-15-FirstArticle.md」的格式，并且只支持 `.md` 或者 `.html` 两种类型。建议采用 Markdown 语法书写博客，其语法介绍参见「 [标记语言 Markdown 简介](http://blog.zhaohengbo.com/blog/2014/02/22/Markdown/) 」。
+博文存放在 `_posts/` 文件夹里面，其文件名只能采用形如 `2016-05-15-FirstArticle.md` 的格式，并且只支持 `.md` 或者 `.html` 两种类型。
+
+建议采用 Markdown 语法书写博客，其语法介绍参见「 [标记语言 Markdown 简介](http://blog.zhaohengbo.com/blog/2014/02/22/Markdown/) 」。示范如下：
+
+```
+---
+layout: post
+title: 第一篇博文
+date: 2016-05-15
+categories: blog
+tags: [blog,示例]
+description: 这是第一篇博文。
+---
+
+# 博文范例
+
+这里是 __正文__ 。
+```
+
 
 ## 定制专属内容
 
