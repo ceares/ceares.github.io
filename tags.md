@@ -5,12 +5,12 @@ description: "不要随意贴人标签"
 header-img: "img/semantic.jpg"  
 ---
 
-<div id='tag_cloud' style="margin:0.5in 0em;font-weight: normal;text-align:left;text-align-last:left">
+<div id='tag_cloud' style="margin:0.5in 0em;font-weight: normal;text-align:justify;text-align-last:left">
 {% for tag in site.tags %}
-<div style="width:10em">
+<span style="margin-right:1em">
 <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><i class="fa fa-tags">&nbsp;&nbsp;</i>{{ tag[0] }}</a></div>
 {% endfor %}
-</div>
+</span>
 
 <div style="font-style:italic;color:gray;margin:0em 1em 0.5in"><i class="fa fa-spinner fa-spin"></i> &nbsp; Matching Gene</div>
 
