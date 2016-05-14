@@ -14,14 +14,14 @@ owner:
 
 # Data
 gavatar: "img/favicon.png"
-favicon: "favicon.ico"
+favicon: "img/favicon.ico"
 
-douban_username:  #"ceares"
+douban_username:  
 twitter_username: 
 github_username: "ceares"
 facebook_username: 
-weibo_username: "ctexpipi"
-zhihu_username: "expipi"
+weibo_username: 
+zhihu_username: 
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -44,7 +44,7 @@ defaults:
     values:
       layout: "post"
       author: "Pandaman"
-      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/blue.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
