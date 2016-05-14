@@ -25,7 +25,7 @@ header-img: "img/orange.jpg"
 1. 注册一个 <i class="fa fa-github">&nbsp;&nbsp;</i>[GitHub](https://github.com/) 账户；
 2. 选择一个博客模版：
   - http://jekyllthemes.org/
-  - http://azeril.me/blog/Selected-Collection-of-Jekyll-Themes.html
+  - http://azeril.me/blog/Selected-Collection-of-Jekyll-Themes.html  
 然后 fork
 3. 发表致
 
