@@ -55,15 +55,17 @@ layout: default
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
               
                 <div class="post-content">
-			<div id="catalog" style="background: #efefef;padding:10px 20px;display:none"></div>
+				
+				<div id="catalog" style="background: #efefef;padding:10px 20px;display:none"></div>
+				
                 	{{ content }}
                 	
-<div id="MySignature" style="display: block;">
-<a href="http://blog.zhaohengbo.com/about"><img src="http://7xrrbc.com1.z0.glb.clouddn.com/Pandaman.jpg"></a>
-<div style="padding-top:14px;padding-right:14px;">
-	如果您喜欢这篇文章，欢迎转载、演绎或用于商业目的，但请务必保留作者署名以及本文链接！</div>
-<div style="text-align:right;padding-top:2px;padding-right:16px;">Copyright&nbsp;©&nbsp;<a href="http://blog.zhaohengbo.com/about">Pandaman</a></div>
-</div>
+				<div id="MySignature" style="display: block;">
+					<a href="http://blog.zhaohengbo.com/about"><img src="http://7xrrbc.com1.z0.glb.clouddn.com/Pandaman.jpg"></a>
+					<div style="padding-top:14px;padding-right:14px;">
+					如果您喜欢这篇文章，欢迎转载、演绎或用于商业目的，但请务必保留作者署名以及本文链接！</div>
+					<div style="text-align:right;padding-top:2px;padding-right:16px;">Copyright&nbsp;©&nbsp;<a href="http://blog.zhaohengbo.com/about">Pandaman</a></div>
+				</div>
 
                 </div>
                 
@@ -125,19 +127,19 @@ layout: default
                 </div>
                 <!-- 多说评论框 end -->
 
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"pandaman"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-<!-- 多说公共JS代码 end -->
+				<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+				<script type="text/javascript">
+				var duoshuoQuery = {short_name:"pandaman"};
+					(function() {
+						var ds = document.createElement('script');
+						ds.type = 'text/javascript';ds.async = true;
+						ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+						ds.charset = 'UTF-8';
+						(document.getElementsByTagName('head')[0] 
+						 || document.getElementsByTagName('body')[0]).appendChild(ds);
+					})();
+					</script>
+				<!-- 多说公共JS代码 end -->
 
 
             </div>
@@ -184,26 +186,26 @@ var duoshuoQuery = {short_name:"pandaman"};
 </style>
 
 
-                    <!--目录结构生成-->
-    				<script type="text/javascript">
-    					$(document).ready(function() {
-    						//生成目录
-    						x = $(".post-content").find("h1,h2");
-    						n = 0;
-    						c = "";
-    						x.each(function() {
-    							$(this).before("<a name='anchor" + n + "'></a>");
-    							if ($(this).prop('tagName') == "H1") //不可用"h1"
-    							{
-    								c=c+"<a href='#anchor"+n+"' class='anchor-h1' style='font-weight:bold'>"+$(this).text()+"</a><br/>";
-    							}
-    							else {
-    								c=c+"<a href='#anchor"+n+"' class='anchor-h2' style='margin-left:2em'>"+$(this).text()+"</a><br/>";
-    							}
-    							n = n + 1;
-    						});
-if(x.length!=0){
-  $("#catalog").html(c);$("#catalog").show();
-}
-    					});
-    				</script>
+<!--目录结构生成-->
+<script type="text/javascript">
+	$(document).ready(function() {
+		//生成目录
+		x = $(".post-content").find("h1,h2");
+		n = 0;
+		c = "";
+		x.each(function() {
+			$(this).before("<a name='anchor" + n + "'></a>");
+			if ($(this).prop('tagName') == "H1") //不可用"h1"
+			{
+				c=c+"<a href='#anchor"+n+"' class='anchor-h1' style='font-weight:bold'>"+$(this).text()+"</a><br/>";
+			}
+			else {
+				c=c+"<a href='#anchor"+n+"' class='anchor-h2' style='margin-left:2em'>"+$(this).text()+"</a><br/>";
+			}
+			n = n + 1;
+		});
+		if(x.length!=0){
+		  $("#catalog").html(c);$("#catalog").show();
+		}
+	});
+</script>
