@@ -2,7 +2,7 @@
 layout: page
 title: "Shared"
 description: "独乐乐不如众乐乐"
-header-img: "img/zhihu.jpg"
+header-img: "img/twitter.jpg"
 ---
 
 ## [Project Euler](https://projecteuler.net/archives)
