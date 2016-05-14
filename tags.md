@@ -11,14 +11,14 @@ header-img: "img/semantic.jpg"
 {% endfor %}
 </div>
 
-> Matching Gene…
+> <i class="fa fa-spinner">&nbsp;</i>Matching Gene…
 
 <ul class="listing" style="list-style-type: none;font-weight: bold;margin-top:0.5in;">
 {% for tag in site.tags %}
   <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
 {% for post in tag[1] %}
   <li class="listing-item" style="text-indent:3em;font-weight:normal;">
-  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y/%m/%d" }}</time>
+  <!--<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y/%m/%d" }}</time>-->
   <a href="{{ post.url }}" title="{{ post.title }}" style="margin-left:1em;">{{ post.title }}</a>
   </li>
 {% endfor %}
