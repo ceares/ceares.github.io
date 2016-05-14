@@ -2,7 +2,7 @@
 
 This is a blog created by Pandaman. 
 
-## Thanks
+## Thanks !
 
 The blog used many tool/service:
 
@@ -11,13 +11,13 @@ The blog used many tool/service:
 * [Jekyll](http://jekyllrb.com/), a static site generator;
 * [Clean Blog Theme](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll), a theme by Start Bootstrap;
 * [Markdown](https://daringfireball.net/projects/markdown/), a beautiful lightweight markup language.
-* [DNSPod](https://www.dnspod.cn/), the DNS service provider who surport the domain name resolution;
+* [Aliyun](https://wanwang.aliyun.com/), the DNS service provider who surport the domain name resolution;
 * [Duoshuo](http://duoshuo.com/), a socialization comments plugin.
 * [Qiniu](http://www.qiniu.com/), a cloud storage platform.
 * [cnfeat](https://github.com/cnfeat/cnfeat.github.io), this blog forked from cnfeat/cnfeat.github.io.
 * …
 
-## How To Build A Github Blog
+## How To Build A Github Blog ?
 
 [Build-Your-First-GitHub-Pages-Blog](http://azeril.me/blog/Build-Your-First-GitHub-Pages-Blog.html)
 
