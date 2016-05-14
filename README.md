@@ -18,9 +18,9 @@ The blog used many tool/service:
 * [Duoshuo](http://duoshuo.com/), a socialization comments plugin.
 * [Qiniu](http://www.qiniu.com/), a cloud storage platform.
 
-## How To Build A Github Blog ?
+## How to Build a Blog ?
 
-[Build-Your-First-GitHub-Pages-Blog](http://azeril.me/blog/Build-Your-First-GitHub-Pages-Blog.html)
+[How to Build a Blog ？](http://blog.zhaohengbo.com/shared/)
 
 
 ```
