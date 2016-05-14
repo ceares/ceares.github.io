@@ -31,6 +31,26 @@ header-img: "img/orange.jpg"
 
 现在，已经可以通过 http://`username`.github.io 访问“自己”的博客了。在这里之所以将“自己”加引号，显而易见，这个博客除了源文件放在自己的仓库里以外，无论其外观还是内容都还是他人的。
 
+## `username`.github.io 的树形结构
+
+- README.md
+- _config.yml
+- _includes
+- _layouts
+  - default.html
+  - post.html
+- _posts
+  - 2015-04-27-Like-Kissing.md
+- images
+  - Leah.png 
+- css
+- js
+- index.html
+- About.md
+- 404.html
+- feed.xml
+- CNAME
+
 ## 撰写首篇博文
 
 博文存放在 `_posts/` 文件夹里面，其文件名只能采用形如 `2016-05-15-FirstArticle.md` 的格式，并且只支持 `.md` 或者 `.html` 两种类型。
@@ -54,7 +74,7 @@ description: 这是第一篇博文。
 
 其中，`---` 包围的部分应参考 `_posts/` 文件夹里原有博文的规范书写。
 
-值得注意的是，由于多方面的原因，博文书写完成后，需要等待一段时间后，才能在博客上更新显示。
+值得注意的是，由于多方面的原因，博文书写完成后，需要等待一段时间后才能生效。
 
 ## 定制专属内容
 
