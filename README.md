@@ -20,26 +20,9 @@ The blog used many tools or services:
 
 ## How to Build a Blog ?
 
-- forked
-- git
-- CNAME
-
-[How to Build a Blog ？](http://blog.zhaohengbo.com/shared/)
+[See this.](http://blog.zhaohengbo.com/shared/)
 
 
-```
----
-layout: post
-title: 
-date: 1992-04-13
-categories: blog
-tags: [,]
-description: 
----
 
-
-![picture](http://7xrrbc.com1.z0.glb.clouddn.com/figure_name)
-
-```
 
 
