@@ -16,7 +16,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="{{ site.baseurl }}/">Home</a>
+                    <a href="{{ site.baseurl }}/"><i class="fa fa-home">&nbsp;</i>Home</a>
                 </li>
                 {% for page in site.pages %}{% if page.title %}
                 <li>
@@ -30,6 +30,9 @@
     <!-- /.container -->
 </nav>
 
-<script type="text/javascript">$(document).ready(function() {
-	$("#nav-About").addClass("fa fa-user"); 	});
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#nav-About").addClass("fa fa-user"); 	
+		$("#nav-tags").addClass("fa fa-tags"); 
+	});
 </script>
