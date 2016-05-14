@@ -1,9 +1,3 @@
-# Pandaman
-
-This is [Pandaman's Blog](http://blog.zhaohengbo.com)
-
-```
-
 # Pandaman's Blog
 
 This is a blog created by Pandaman. The blog is live at [blog.zhaohengbo.com](http://blog.zhaohengbo.com/).
@@ -31,6 +25,7 @@ Build your blog Step by step
 
 Start writing now！
 
+```
 ---
 layout: post
 title: 
