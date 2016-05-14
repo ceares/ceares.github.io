@@ -1,10 +1,10 @@
-# Pandaman's Blog
+# [Pandaman's Blog](http://blog.zhaohengbo.com/)
 
-This is a blog created by Pandaman. The blog is live at [blog.zhaohengbo.com](http://blog.zhaohengbo.com/).
+This is a blog created by Pandaman. 
 
 ## Thanks
 
-The blog used many tool/service, thanks to:
+The blog used many tool/service:
 
 * [Github](https://github.com/), all the data based on;
 * [Git](https://git-scm.com/), blogs and code files version control system;
