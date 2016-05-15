@@ -106,6 +106,6 @@ description: 这是第一篇博文。
 
 
 
-![有帮助的截图]({{ site.url }}/img/pandaman.jpg)
+![]({{ site.url }}/pics/pandaman.jpg)
 
 

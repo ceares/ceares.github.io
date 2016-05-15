@@ -94,14 +94,14 @@ __加粗__ 、 _斜体_ 以及 ~~删除~~
 
 ---
 
-![微信二维码](http://7xrrbc.com1.z0.glb.clouddn.com/wechat2code.jpg)
+![Github头像](https://avatars2.githubusercontent.com/u/10451648?v=3&s=460)
 ```
 
 [博客地址](http://blog.zhaohengbo.com/)
 
 ---
 
-![微信二维码](http://7xrrbc.com1.z0.glb.clouddn.com/wechat2code.jpg)
+![Github头像](https://avatars2.githubusercontent.com/u/10451648?v=3&s=460)
 
 # 三、扩展的 Markdown 方言
 
