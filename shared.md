@@ -57,21 +57,38 @@ Jekyll 博客目录的典型树形结构图如下：
 
 它们的详细用处请参阅 [Jekyll 文档](http://jekyllcn.com/docs/structure/)，这里简单介绍如下：
 
-- `README.md` 项目说明文档。属于描述性文件，与博客本身关联不大。
-- `CNAME` 用于绑定个人域名，并非必要的文件；
-- `index.html` 博客架构文档；
-- `_config.yml` 博客配置文档；
-- `_includes` 存放一些重复调用的 html 代码块，如导航栏、底栏等；
-- `- _layouts` 存放规定博客页面布局的文件。
-- `About.md`、`404.html` 等 `.md` 或 `.html` 文件都是博客的一个页面；
-- `imges`、`css`、`js` 等文件夹用来存放各种资源文件。
-
-最重要的是，博文存放在 `_posts/` 文件夹里面，其文件名只能采用形如 `2016-05-15-FirstArticle.md` 的格式，支持 Markdown、html 类型。
+`README.md` 
+:   项目说明文档。属于描述性文件，与博客本身关联不大。
+`CNAME` 
+:   用于绑定个人域名，并非必要的文件。
+`index.html` 
+:   博客架构文档。
+`_config.yml` 
+:   博客配置文档。
+`_includes` 
+:   存放一些重复调用的 html 代码块，如导航栏、底栏等。
+`- _layouts` 
+:   存放规定博客页面布局的文件。
+`About.md`、`404.html` 等 `.md` 或 `.html` 文件 
+:   非必须的，用于生成博客的一个子页面。
+`imges`、`css`、`js` 等文件夹 
+:   非必须的，通常用来存放各种资源文件。
+`_posts/` 文件夹 
+:   最重要的文件夹，博文都存放在里面，如 `2016-05-15-FirstArticle.md`，支持 Markdown、html 类型。
  
-[Jekyll](http://jekyllcn.com/) 
-博客细节的微调虽然并不复杂，但是非常繁琐，需要大量 Markdown、HTML/CSS、JavaScript 与 Jekyll 等方面的基础性知识。若有一定的编程功底可能比较迅速就能掌握，否则也不是一朝一夕就能讲明白的，在此不再赘述。
+博客外观细节的调整虽然并不复杂，但却非常繁琐，需要大量 Markdown[^Markdown]、HTML/CSS[^HTML/CSS]、JavaScript[^JavaScript] 与 Jekyll[^Jekyll] 等方面的基础性知识。若有一定的编程功底可能比较迅速就能掌握，否则也不是一朝一夕就能讲明白的，在此不再赘述。
+
+[^Markdown]: Markdown
+
+[^HTML/CSS]: HTML/CSS
+
+[^JavaScript]: JavaScript
+
+[^Jekyll] : Jekyll
 
 ## 撰写首篇博文
+
+博文的文件名只能采用形如 `2016-05-15-FirstArticle.md` 的格式，支持 Markdown、html 类型。
 
 博文存放在 `_posts/` 文件夹里面，其文件名只能采用形如 `2016-05-15-FirstArticle.md` 的格式，并且只支持 Markdown、html 以及 Textile 三种类型。
 
@@ -114,7 +131,10 @@ description: 这是第一篇博文。
 ### 个性化的域名
 
 
+定义型列表
+:   除此之外，还有脚注[^footnote]、流程图、时序图、Todo列表等多种扩展语法，但它们都跟 Markdown 具体的编辑平台相关，因此不作具体介绍。
 
+[^footnote]: 这里是脚注
 
 
 
