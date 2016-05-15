@@ -9,7 +9,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/" style="font-family:rm"><i class="fa fa-home">&nbsp;&nbsp;</i>{{ site.title }}</a>
+			<!--a class="navbar-brand" href="{{ site.baseurl }}/" style="font-family:rm"><i class="fa fa-home">&nbsp;&nbsp;</i>{{ site.title }}</a-->
+			<a class="navbar-brand" href="{{ site.baseurl }}/" style="font-family:rm"><i class="fa fa-home">&nbsp;&nbsp;</i>Home</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,8 +18,7 @@
             <ul class="nav navbar-nav navbar-right" style="font-family:rm;">
                 {% for page in site.pages %}{% if page.title %}
                 <li>
-					<!--a href="{{ page.url | prepend: site.baseurl }}"><i id="nav-{{ page.title }}">&nbsp;&nbsp;</i>{{ page.title }}</a-->
-					<a href="{{ page.url | prepend: site.baseurl }}"><i id="nav-{{ page.title }}">&nbsp;&nbsp;</i>Home</a>
+					<a href="{{ page.url | prepend: site.baseurl }}"><i id="nav-{{ page.title }}">&nbsp;&nbsp;</i>{{ page.title }}</a>
                 </li>
                 {% endif %}{% endfor %}<!--
 				{% if site.github_username %}
