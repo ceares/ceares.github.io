@@ -66,16 +66,19 @@ layout: default
 .post-content h2{font-size:24px}
 .post-content h3{font-size:18px}
 .post-content h4{font-size:16px}
-.post-content h5{font-size:14px}
-.post-content h6{font-size:16px}
-.previous{
+/* Firefox 4 */
+.post-content h5{font-size:14px} 
+/* Firefox 4 */
+.post-content h6{font-size:16px} 
+/* Firefox 4 */
+.previous, .next{
 margin-left: 0em;
 transition:margin-left 0.5s;
 -moz-transition:width 0.5s; /* Firefox 4 */
 -webkit-transition:width 0.5s; /* Safari and Chrome */
 -o-transition:width 0.5s; /* Opera */
 }
-.previous:hover
+.previous:hover, .next:hover
 {
 margin-left: 1em;
 }
