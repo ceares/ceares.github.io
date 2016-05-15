@@ -7,17 +7,15 @@ header-img: "img/zhihu.jpg"
 
 <style type="text/css">
 .listing-seperator {
-	list-style-type:none;
-	font-weight:normal;
-	margin-top:2em;
-	color:pink
+	margin-top:1em;
+	color:#0590f0
 }
-.listing-item { text-indent:3em; color:pink}
-.listing-item a { margin-left:0.5em; color: #11b7ae}
-.listing-item a:hover { text-description: underline}
+.listing-item { text-indent:3em; color:#0590f0}
+.listing-item a { margin-left:0.5em; color: #0590f0}
+.listing-item a:hover { font-description: underline}
 </style>
 
-<ul class="listing" style="list-style-type:none;font-weight:normal;margin-top:2em;color:#0590f0">
+<ul class="listing" style="list-style-type:none;font-weight:normal;margin-top:2em;">
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
