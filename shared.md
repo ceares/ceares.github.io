@@ -133,7 +133,7 @@ tags: [范例]
 
 #### pull & push
 
-pull 和 push 命令可以实现本地与云端同步，其具体功能可以参阅：[push 命令](({% post_url qa/2016-04-23-gitpush %}))
+pull 和 push 命令可以实现本地与云端同步，其具体功能可以参阅：[push 命令]({% post_url 2016-04-23-gitpush %})
 
 在使用它们之前，需要先将博客项目 clone 到本地。即在本地存储位置执行 cmd 命令：
 
