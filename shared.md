@@ -5,8 +5,6 @@ description: "独乐乐不如众乐乐"
 header-img: "img/orange.jpg"
 ---
 
-<style>a{color:#2b4180}</style>
-
 # How to Build a Blog？
 
 在了解如何用 GitHub Pages 搭建独立博客之前，首先应该先问自己为什么要这样做？
@@ -115,7 +113,7 @@ tags: [范例]
 
 ### 4、使用 Git 摆脱网页端的束缚
 
-如果觉得在网页端撰写博文相当不得劲，可以先下载安装一个 [Git 工具](https://git-scm.com/)。
+如果觉得在网页端撰写博文相当不得劲，可以先下载安装一个 [Git 工具](https://git-scm.com/) 。
 
 1. 启动 Git Bash；
 2. 输入命令 `$ cd ~/.ssh`，如果提示 No such file or directory 说明是首次使用；

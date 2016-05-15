@@ -26,7 +26,9 @@ h4 {
   font-size: 18px;
 }
 a {
-  color: #404040;
+  /*color: #404040;*/
+  text-decoration:none;
+  color: green;
 }
 a:hover,
 a:focus {
@@ -41,9 +43,8 @@ a img:focus {
     padding-right: 0.5em;
     text-decoration: none;
 }
-
 .Tags a:hover {
-    color: pink;
+    color: #4da6ff;
 }
 
 article {

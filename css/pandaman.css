@@ -109,19 +109,19 @@ margin-left: 1em;
 /* footnote */
 
 a.footnote {
-    padding: auto 0.25em;
+    padding: 0.25em;
     color: red;
     text-decoration: none;
 }
 a.reversefootnote {
-    color: red;
+    color: pink;
 	text-decoration: none;
 }
 a.footnote:hover {
     color: green;
 }
 a.reversefootnote:hover {
-    color: green;
+    color: red;
 }
 a.footnote::before {
     content: "[";
