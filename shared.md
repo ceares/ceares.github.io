@@ -84,7 +84,7 @@ Jekyll 博客目录的典型树形结构图如下：
 
 [^JavaScript]: [JavaScript 教程](http://www.w3school.com.cn/js/)
 
-[^Jekyll] : [Jekyll：将纯文本转换为静态博客网站](http://jekyllcn.com/)
+[^Jekyll]: [Jekyll：将纯文本转换为静态博客网站](http://jekyllcn.com/)
 
 ## 撰写首篇博文
 
