@@ -98,7 +98,7 @@ imges、css、js 等文件夹
 
 博文只能采用形如 `年-月-日-标题.后缀` 的文件名，支持 Markdown、html 类型。
 
-范例文章 `1992-04-13-FirstArticle.md` 的内容如下：
+以文章 `1992-04-13-FirstArticle.md` 为例，其内容如下：
 
 ```
 ---
