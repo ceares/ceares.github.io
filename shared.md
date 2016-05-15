@@ -88,7 +88,7 @@ imges、css、js 等文件夹
 
 [^Jekyll]: [Jekyll：将纯文本转换为静态博客网站](http://jekyllcn.com/)
 
-[^Markdown]: [标记语言 Markdown 简介](http://blog.zhaohengbo.com/blog/2014/02/22/Markdown/)
+[^Markdown]: [标记语言 Markdown 简介]({% post_url 2014-2-22-Markdown %})
 
 [^HTMLCSS]: [HTML 教程](http://www.w3school.com.cn/h.asp) 以及 [CSS 教程](http://www.w3school.com.cn/css/index.asp)
 
@@ -96,7 +96,9 @@ imges、css、js 等文件夹
 
 ## 撰写首篇博文
 
-博文只能采用形如 `1992-04-13-FirstArticle.md` 的文件名，支持 Markdown、html 类型。示范如下：
+博文只能采用形如 `年-月-日-标题.后缀` 的文件名，支持 Markdown、html 类型。
+
+范例文章 `1992-04-13-FirstArticle.md` 的内容如下：
 
 ```
 ---
