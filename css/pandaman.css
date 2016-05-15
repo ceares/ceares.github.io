@@ -19,14 +19,14 @@
 	-moz-transform:rotate(-30deg); 	/* Firefox */
 	-webkit-transform:rotate(-30deg); /* Safari 和 Chrome */
 	-o-transform:rotate(-30deg); 	/* Opera */
-	margin: 25px 10px;font-style: italic;
+	margin: 25px 10px;font-style: italic;text-transform: uppercase;
 	transition:0.3s;
 	-moz-transition:  0.3s; /* Firefox 4 */
 	-webkit-transition: 0.3s; /* Safari and Chrome */
 	-o-transition:  0.3s; /* Opera */
 	}
 	.navbar-custom .navbar-brand:hover{
-	transform: rotate(360deg) scale(1.2,1.2);
+	transform: scale(1.2,1.2);
 	-webkit-transform: scale(1.2,1.2);/* Safari and Chrome */
 	-moz-transform: scale(1.2,1.2);/* Firefox */
 	}
