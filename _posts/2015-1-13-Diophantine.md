@@ -66,7 +66,7 @@ print(GCD(3245,1000))
 
 ## 2、二次无理数的连分数
 
-对于无理数的连分数， Lisp 或者 GSD 算法都有些无能为力。下面着重讨论对无理数 $\sqrt{n}$ 的连分数展开技巧[^frac]：
+对于无理数的连分数，Lisp 或者 GSD 算法都有些无能为力。下面着重讨论无理数 $\sqrt{n}$ 的连分数展开技巧[^frac]：
 
 [^frac]: 杨中和. [二次无理数的连分数](http://wenku.baidu.com/link?url=whoEM9f9zCklDblBAxyboqjeIj_FGqPp3CZ89Y-y8GiwxQGCy8ze2W8NNAhbFotQvygkFJGbjukUTyr4pmzY_wh1jWmwzT8c47qw31v6ELe) [J]. 西安文理学院学报：自然科学版, 2008, 11(2): 24-58.
 
