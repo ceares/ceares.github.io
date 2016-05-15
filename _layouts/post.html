@@ -210,7 +210,7 @@ layout: default
 </style>
 
 
-<!--目录结构生成-->
+<!--目录结构生成与图片居中-->
 <script type="text/javascript">
 	$(document).ready(function() {
 		//生成目录
@@ -231,6 +231,7 @@ layout: default
 		if(x.length!=0){
 		  $("#catalog").html(c);$("#catalog").show();
 		}
-		$("img").wrap("<center></center>");
+		// 图片居中
+		$(".post-content img").wrap("<center></center>");
 	});
 </script>
