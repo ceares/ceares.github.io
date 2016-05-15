@@ -24,12 +24,12 @@ header-img: "img/orange.jpg"
 实际上，建立 GitHub 博客只需要非常简单的三个步骤就足够了：
 
 1. 注册一个 [GitHub](https://github.com/) 账户，假设账户名为 `username`；
-2. 选择一个 [现成的博客模版](http://jekyllthemes.org/)，进入模版主页找到其项目源文件，然后 fork 它。以本博客为例：
-  - 本博客的项目主页：[ceares/ceares.github.io](https://github.com/ceares/ceares.github.io)
+2. 选择一个 [现成的博客模版](http://jekyllthemes.org/)，进入模版主页找到其项目源文件，然后 fork 它。以 [示范博客](http://www.zhaohengbo.com/) 为例：
+  - 示范博客 fork 自项目：[cnfeat/cnfeat.github.io](https://github.com/cnfeat/cnfeat.github.io)
   - 点击右上角的 fork 按钮，将该项目 fork 至自己的 GitHub 仓库（Repositories）中
 3. 登入自己的 GitHub 仓库，将该项目的名称更改为 `username`.github.io，同时删除项目根目录中的 CNAME 文件（如果存在）。
 
-现在，已经可以通过 http://`username`.github.io 访问 ~~自己~~ 的博客了。在这里之所以将自己删除，显而易见，这个博客除了源文件放在自己的仓库里以外，无论其外观还是内容都还是他人的。
+现在，已经可以通过 `http://username.github.io` 访问 ~~自己~~ 的博客了。在这里之所以将自己删除，显而易见，这个博客除了源文件放在自己的仓库里以外，无论其外观还是内容都还是他人的。
 
 ### 博客项目的典型结构
 
@@ -183,9 +183,9 @@ Droid Edit 是一款手机文本编辑软件，内置一个小型的 Git 环境�
 
 然后在 `username.github.io/` 下新建一个 `CNAME` 文件，填入：
 
-> blog.zhaohengbo.com
+> www.zhaohengbo.com
 
-即可通过 <http://blog.zhaohengbo.com/> 访问自己的博客。
+即可通过 <http://www.zhaohengbo.com/> 访问自己的博客。
 
 
 [^DNS]: [万网（阿里云）域名注册服务](https://wanwang.aliyun.com/domain/)
