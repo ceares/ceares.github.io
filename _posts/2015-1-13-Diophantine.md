@@ -20,7 +20,7 @@ $$x=a_0+\frac{1}{a_1+\frac{1}{a_2+\frac{1}{\ddots}}}=[a_0;a_1,a_2,\cdots]\,\text
 - 勒让德定理：二次无理数 $y$ 的连分数表示会产生循环，即 $y=[a_0;\overline{a_1,a_2,\cdots,a_2,a_1,2a_0}],a_0=[\,y\,]$；
 - 数 $x$ 的截断连分数表示是在特定意义上最佳可能的有理数逼近。
 
-#### 表 1：求 3.245 的连分数
+##### 求 3.245 的连分数
 
 | 取整 |     | 取倒数  |
 | ---: |  ---:   |   ---: |
@@ -68,9 +68,9 @@ print(GCD(3245,1000))
 
 对于无理数的连分数， Lisp 或者 GSD 算法都有些无能为力。下面着重讨论对无理数 $\sqrt{n}$ 的连分数展开技巧[^frac]：
 
-[^frac]: 杨中和 . [二次无理数的连分数](http://wenku.baidu.com/link?url=whoEM9f9zCklDblBAxyboqjeIj_FGqPp3CZ89Y-y8GiwxQGCy8ze2W8NNAhbFotQvygkFJGbjukUTyr4pmzY_wh1jWmwzT8c47qw31v6ELe) [J]. 西安文理学院学报：自然科学版,2008,11(2):24-58.
+[^frac]: 杨中和. [二次无理数的连分数](http://wenku.baidu.com/link?url=whoEM9f9zCklDblBAxyboqjeIj_FGqPp3CZ89Y-y8GiwxQGCy8ze2W8NNAhbFotQvygkFJGbjukUTyr4pmzY_wh1jWmwzT8c47qw31v6ELe) [J]. 西安文理学院学报：自然科学版, 2008, 11(2): 24-58.
 
-##### 表 2：求 $\sqrt{7}$ 的连分数($[\,\sqrt{7}\,]=2$)
+##### 求 $\sqrt{7}$ 的连分数($[\,\sqrt{7}\,]=2$)
 
 | 取整 |  取倒数 |  分母有理化 | 分离整数与小数 |
 | :---: |  :---:   |   :---: | :---: |
