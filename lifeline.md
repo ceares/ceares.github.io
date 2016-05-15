@@ -5,6 +5,17 @@ description: "生命在这里留下了痕迹"
 header-img: "img/zhihu.jpg"
 ---
 
+<style type="text/css">
+.listing-seperator {
+	list-style-type:none;
+	font-weight:normal;
+	margin-top:2em;
+	color:pink
+}
+.listing-item { text-indent:3em; color:pink}
+.listing-item a { margin-left:0.5em; color: #11b7ae}
+.listing-item a:hover { text-description: underline}
+</style>
 
 <ul class="listing" style="list-style-type:none;font-weight:normal;margin-top:2em;color:#0590f0">
 {% for post in site.posts %}
@@ -13,9 +24,9 @@ header-img: "img/zhihu.jpg"
     {% assign year = y %}
     <li class="listing-seperator"><i class="fa fa-refresh fa-spin"></i>&nbsp;&nbsp;{{ y }}</li>
   {% endif %}
-  <li class="listing-item" style="text-indent:3em;">
+  <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%m/%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}" style="margin-left:0.5em;color:#11b7ae">{{ post.title }}</a>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
 {% endfor %}
 </ul>
