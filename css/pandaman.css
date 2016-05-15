@@ -101,6 +101,9 @@ margin-left: 1em;
 }
 
 /* footnote */
+a.footnote{
+	padding: 0.25em;
+}
 a.footnote::before {
     content: "[";
 }
