@@ -131,9 +131,7 @@ tags: [范例]
 
 完成上述步骤后，可以在 Git Bash 中输入命令 `ssh -T git@github.com` 测试是否成功，如果反馈 
 
-```bat
-Hi username! You've successfully authenticated, but GitHub does not provide shell access.
-```
+> Hi username! You've successfully authenticated, but GitHub does not provide shell access.
 
 则说明已经成功。
 
@@ -147,14 +145,14 @@ git clone https://github.com/username/username.github.io.git
 
 为了方便，可以在当前路径保存两个批处理文件：
 
-- pull.bat：将 GitHub 端的数据提取到本地
+- `pull.bat` 将 GitHub 端的数据提取到本地
 
 ```bat
 cd username.github.io
 git pull
 ```
 
-- push.bat：将本地的数据推送到 GitHub 
+- `push.bat` 将本地的数据推送到 GitHub 
 
 ```bat
 cd username.github.io
