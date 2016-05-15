@@ -6,11 +6,13 @@ header-img: "img/semantic.jpg"
 ---
 
 <style type="text/css">
+@media all and (min-width:768px){
 #tag_cloud {margin:0.5in 0em;font-weight: normal;
 -moz-column-count:5; /* Firefox */
 -webkit-column-count:5; /* Safari and Chrome */
 column-count:5;}
 #tag_cloud a{margin-right:5em}
+}
 #tag_ft {font-family:"Helvetica Neue",Arial,"Hiragino Sans GB","STHeiti","Microsoft YaHei","WenQuanYi Micro Hei",SimSun,sans-serif}
 #MatchingGene {font-style:italic;color:gray;margin:0em 1em 0.5in}
 </style>

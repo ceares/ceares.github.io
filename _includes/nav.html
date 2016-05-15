@@ -1,3 +1,22 @@
+<style type="text/css">
+@media all and (min-width:768px){
+.navbar-brand li, #bs-example-navbar-collapse-1 li{
+transition:0.3s;
+-moz-transition:  0.3s; /* Firefox 4 */
+-webkit-transition: 0.3s; /* Safari and Chrome */
+-o-transition:  0.3s; /* Opera */
+}
+.navbar-brand li, #bs-example-navbar-collapse-1 li:hover{
+transform: scale(1.2,1.2);
+-webkit-transform: scale(1.2,1.2);/* Safari and Chrome */
+-moz-transform: scale(1.2,1.2);/* Firefox */
+}
+.navbar-brand {
+    transform: rotate(-30deg);
+    margin: 25px 10px;
+}}
+</style>
+
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="container-fluid">
