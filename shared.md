@@ -29,7 +29,7 @@ header-img: "img/orange.jpg"
   - 点击右上角的 fork 按钮，将该项目 fork 至自己的 GitHub 仓库（Repositories）中
 3. 登入自己的 GitHub 仓库，将该项目的名称更改为 `username`.github.io；并删除项目根目录中的 CNAME 文件（如果存在）。
 
-现在，已经可以通过 http://`username`.github.io 访问“自己”的博客了。在这里之所以将“自己”加引号，显而易见，这个博客除了源文件放在自己的仓库里以外，无论其外观还是内容都还是他人的。
+现在，已经可以通过 http://`username`.github.io 访问 ~~自己~~ 的博客了。在这里之所以将自己删除，显而易见，这个博客除了源文件放在自己的仓库里以外，无论其外观还是内容都还是他人的。
 
 ## 博客项目的典型结构
 
@@ -96,7 +96,7 @@ imges、css、js 等文件夹
 
 ## 撰写首篇博文
 
-博文的文件名只能采用形如 `2016-05-15-FirstArticle.md` 的格式，支持 Markdown、html 类型。示范如下：
+博文只能采用形如 `2016-05-15-FirstArticle.md` 的文件名，支持 Markdown、html 类型。示范如下：
 
 ```
 ---
