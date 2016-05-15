@@ -23,10 +23,10 @@ The blog used many tools or services:
 Only three steps:
 
 1. &nbsp;Choose a [Jekyll Theme](http://jekyllthemes.org/);
-2. &nbsp;[Fork](http://blog.zhaohengbo.com/Shared/) it！
+2. &nbsp;Fork it！
 3. &nbsp;Writting with [Markdown](http://blog.zhaohengbo.com/blog/2014/02/22/Markdown/).
 
-[See More ...](http://azeril.me/blog/Build-Your-First-GitHub-Pages-Blog.html)
+[See more ...](http://blog.zhaohengbo.com/shared/)
 
 
 
