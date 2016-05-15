@@ -25,7 +25,7 @@ column-count:5;}
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><i class="fa fa-tags" style="color:#11b7ae">&nbsp;&nbsp;</i>{{ tag[0] }}</a>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><i class="fa fa-tags" style="color:#11b7ae">&nbsp;&nbsp;</i>{{ tag[0] }}</a><br/>
 {% endfor %}
 </div>
 
