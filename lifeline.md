@@ -15,7 +15,7 @@ header-img: "img/zhihu.jpg"
   {% endif %}
   <li class="listing-item" style="text-indent:3em;">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%m/%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}" style="margin-left:0.5em;">{{ post.title }}</a>
+    <a href="{{ post.url }}" title="{{ post.title }}" style="margin-left:0.5em;color:#0590f0">{{ post.title }}</a>
   </li>
 {% endfor %}
 </ul>
