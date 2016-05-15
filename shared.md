@@ -125,9 +125,9 @@ tags: [范例]
 下面将生成的 ssh key 文件添加到 GitHub 上：
 
 1. 打开文件 `C:\Users\Administrator\.ssh\id_rsa.pub`，可能需要先设置显示隐藏文件；
-2. 登陆 GitHub，点击右上角自己的头像下拉菜单中的 Settings 进入账户设置；
-3. 在 Personal settings 的 SSH and GPG keys 一项中，点击 New SSH key 按钮添加 SSH keys；
-4. 将步骤 1 打开文件中的全部内容准确复制到 key文本框里面。
+2. 登陆 GitHub，点击右上角用户头像下拉菜单中的 Settings 项进入账户设置；
+3. 在 Personal settings 的 SSH and GPG keys 一栏中，点击 New SSH key 按钮；
+4. 将步骤 1 打开文件中的全部内容准确复制到 key 文本框里面，确认即可。
 
 完成上述步骤后，可以在 Git Bash 中输入命令 `ssh -T git@github.com` 测试是否成功，如果反馈 
 
@@ -175,7 +175,15 @@ Droid Edit 是一款手机文本编辑软件，内置一个小型的 Git 环境�
 
 `username`.github.io 的域名缺乏个性，也不便于推广。
 
-三百M 内联和外链
+如果已经注册了一个域名[^DNS]，那么就可以在 `username.github.io/` 下新建一个 `CNAME` 文件，并在其中填入该域名地址。
+
+除此之外，还应当在域名设置里增加一条新的解析：
+
+|记录类型|主机记录|记录值|
+|:--|:--|:--|
+|`CNAME`|即二级域名，如 `www` 或 `blog`| `username.github.io` |
+
+[^DNS]: [万网（阿里云）域名注册服务](https://wanwang.aliyun.com/domain/)
 
 ### 进一步地探索
 
