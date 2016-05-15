@@ -102,10 +102,7 @@ margin-left: 1em;
 
 /* footnote */
 a.footnote::before {
-    content: "[";    
-	margin-left: 0.25em;
-}
-
+    content: "[";
 }
 a.footnote::after {
     content: "]";
