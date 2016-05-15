@@ -132,5 +132,8 @@ a.footnote::after {
 .footnotes {
     margin-top: 2em;
 }
-/*<style >
-#337ab7
+blockquote {
+    font-style: normal;
+    font-size: 14px;
+}
+
