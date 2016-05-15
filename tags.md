@@ -20,13 +20,12 @@ column-count:3;}
 column-count:5;}
 #tag_cloud a{margin-right:5em}
 }
-#tag_ft {font-family:"Helvetica Neue",Arial,"Hiragino Sans GB","STHeiti","Microsoft YaHei","WenQuanYi Micro Hei",SimSun,sans-serif}
 #MatchingGene {font-style:italic;color:gray;margin:0em 1em 0.5in}
 </style>
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><i class="fa fa-tags" style="color:#11b7ae">&nbsp;&nbsp;<span id="tag_ft">{{ tag[0] }}</span></i></a>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><i class="fa fa-tags" style="color:#11b7ae">&nbsp;&nbsp;</i>{{ tag[0] }}</a>
 {% endfor %}
 </div>
 
