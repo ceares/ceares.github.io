@@ -98,9 +98,7 @@ imges、css、js 等文件夹
 
 博文的文件名只能采用形如 `2016-05-15-FirstArticle.md` 的格式，支持 Markdown、html 类型。
 
-博文存放在 `_posts/` 文件夹里面，其文件名只能采用形如 `2016-05-15-FirstArticle.md` 的格式，并且只支持 Markdown、html 以及 Textile 三种类型。
-
-建议采用 Markdown 语法书写博客。示范如下：
+建议采用 Markdown 语法书写。示范如下：
 
 ```
 ---
@@ -117,16 +115,9 @@ description: 这是第一篇博文。
 这里是正文。
 ```
 
-其中，`---` 包围的头信息应参考 `_posts/` 文件夹里原有博文的规范书写。
+其中，`---` 包围的头信息应参考 `_posts/` 里原有博文的规范书写。
 
 值得注意的是，由于多方面的原因，博文书写完成后，需要等待一段时间后才能生效。
-
-定制专属内容
-
-
-更改博客的细节样式需要 HTML/CSS、JavaScript 等知识，[W3School](http://www.w3school.com.cn/h.asp)
-![picture](http://7xrrbc.com1.z0.glb.clouddn.com/figure_name) 上有非常详尽的教程。
-
 
 ## 更加地便利化
 
