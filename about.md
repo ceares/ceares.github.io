@@ -16,8 +16,8 @@ header-img: "img/twitter.jpg"
 
 深受 Python 、Markdown 等的影响，本博客极力推崇 —— __简约而不简单__  ，坚持地追求
 
-- 外观设计：简洁大方，主次有序 ；
-- 行文风格：脉络清晰，言简意赅 。
+- &nbsp;外观设计：简洁大方，主次有序 ；
+- &nbsp;行文风格：脉络清晰，言简意赅 。
 
 本博客搭建于当前世界最大、最流行的代码托管平台&nbsp;&nbsp;<i class="fa fa-github">&nbsp;&nbsp;</i><a href="https://github.com/{{ site.github_username }}">GitHub</a> 之上，非常感谢其提供的 GitHub Pages 服务！关于如何在 GitHub 上搭建独立博客请参阅：「 [How to Build a Blog](http://blog.zhaohengbo.com/shared/) 」。
 
