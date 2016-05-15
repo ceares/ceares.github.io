@@ -88,7 +88,7 @@ imges、css、js 等文件夹
 
 [^Markdown]: [标记语言 Markdown 简介]({% post_url 2014-2-22-Markdown %})
 
-[^HTMLCSS]: [HTML 教程](http://www.w3school.com.cn/h.asp) 以及 [CSS 教程](http://www.w3school.com.cn/css/index.asp)
+[^HTMLCSS]: [HTML 教程](http://www.w3school.com.cn/h.asp) 与 [CSS 教程](http://www.w3school.com.cn/css/index.asp)
 
 [^JavaScript]: [JavaScript 教程](http://www.w3school.com.cn/js/)
 

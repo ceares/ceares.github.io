@@ -110,7 +110,7 @@ margin-left: 1em;
 
 a.footnote {
     padding: 0.25em;
-    color: red;
+    color: green;
     text-decoration: none;
 }
 a.reversefootnote {
@@ -118,7 +118,7 @@ a.reversefootnote {
 	text-decoration: none;
 }
 a.footnote:hover {
-    color: green;
+    color: red;
 }
 a.reversefootnote:hover {
     color: red;
