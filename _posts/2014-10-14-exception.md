@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python：异常处理
+title: Python 异常处理简介
 date: 2014-10-14
 categories: blog
 tags: [Python,异常,raise,assert,with]
