@@ -1,12 +1,12 @@
 <style type="text/css">
 @media all and (min-width:768px){
-#pandaman-home, #bs-example-navbar-collapse-1 li{
+#bs-example-navbar-collapse-1 li{
 transition:0.3s;
 -moz-transition:  0.3s; /* Firefox 4 */
 -webkit-transition: 0.3s; /* Safari and Chrome */
 -o-transition:  0.3s; /* Opera */
 }
-#pandaman-home, #bs-example-navbar-collapse-1 li:hover{
+#bs-example-navbar-collapse-1 li:hover{
 transform: scale(1.2,1.2);
 -webkit-transform: scale(1.2,1.2);/* Safari and Chrome */
 -moz-transform: scale(1.2,1.2);/* Firefox */
@@ -28,9 +28,9 @@ transform: scale(1.2,1.2);
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-			<div id="pandaman-home">
-            <a class="navbar-brand" href="{{ site.baseurl }}/" style="font-family:rm"><i class="fa fa-home">&nbsp;&nbsp;</i>{{ site.title }}</a>
-			</div>
+            <a class="navbar-brand" href="{{ site.baseurl }}/" style="font-family:rm"><span id="pandaman-home">
+			<i class="fa fa-home">&nbsp;&nbsp;</i>{{ site.title }}</span>
+			</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
