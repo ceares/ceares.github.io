@@ -77,14 +77,14 @@
         -moz-transform: rotateZ(360deg);
 }
 
-.post-content h1{font-size:30px}
-.post-content h2{font-size:24px}
-.post-content h3{font-size:18px}
-.post-content h4{font-size:16px}
-/* 居中 */
-.post-content h5{font-size:16px;text-align:center} 
-/* 居右 */
-.post-content h6{font-size:16px;text-align:right} 
+.post-content h1{font-size:30px;margin:1.5em auto;}
+.post-content h2{font-size:24px;margin:1.2em auto;}
+.post-content h3{font-size:18px;margin:1.2em auto;}
+.post-content h4{font-size:16px;margin:1.2em auto;}
+.post-content h5{font-size:16px;margin:1em auto;}
+/* 图表标题 */
+.post-content h6{font-size:16px;text-align:center} 
+
 
 /* 上下篇 */
 
