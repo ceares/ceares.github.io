@@ -145,8 +145,9 @@ $$\begin{bmatrix}x_{i+1}\\y_{i+1}\end{bmatrix}=\begin{bmatrix}x_1&ny_1\\y_1&x_1\
 
 $$\{(x,y)\}=\{(8,3),(127,48),(2024,765),(32257,12192),\cdots\}$$
 
-## 2、Diophantine Equation<sup>[[2]](https://projecteuler.net/problem=66 "Project Euler")</sup>
+## 2、Diophantine Equation[^ProjectEuler]
 
+[^ProjectEuler]: [Project Euler：Diophantine Equation](https://projecteuler.net/problem=66)
 
 题意：求最小的非完全平方数 $n\in(1,1000]$ 使佩尔方程 $x^2 - ny^2= 1$ 的基本解 $x_1$ 最大。
 
