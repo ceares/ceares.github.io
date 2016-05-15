@@ -276,11 +276,16 @@ hr.small {
   margin-top: -5px;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-style: italic;
-  font-weight: 300;
-  font-size: 17px;
+    font-family: "Lora","Times New Roman",serif;
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 25px;
+    text-align: right;
+    margin-right: 1.5em;
+    margin-bottom: -10px;
+    font-size: 17px;
 }
+
 .intro-header .post-heading .meta a {
   color: white;
 }
