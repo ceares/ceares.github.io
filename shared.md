@@ -113,15 +113,41 @@ tags: [范例]
 
 值得注意的是，由于多方面的原因，博文书写完成后，需要等待一段时间后才能生效。
 
-### 更加地便利化
+### 使用 Git 摆脱网页端的束缚
 
-在网页端撰写博文相当不得劲，而且 `username`.github.io 的域名也缺乏个性，不便于推广。那么又该如何弥补这些不足？
+如果觉得在网页端撰写博文相当不得劲，可以先下载安装一个 [Git 工具](https://git-scm.com/)。
 
-#### 与电脑端和手机端同步
+1. 启动 Git Bash；
+2. 输入命令 `$ cd ~/.ssh`，如果提示 No such file or directory 说明是首次使用；
+3. 继续输入命令 `ssh-keygen -t rsa -C "E-mail"`，其中 E-mail 可以填写 Github 注册时的邮箱地址；
+4. 一路回车，直到提示 `The key's randomart image is:` 的文本图形。
 
-#### 个性化的域名
+下面将生成的 ssh key 文件添加到 GitHub 上：
+
+1. 打开文件 `C:\Users\Administrator\.ssh\id_rsa.pub`，如果看不到这个文件，需要先设置显示隐藏文件；
+2. 登陆 GitHub，点击右上角自己的头像下拉菜单中的 Settings 进入账户设置；
+3. 在 Personal settings 的 SSH and GPG keys 一项中，点击 New SSH key 按钮添加 SSH keys；
+4. 将步骤 1 打开文件中的全部内容准确复制到 key文本框里面。
+
+完成上述步骤后，可以在 Git Bash 中输入命令 `ssh -T git@github.com` 测试是否成功，如果反馈 `Hi username! You've successfully authenticated, but GitHub does not provide shell access.` 则说明已经成功。
+
+#### pull & push
+
+pull 和 push 命令可以实现本地与云端同步，其具体功能可以参阅：[push 命令](({% post_url 2016-04-23-gitpush %}))
+
+在使用它们之前，需要先将博客项目 clone 到本地。即在本地存储位置执行 cmd 命令：
+
+```
+git clone https://github.com/username/username.github.io.git
+```
 
 
+#### 与 Droid Edit 同步
+
+
+### 个性化的域名
+
+而且 `username`.github.io 的域名也缺乏个性，不便于推广。
 
 三百M 内联和外链
 

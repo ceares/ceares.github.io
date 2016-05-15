@@ -19,7 +19,9 @@
 	-moz-transform:rotate(-30deg); 	/* Firefox */
 	-webkit-transform:rotate(-30deg); /* Safari 和 Chrome */
 	-o-transform:rotate(-30deg); 	/* Opera */
-	margin: 25px 10px;font-style: italic;text-transform: uppercase;
+	margin: 35px;
+	font-style: italic;
+	text-transform: uppercase;
 	transition:0.3s;
 	-moz-transition:  0.3s; /* Firefox 4 */
 	-webkit-transition: 0.3s; /* Safari and Chrome */
