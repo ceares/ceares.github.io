@@ -169,8 +169,6 @@ git push origin master
 
 Droid Edit 是一款手机文本编辑软件，内置一个小型的 Git 环境，可以通过该软件在手机端撰写博文。
 
-#### # 与多个 GitHub 帐号同步
-
 ### 5、个性化的域名
 
 `username`.github.io 的域名缺乏个性，也不便于推广。
@@ -187,8 +185,18 @@ Droid Edit 是一款手机文本编辑软件，内置一个小型的 Git 环境�
 
 即可通过 <http://www.zhaohengbo.com/> 访问自己的博客。
 
+#### # 多个二级域名
+
+由于博客项目必须以 `username`.github.io 的形式命名，因此一个 Github 帐号下通常只能建立一个二级域名，譬如：
+
+> www.zhaohengbo.com
+
+如果想拥有 `blog.zhaohengbo.com` 而不是 `www.zhaohengbo.com/blog` 的形式的页面，则需要额外注册一个 GitHub 帐号，并搭建一个 CNAME 值为 `blog.zhaohengbo.com` 的新博客。
+
+需要注意的是，如果想用 Git 和不同的 GitHub 帐号同步，需要进行额外的操作[^domain]。
 
 [^DNS]: [万网（阿里云）域名注册服务](https://wanwang.aliyun.com/domain/)
+[^domain]: [万网（阿里云）域名注册服务](https://wanwang.aliyun.com/domain/)
 
 ### 探索更多：
 
