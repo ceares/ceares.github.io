@@ -139,6 +139,8 @@ tags: [范例]
 
 ```bat
 git clone https://github.com/username/username.github.io.git
+或者：
+git clone git@github.com:username/username.github.io.git
 ```
 
 为了方便，可以在当前路径保存两个批处理文件：
@@ -163,9 +165,11 @@ git push origin master
 
 在 `../username.github.io/_posts/` 路径下撰写博文，再运行 `push.bat` 就能将改动更新至 GitHub。
 
-#### # 与 Droid Edit 同步
+#### # Droid Edit
 
 Droid Edit 是一款手机文本编辑软件，内置一个小型的 Git 环境，可以通过该软件在手机端撰写博文。
+
+#### # 与多个 GitHub 帐号同步
 
 ### 5、个性化的域名
 
