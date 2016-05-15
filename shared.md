@@ -19,7 +19,7 @@ header-img: "img/orange.jpg"
 
 > 路漫漫其修远兮，吾将上下而求索！
 
-### 简单三步初具雏形
+### 1、简单三步初具雏形
 
 实际上，建立 GitHub 博客只需要非常简单的三个步骤就足够了：
 
@@ -31,7 +31,7 @@ header-img: "img/orange.jpg"
 
 现在，已经可以通过 `http://username.github.io` 访问 ~~自己~~ 的博客了。在这里之所以将自己删除，显而易见，这个博客除了源文件放在自己的仓库里以外，无论其外观还是内容都还是他人的。
 
-### 博客项目的典型结构
+### 2、博客项目的典型结构
 
 Jekyll 博客目录的典型树形结构图如下：
 
@@ -94,7 +94,7 @@ imges、css、js 等文件夹
 
 [^JavaScript]: [JavaScript 教程](http://www.w3school.com.cn/js/)
 
-### 撰写首篇博文
+### 3、撰写首篇博文
 
 博文只能采用形如 `年-月-日-标题.后缀` 的文件名，支持 Markdown、html 类型。
 
@@ -113,7 +113,7 @@ tags: [范例]
 
 值得注意的是，由于多方面的原因，博文书写完成后，需要等待一段时间后才能生效。
 
-### 使用 Git 摆脱网页端的束缚
+### 4、使用 Git 摆脱网页端的束缚
 
 如果觉得在网页端撰写博文相当不得劲，可以先下载安装一个 [Git 工具](https://git-scm.com/)。
 
@@ -135,7 +135,7 @@ tags: [范例]
 
 则说明已经成功。
 
-#### pull & push
+#### # pull & push
 
 `git pull` 和 `git push`[^push] 命令可以实现本地与云端同步，在使用它们之前，需要先将博客项目 clone 到本地。即在本地存储位置执行 cmd 命令：
 
@@ -165,11 +165,11 @@ git push origin master
 
 在 `../username.github.io/_posts/` 路径下撰写博文，再运行 `push.bat` 就能将改动更新至 GitHub。
 
-#### 与 Droid Edit 同步
+#### # 与 Droid Edit 同步
 
 Droid Edit 是一款手机文本编辑软件，内置一个小型的 Git 环境，可以通过该软件在手机端撰写博文。
 
-### 个性化的域名
+### 5、个性化的域名
 
 `username`.github.io 的域名缺乏个性，也不便于推广。
 
