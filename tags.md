@@ -5,13 +5,23 @@ description: "不要随意贴人标签"
 header-img: "img/semantic.jpg"  
 ---
 
+<style type="text/css">
+#tag_cloud {margin:0.5in 0em;font-weight: normal;
+-moz-column-count:5; /* Firefox */
+-webkit-column-count:5; /* Safari and Chrome */
+column-count:5;}
+#tag_cloud a{margin-right:5em}
+#tag_ft {font-family:"Helvetica Neue",Arial,"Hiragino Sans GB","STHeiti","Microsoft YaHei","WenQuanYi Micro Hei",SimSun,sans-serif}
+#MatchingGene {font-style:italic;color:gray;margin:0em 1em 0.5in}
+</style>
+
 <div id='tag_cloud' style="margin:0.5in 0em;font-weight: normal;text-align:left;text-align-last:left">
 {% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" style="margin-right:1.2em"><i class="fa fa-tags">&nbsp;&nbsp;<span style='font-family:"Helvetica Neue",Arial,"Hiragino Sans GB","STHeiti","Microsoft YaHei","WenQuanYi Micro Hei",SimSun,sans-serif'>{{ tag[0] }}</span></i></a>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><i class="fa fa-tags">&nbsp;&nbsp;<span id="tag_ft">{{ tag[0] }}</span></i></a>
 {% endfor %}
 </div>
 
-<div style="font-style:italic;color:gray;margin:0em 1em 0.5in"><i class="fa fa-spinner fa-pulse"></i> &nbsp; Matching Gene</div>
+<div id="MatchingGene"><i class="fa fa-spinner fa-pulse"></i> &nbsp; Matching Gene</div>
 
 <ul class="listing" style="list-style-type: none;font-weight: bold;">
 {% for tag in site.tags %}
