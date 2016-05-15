@@ -165,7 +165,7 @@ git push origin master
 
 [^push]: [git push 提示 Everything up-to-date，但 GitHub 未更新]({% post_url 2016-04-23-gitpush %})
 
-此时在 `../username.github.io/_posts/` 路径下撰写博文，运行 `../push.bat` 就能将改动更新至 GitHub。
+在 `../username.github.io/_posts/` 路径下撰写博文，再运行 `push.bat` 就能将改动更新至 GitHub。
 
 #### 与 Droid Edit 同步
 
@@ -173,7 +173,7 @@ Droid Edit 是一款手机文本编辑软件，内置一个小型的 Git 环境�
 
 ### 个性化的域名
 
-而且 `username`.github.io 的域名也缺乏个性，不便于推广。
+`username`.github.io 的域名缺乏个性，也不便于推广。
 
 三百M 内联和外链
 
