@@ -187,9 +187,7 @@ Droid Edit 是一款手机文本编辑软件，内置一个小型的 Git 环境�
 
 #### # 多个二级域名
 
-由于博客项目必须以 `username`.github.io 的形式命名，因此一个 Github 帐号下通常只能建立一个二级域名，譬如：
-
-> www.zhaohengbo.com
+由于博客项目必须以 `username`.github.io 的形式命名，因此一个 Github 帐号下通常只能建立一个二级域名。
 
 如果想拥有 `blog.zhaohengbo.com` 而不是 `www.zhaohengbo.com/blog` 的形式的页面，则需要额外注册一个 GitHub 帐号，并搭建一个 CNAME 值为 `blog.zhaohengbo.com` 的新博客。
 

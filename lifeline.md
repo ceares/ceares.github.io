@@ -6,7 +6,7 @@ header-img: "img/zhihu.jpg"
 ---
 
 
-<ul class="listing" style="list-style-type:none;font-weight:normal;margin-top:2em">
+<ul class="listing" style="list-style-type:none;font-weight:normal;margin-top:2em;color:#0590f0">
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
@@ -15,7 +15,7 @@ header-img: "img/zhihu.jpg"
   {% endif %}
   <li class="listing-item" style="text-indent:3em;">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%m/%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}" style="margin-left:0.5em;color:#404040">{{ post.title }}</a>
+    <a href="{{ post.url }}" title="{{ post.title }}" style="margin-left:0.5em;">{{ post.title }}</a>
   </li>
 {% endfor %}
 </ul>
