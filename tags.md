@@ -6,6 +6,7 @@ header-img: "img/semantic.jpg"
 ---
 
 <style type="text/css">
+@media all and (max-width:768px){
 #tag_cloud {margin:0.5in 0em;font-weight: normal;
 -moz-column-count:3; /* Firefox */
 -webkit-column-count:3; /* Safari and Chrome */
