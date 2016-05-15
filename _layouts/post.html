@@ -8,6 +8,9 @@ layout: default
         background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}');
 		background-repeat: repeat;
     }
+	#catalog, #MySignature {
+	background: url('{{ site.baseurl }}/img/signed.png') repeat;
+	}
 </style>
 <header class="intro-header" >
     <div class="container">
@@ -38,7 +41,7 @@ layout: default
               
                 <div class="post-content">
 				
-				<div id="catalog" style="background: #efefef;padding:10px 20px;display:none;margin:1em auto"></div>
+				<div id="catalog" style="padding:10px 20px;display:none;margin:1em auto"></div>
 				
                 	{{ content }}
                 	
