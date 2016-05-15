@@ -47,7 +47,7 @@ defaults:
       header-img: "img/blue.jpg" # We don't want posts without a header image, that whould mean white on white
       categories: "blog"
       description: "http://blog.zhaohengbo.com" 
-      permalink: "/title.html"
+      permalink: "/:categories/:title.html"
 
 # Comments 
 comments :
