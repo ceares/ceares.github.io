@@ -196,7 +196,7 @@ Droid Edit 是一款手机文本编辑软件，内置一个小型的 Git 环境�
 需要注意的是，如果想用 Git 和不同的 GitHub 帐号同步，需要进行额外的操作[^domain]。
 
 [^DNS]: [万网（阿里云）域名注册服务](https://wanwang.aliyun.com/domain/)
-[^domain]: [万网（阿里云）域名注册服务](https://wanwang.aliyun.com/domain/)
+[^domain]: [同一台电脑上使用 Git 与多个 GitHub 账户同步]({% post_url 2016-05-15-push403 %})
 
 ### 探索更多：
 
