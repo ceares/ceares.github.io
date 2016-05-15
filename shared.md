@@ -25,15 +25,15 @@ header-img: "img/orange.jpg"
 
 1. 注册一个 [GitHub](https://github.com/) 账户，假设账户名为 `username`；
 2. 选择一个 [现成的博客模版](http://jekyllthemes.org/)，进入模版主页找到其项目源文件，然后 fork 它。以本博客为例：
-  - 本博客的项目主页：<https://github.com/ceares/ceares.github.io>
-  - 点击右上角的 fork 按钮，将该项目 fork 至自己的 GitHub 仓库（repositories）中
+  - 本博客的项目主页：[ceares/ceares.github.io](https://github.com/ceares/ceares.github.io)
+  - 点击右上角的 fork 按钮，将该项目 fork 至自己的 GitHub 仓库（Repositories）中
 3. 登入自己的 GitHub 仓库，将该项目的名称更改为 `username`.github.io；并删除项目根目录中的 CNAME 文件（如果存在）。
 
 现在，已经可以通过 http://`username`.github.io 访问“自己”的博客了。在这里之所以将“自己”加引号，显而易见，这个博客除了源文件放在自己的仓库里以外，无论其外观还是内容都还是他人的。
 
 ## 博客项目的典型结构
 
-[Jekyll](http://jekyllcn.com/) 博客目录的典型树形结构如下：
+Jekyll 博客目录的典型树形结构图如下：
 
 - README.md
 - CNAME
@@ -55,8 +55,20 @@ header-img: "img/orange.jpg"
 - css
 - js
 
-其中，
+它们的详细用处请参阅 [Jekyll 文档](http://jekyllcn.com/docs/structure/)，这里简单介绍如下：
 
+- `README.md` 项目说明文档。属于描述性文件，与博客本身关联不大。
+- `CNAME` 用于绑定个人域名，并非必要的文件；
+- `index.html` 博客架构文档；
+- `_config.yml` 博客配置文档；
+- `_includes` 存放一些重复调用的 html 代码块，如导航栏、底栏等；
+- `- _layouts` 存放规定博客页面布局的文件。
+- `About.md`、`404.html` 等 `.md` 或 `.html` 文件都是博客的一个页面；
+- `imges`、`css`、`js` 等文件夹用来存放各种资源文件。
+
+最重要的是，博文存放在 `_posts/` 文件夹里面，其文件名只能采用形如 `2016-05-15-FirstArticle.md` 的格式，支持 Markdown、html 类型。
+ 
+[Jekyll](http://jekyllcn.com/) 
 博客细节的微调虽然并不复杂，但是非常繁琐，需要大量 Markdown、HTML/CSS、JavaScript 与 Jekyll 等方面的基础性知识。若有一定的编程功底可能比较迅速就能掌握，否则也不是一朝一夕就能讲明白的，在此不再赘述。
 
 ## 撰写首篇博文
