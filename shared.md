@@ -131,7 +131,7 @@ tags: [范例]
 
 完成上述步骤后，可以在 Git Bash 中输入命令 `ssh -T git@github.com` 测试是否成功，如果反馈 
 
-```
+```bat
 Hi username! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
@@ -139,17 +139,37 @@ Hi username! You've successfully authenticated, but GitHub does not provide shel
 
 #### pull & push
 
-pull 和 push 命令可以实现本地与云端同步，其具体功能可以参阅：[push 命令]({% post_url 2016-04-23-gitpush %})
+`git pull` 和 `git push`[^push] 命令可以实现本地与云端同步，在使用它们之前，需要先将博客项目 clone 到本地。即在本地存储位置执行 cmd 命令：
 
-在使用它们之前，需要先将博客项目 clone 到本地。即在本地存储位置执行 cmd 命令：
-
-```
+```bat
 git clone https://github.com/username/username.github.io.git
 ```
 
+为了方便，可以在当前路径保存两个批处理文件：
+
+- pull.bat：将 GitHub 端的数据提取到本地
+
+```bat
+cd username.github.io
+git pull
+```
+
+- push.bat：将本地的数据推送到 GitHub 
+
+```bat
+cd username.github.io
+git add .
+git commit -a -m "msg"
+git push origin master
+```
+
+[^push]: [git push 提示 Everything up-to-date，但 GitHub 未更新]({% post_url 2016-04-23-gitpush %})
+
+此时在 `../username.github.io/_posts/` 路径下撰写博文，运行 `../push.bat` 就能将改动更新至 GitHub。
 
 #### 与 Droid Edit 同步
 
+Droid Edit 是一款手机文本编辑软件，内置一个小型的 Git 环境，可以通过该软件在手机端撰写博文。
 
 ### 个性化的域名
 
