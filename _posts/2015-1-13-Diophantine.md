@@ -66,9 +66,11 @@ print(GCD(3245,1000))
 
 ## 2、二次无理数的连分数
 
-对于无理数的连分数， Lisp 或者 GSD 算法都有些无能为力。下面着重讨论对无理数 $\sqrt{n}$ 的连分数展开技巧 <sup>[[1]](http://wenku.baidu.com/link?url=whoEM9f9zCklDblBAxyboqjeIj_FGqPp3CZ89Y-y8GiwxQGCy8ze2W8NNAhbFotQvygkFJGbjukUTyr4pmzY_wh1jWmwzT8c47qw31v6ELe "杨中和 . 二次无理数的连分数 [J]. 西安文理学院学报：自然科学版,2008,11(2):24-58.")</sup>：
+对于无理数的连分数， Lisp 或者 GSD 算法都有些无能为力。下面着重讨论对无理数 $\sqrt{n}$ 的连分数展开技巧[^frac]：
 
-#### 表 2：求 $\sqrt{7}$ 的连分数($[\,\sqrt{7}\,]=2$)
+[^frac]: 杨中和 . [二次无理数的连分数](http://wenku.baidu.com/link?url=whoEM9f9zCklDblBAxyboqjeIj_FGqPp3CZ89Y-y8GiwxQGCy8ze2W8NNAhbFotQvygkFJGbjukUTyr4pmzY_wh1jWmwzT8c47qw31v6ELe) [J]. 西安文理学院学报：自然科学版,2008,11(2):24-58.
+
+##### 表 2：求 $\sqrt{7}$ 的连分数($[\,\sqrt{7}\,]=2$)
 
 | 取整 |  取倒数 |  分母有理化 | 分离整数与小数 |
 | :---: |  :---:   |   :---: | :---: |
@@ -95,7 +97,7 @@ $$\sqrt{n}=0-\frac{k}{1}-k-\frac{a_1}{n_k}-i_1-\frac{a_2}{q_1}-i_2-\frac{a_3}{q_
 
 如下表所列，渐近分数常用于无理数的逼近。
 
-#### 表 3：连分数与渐近分数列
+##### 表 3：连分数与渐近分数列
 
 | |  连分数 |  渐近分数列 | 
 | :---: |  :---:   |   :---: |

@@ -81,10 +81,10 @@
 .post-content h2{font-size:24px}
 .post-content h3{font-size:18px}
 .post-content h4{font-size:16px}
-/* Firefox 4 */
-.post-content h5{font-size:14px} 
-/* Firefox 4 */
-.post-content h6{font-size:16px} 
+/* 居中 */
+.post-content h5{font-size:16px;text-align:center} 
+/* 居右 */
+.post-content h6{font-size:16px;text-align:right} 
 
 /* 上下篇 */
 
@@ -101,8 +101,21 @@ margin-left: 1em;
 }
 
 /* footnote */
-a.footnote{
-	padding: 0.25em;
+
+a.footnote {
+    padding: 0.25em;
+    color: red;
+    text-decoration: none;
+}
+a.reversefootnote {
+    color: red;
+	text-decoration: none;
+}
+a.footnote:hover {
+    color: green;
+}
+a.reversefootnote:hover {
+    color: green;
 }
 a.footnote::before {
     content: "[";
