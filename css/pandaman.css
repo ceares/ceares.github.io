@@ -27,6 +27,7 @@
 	-o-transform:rotate(0deg); 	/* Opera */
 	margin: 0px;
 	}
+	.navbar-right{font-style:italic}
 }
 
 /*  MySignature  */
