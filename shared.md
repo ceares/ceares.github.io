@@ -80,7 +80,7 @@ Jekyll 博客目录的典型树形结构图如下：
 
 [^Markdown]: [标记语言 Markdown 简介](http://blog.zhaohengbo.com/blog/2014/02/22/Markdown/)
 
-[^HTMLCSS]: [HTML 教程](http://www.w3school.com.cn/h.asp)与 [CSS 教程](http://www.w3school.com.cn/css/index.asp)
+[^HTMLCSS]: [HTML 教程](http://www.w3school.com.cn/h.asp) 以及 [CSS 教程](http://www.w3school.com.cn/css/index.asp)
 
 [^JavaScript]: [JavaScript 教程](http://www.w3school.com.cn/js/)
 
@@ -134,7 +134,6 @@ description: 这是第一篇博文。
 
 
 
-
-![]({{ site.url }}/pics/pandaman.jpg)
+## 进一步地探索
 
 
