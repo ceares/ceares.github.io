@@ -120,11 +120,11 @@ tags: [范例]
 1. 启动 Git Bash；
 2. 输入命令 `$ cd ~/.ssh`，如果提示 No such file or directory 说明是首次使用；
 3. 继续输入命令 `ssh-keygen -t rsa -C "E-mail"`，其中 E-mail 可以填写 Github 注册时的邮箱地址；
-4. 一路回车，直到提示 `The key's randomart image is:` 的文本图形。
+4. 一路回车，直到提示 `The key's randomart image is:` 后出现文本图形。
 
 下面将生成的 ssh key 文件添加到 GitHub 上：
 
-1. 打开文件 `C:\Users\Administrator\.ssh\id_rsa.pub`，如果看不到这个文件，需要先设置显示隐藏文件；
+1. 打开文件 `C:\Users\Administrator\.ssh\id_rsa.pub`，可能需要先设置显示隐藏文件；
 2. 登陆 GitHub，点击右上角自己的头像下拉菜单中的 Settings 进入账户设置；
 3. 在 Personal settings 的 SSH and GPG keys 一项中，点击 New SSH key 按钮添加 SSH keys；
 4. 将步骤 1 打开文件中的全部内容准确复制到 key文本框里面。
