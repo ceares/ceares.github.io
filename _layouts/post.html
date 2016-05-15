@@ -66,6 +66,8 @@ layout: default
 .post-content h2{font-size:24px}
 .post-content h3{font-size:18px}
 .post-content h4{font-size:16px}
+.post-content h5{font-size:14px}
+.post-content h6{font-size:16px}
 </style>
 
 <!-- Post Content -->
@@ -229,5 +231,6 @@ layout: default
 		if(x.length!=0){
 		  $("#catalog").html(c);$("#catalog").show();
 		}
+		$("img").wrap("<div style='text-align:center;'></div>");
 	});
 </script>
