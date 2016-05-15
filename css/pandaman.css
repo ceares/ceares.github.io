@@ -13,23 +13,21 @@
 	-webkit-transform: scale(1.2,1.2);/* Safari and Chrome */
 	-moz-transform: scale(1.2,1.2);/* Firefox */
 	}
+	.navbar-custom .navbar-brand {
+	-ms-transform:rotate(-30deg); 	/* IE 9 */
+	-moz-transform:rotate(-30deg); 	/* Firefox */
+	-webkit-transform:rotate(-30deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-30deg); 	/* Opera */
+	margin: 25px 10px;font-style: italic;
+	}
+	.navbar-custom.is-fixed .navbar-brand {
+	-ms-transform:rotate(0deg); 	/* IE 9 */
+	-moz-transform:rotate(0deg); 	/* Firefox */
+	-webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+	-o-transform:rotate(0deg); 	/* Opera */
+	margin: 0px;
+	}
 }
-
-.navbar-custom .navbar-brand {
--ms-transform:rotate(-30deg); 	/* IE 9 */
--moz-transform:rotate(-30deg); 	/* Firefox */
--webkit-transform:rotate(-30deg); /* Safari 和 Chrome */
--o-transform:rotate(-30deg); 	/* Opera */
-margin: 25px 10px;
-}
-.navbar-custom.is-fixed .navbar-brand {
--ms-transform:rotate(0deg); 	/* IE 9 */
--moz-transform:rotate(0deg); 	/* Firefox */
--webkit-transform:rotate(0deg); /* Safari 和 Chrome */
--o-transform:rotate(0deg); 	/* Opera */
-margin: 0px;
-}
-
 
 /*  MySignature  */
 
