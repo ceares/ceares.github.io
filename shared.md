@@ -129,7 +129,13 @@ tags: [范例]
 3. 在 Personal settings 的 SSH and GPG keys 一项中，点击 New SSH key 按钮添加 SSH keys；
 4. 将步骤 1 打开文件中的全部内容准确复制到 key文本框里面。
 
-完成上述步骤后，可以在 Git Bash 中输入命令 `ssh -T git@github.com` 测试是否成功，如果反馈 `Hi username! You've successfully authenticated, but GitHub does not provide shell access.` 则说明已经成功。
+完成上述步骤后，可以在 Git Bash 中输入命令 `ssh -T git@github.com` 测试是否成功，如果反馈 
+
+```
+Hi username! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+则说明已经成功。
 
 #### pull & push
 
