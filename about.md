@@ -14,4 +14,4 @@ header-img: "img/twitter.jpg"
 - &nbsp;<i class="fa fa-comments">&nbsp;&nbsp;&nbsp;</i>WeChat：Zhao-Hengbo
 - &nbsp;<i class="fa fa-envelope-o">&nbsp;&nbsp;&nbsp;</i>E-mail：<mail@zhaohengbo.com>
 
-本博客搭建于当前世界最大、也是最流行的代码托管平台&nbsp;&nbsp;<i class="fa fa-github">&nbsp;&nbsp;</i><a href="https://github.com/{{ site.github_username }}">GitHub</a> 之上，非常感谢其提供的 GitHub Pages 服务！关于如何在 GitHub 上搭建独立博客请参阅：「 [How to Build a Blog](http://blog.zhaohengbo.com/shared/) 」。
+本博客搭建于当前世界最大、最流行的代码托管平台&nbsp;&nbsp;<i class="fa fa-github">&nbsp;&nbsp;</i><a href="https://github.com/{{ site.github_username }}">GitHub</a> 之上，非常感谢其提供的 GitHub Pages 服务！关于如何在 GitHub 上搭建独立博客请参阅：「 [How to Build a Blog](http://blog.zhaohengbo.com/shared/) 」。
