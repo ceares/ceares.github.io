@@ -14,7 +14,7 @@ header-img: "img/twitter.jpg"
 - &nbsp;<i class="fa fa-comments">&nbsp;&nbsp;&nbsp;</i>WeChat：Zhao-Hengbo
 - &nbsp;<i class="fa fa-envelope-o">&nbsp;&nbsp;&nbsp;</i>E-mail：<mail@zhaohengbo.com>
 
-深受 Python 、Markdown 等影响，本博客极力推崇 —— __简约而不简单__  ，坚持地追求
+深受 Python 、Markdown 等的影响，本博客极力推崇 —— __简约而不简单__  ，坚持地追求
 
 - 外观设计：简洁大方，主次有序 ；
 - 行文风格：脉络清晰，言简意赅 。
