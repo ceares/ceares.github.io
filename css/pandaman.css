@@ -109,5 +109,4 @@ a.footnote::before {
 }
 a.footnote::after {
     content: "]";
-	margin-right: 0.25em;
 }

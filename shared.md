@@ -188,6 +188,6 @@ Droid Edit 是一款手机文本编辑软件，内置一个小型的 Git 环境�
 
 [^DNS]: [万网（阿里云）域名注册服务](https://wanwang.aliyun.com/domain/)
 
-### 探索更多
+### 探索更多：
 
 
