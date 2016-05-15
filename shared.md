@@ -96,26 +96,18 @@ imges、css、js 等文件夹
 
 ## 撰写首篇博文
 
-博文的文件名只能采用形如 `2016-05-15-FirstArticle.md` 的格式，支持 Markdown、html 类型。
-
-建议采用 Markdown 语法书写。示范如下：
+博文的文件名只能采用形如 `2016-05-15-FirstArticle.md` 的格式，支持 Markdown、html 类型。示范如下：
 
 ```
 ---
-layout: post
 title: 第一篇博文
-date: 2016-05-15
-categories: blog
 tags: [blog,示例]
-description: 这是第一篇博文。
 ---
 
-# 博文范例
-
-这里是正文。
+这里是正文，建议采用 Markdown 语法书写。
 ```
 
-其中，`---` 包围的头信息应参考 `_posts/` 里原有博文的规范书写。
+其中 `---` 包围的部分应参考 `_posts/` 里原有博文的规范书写。
 
 值得注意的是，由于多方面的原因，博文书写完成后，需要等待一段时间后才能生效。
 
