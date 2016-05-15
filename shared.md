@@ -76,15 +76,15 @@ Jekyll 博客目录的典型树形结构图如下：
 `_posts/` 文件夹 
 :   最重要的文件夹，博文都存放在里面，如 `2016-05-15-FirstArticle.md`，支持 Markdown、html 类型。
  
-博客外观细节的调整虽然并不复杂，但却非常繁琐，需要大量 Markdown[^Markdown]、HTML/CSS[^HTML/CSS]、JavaScript[^JavaScript] 与 Jekyll[^Jekyll] 等方面的基础性知识。若有一定的编程功底可能比较迅速就能掌握，否则也不是一朝一夕就能讲明白的，在此不再赘述。
+博客外观细节的调整虽然并不复杂，但却非常繁琐，需要大量 Markdown[^Markdown]、HTML/CSS[^HTMLCSS]、JavaScript[^JavaScript] 与 Jekyll[^Jekyll] 等方面的基础性知识。若有一定的编程功底可能比较迅速就能掌握，否则也不是一朝一夕就能讲明白的，在此不再赘述。
 
-[^Markdown]: Markdown
+[^Markdown]: [标记语言 Markdown 简介](http://blog.zhaohengbo.com/blog/2014/02/22/Markdown/)
 
-[^HTML/CSS]: HTML/CSS
+[^HTMLCSS]: [HTML 教程](http://www.w3school.com.cn/h.asp)与 [CSS 教程](http://www.w3school.com.cn/css/index.asp)
 
-[^JavaScript]: JavaScript
+[^JavaScript]: [JavaScript 教程](http://www.w3school.com.cn/js/)
 
-[^Jekyll] : Jekyll
+[^Jekyll] : [Jekyll：将纯文本转换为静态博客网站](http://jekyllcn.com/)
 
 ## 撰写首篇博文
 
@@ -92,7 +92,7 @@ Jekyll 博客目录的典型树形结构图如下：
 
 博文存放在 `_posts/` 文件夹里面，其文件名只能采用形如 `2016-05-15-FirstArticle.md` 的格式，并且只支持 Markdown、html 以及 Textile 三种类型。
 
-建议采用 Markdown 语法书写博客，其语法介绍参见「 [标记语言 Markdown 简介](http://blog.zhaohengbo.com/blog/2014/02/22/Markdown/) 」。示范如下：
+建议采用 Markdown 语法书写博客。示范如下：
 
 ```
 ---
@@ -131,10 +131,7 @@ description: 这是第一篇博文。
 ### 个性化的域名
 
 
-定义型列表
-:   除此之外，还有脚注[^footnote]、流程图、时序图、Todo列表等多种扩展语法，但它们都跟 Markdown 具体的编辑平台相关，因此不作具体介绍。
 
-[^footnote]: 这里是脚注
 
 
 
