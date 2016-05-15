@@ -175,7 +175,7 @@ Droid Edit 是一款手机文本编辑软件，内置一个小型的 Git 环境�
 
 `username`.github.io 的域名缺乏个性，也不便于推广。
 
-如果已经注册了一个域名[^DNS]，那么就可以在 `username.github.io/` 下新建一个 `CNAME` 文件，并在其中填入该域名地址。
+如果已经注册了一个域名[^DNS]，如 `zhaohengbo.com` 那么就可以在 `username.github.io/` 下新建一个 `CNAME` 文件，并在其中填入该域名地址。
 
 除此之外，还应当在域名设置里增加一条新的解析：
 
@@ -183,8 +183,10 @@ Droid Edit 是一款手机文本编辑软件，内置一个小型的 Git 环境�
 |:--|:--|:--|
 |`CNAME`|即二级域名，如 `www` 或 `blog`| `username.github.io` |
 
+然后就可以通过 <www.zhaohengbo.com> 或 <blog.zhaohengbo.com> 访问自己的博客了。
+
 [^DNS]: [万网（阿里云）域名注册服务](https://wanwang.aliyun.com/domain/)
 
-### 进一步地探索
+### 探索更多
 
 
