@@ -25,8 +25,8 @@ column-count:5;}
 #MyTags {color:#11b7ae}
 </style>
 
-{% for page in {{ site.pages | sort: 'title', 'last' }} %}
-- {{ page.title }}
+{% for post in {{ site.categories.qa | sort}} %}
+- {{ post.title }}
 {% endfor %}
 
 <div id='tag_cloud'>
