@@ -16,11 +16,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right" style="font-family:rm;">
-                {% for page in site.pages %}{% if page.title  %}
+                {% for page in site.pages %}{% if page.nav_none!=true %}{% if page.title  %}
                 <li>
 					<a href="{{ page.url | prepend: site.baseurl }}"><i id="nav-{{ page.title }}">&nbsp;&nbsp;</i>{{ page.title }}</a>
                 </li>
-                {% endif %}{% endfor %}<!--
+                {% endif %}{% endif %}{% endfor %}<!--
 				{% if site.github_username %}
 				<li>
                     <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github">&nbsp;</i>Github</a>
