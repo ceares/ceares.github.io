@@ -24,6 +24,8 @@ column-count:5;}
 #MyTags {color:#11b7ae}
 </style>
 
+{{ page.tags | sort }} 
+
 <div id='tag_cloud'>
 {% for tag in site.tags %}
 <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><i id="MyTags" class="fa fa-tags">&nbsp;&nbsp;</i>{{ tag[0] }}</a><br/>
