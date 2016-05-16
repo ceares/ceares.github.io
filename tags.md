@@ -25,10 +25,6 @@ column-count:5;}
 #MyTags {color:#11b7ae}
 </style>
 
-{% for post in {{ site.categories.qa | sort}} %}
-- {{ post.title }}
-{% endfor %}
-
 <div id='tag_cloud'>
 {% for tag in site.tags  %}
 <a href="#{{ tag[0] }}" title="{{ tag[0] }}"><i id="MyTags" class="fa fa-tags">&nbsp;&nbsp;</i>{{ tag[0] }}<sup>{{ tag[1].size }}</sup></a><br/>
