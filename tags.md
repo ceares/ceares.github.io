@@ -26,7 +26,7 @@ column-count:5;}
 }
 #MatchingGene {font-style:italic;color:pink;margin:0em 1em 0.5in}
 #MyTags {color:#11b7ae}
-#tag-sup {font-size}
+#tag-sup {font-size:14px;margin-left:0.1em}
 </style>
 {% endif %}
 
