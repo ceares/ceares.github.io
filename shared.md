@@ -15,4 +15,4 @@ header-img: "img/orange.jpg"
 
 [中学时代文集]({{site.url}}/tags/#个人文集)
 
-{{site.tags."个人文集"}}
+{{site.categories.articles}}
