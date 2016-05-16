@@ -15,4 +15,9 @@ header-img: "img/orange.jpg"
 
 [中学时代文集]({{site.url}}/tags/#个人文集)
 
-{{site.categories.articles}}
+
+{% for post in {{site.categories.articles}} %}
+  <li class="listing-item" style="text-indent:1em;font-weight:normal;">
+  <a href="{{ post.url }}" title="{{ post.title }}" style="margin-left:1em;"><i class="fa fa-link">&nbsp;&nbsp;</i>{{ post.title }}</a>
+  </li>
+{% endfor %}
