@@ -26,7 +26,7 @@ Only three steps:
 2. &nbsp;Fork it！
 3. &nbsp;Writting with [Markdown](http://blog.zhaohengbo.com/Markdown/).
 
-[See more ...](http://blog.zhaohengbo.com/shared/)
+[See more ...](http://blog.zhaohengbo.com/BulidBlog)
 
 
 
