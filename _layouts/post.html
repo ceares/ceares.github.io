@@ -210,7 +210,10 @@ function toggleDuoshuoComments(container){
 		// 图片居中
 		$(".post-content img").wrap("<center></center>");
 		// 显示评论
-		$('ds-comments-info').onclick=function(){$('.ds-post').toggle();}
+		$(".ds-post").hide();
+		$(".ds-comments-info").click(function(){
+			$(".ds-post").toggle();
+		});
 });
 </script>
 
