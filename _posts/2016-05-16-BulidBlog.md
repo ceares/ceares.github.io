@@ -27,7 +27,7 @@ tags: [GitHub,建站教程]
 
 # 2、撰写首篇博文
 
-博文都存放在 `_posts/` 文件夹里面，只能采用形如 `年-月-日-标题.后缀` 的文件名，支持 Markdown、html 类型。
+博文都存放在 `_posts/` 文件夹里面，只能采用形如 `年-月-日-标题.后缀` 的文件名。
 
 以文章 `1992-04-13-FirstArticle.md` 为例，其内容如下：
 
@@ -94,7 +94,7 @@ About.md、404.html 等 `.md` 或 `.html` 文件
 imges、css、js 等文件夹 
 :   非必须的，通常用来存放各种资源文件。
 
-博客外观细节的调整虽然并不复杂，但却非常繁琐，需要大量 Jekyll[^Jekyll] 、Markdown[^Markdown]、HTML/CSS[^HTMLCSS] 与 JavaScript[^JavaScript] 等方面的基础性知识。若有一定的编程功底可能比较迅速就能掌握，否则并非一朝一夕之功，下面列出主要修改项目：
+博客外观细节的调整虽然并不复杂，但却非常繁琐，需要大量 Jekyll[^Jekyll] 、Markdown[^Markdown]、HTML/CSS[^HTMLCSS] 与 JavaScript[^JavaScript] 等方面的基础性知识。若有一定的编程功底可能比较迅速就能掌握，否则并非一朝一夕之功，下面列出主要修改项目以供参考：
 
 ##### 修改 `_config.yml` 中的大量信息，最主要是修改博客名称，即
 
