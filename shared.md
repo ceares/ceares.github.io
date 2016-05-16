@@ -7,17 +7,17 @@ header-img: "img/orange.jpg"
 
 ## # 推荐阅读
 
-- [How to Build a Blog？]({% post_url 2016-05-16-BulidBlog %})
+- &nbsp;&nbsp;[How to Build a Blog？]({% post_url 2016-05-16-BulidBlog %})
 
-- [标记语言 Markdown 简介]({% post_url 2014-02-22-Markdown %})
+- &nbsp;&nbsp;[标记语言 Markdown 简介]({% post_url 2014-02-22-Markdown %})
 
-- [推荐：双拼输入法]({% post_url 2009-11-30-zirjma %})
+- &nbsp;&nbsp;[推荐：双拼输入法]({% post_url 2009-11-30-zirjma %})
 
-## # 中学时代文集
+## # 中学文集
 
 {% for post in site.categories.articles %}
 
-- [{{ post.title }}]({{ post.url }})
+- &nbsp;&nbsp;[{{ post.title }}]({{ post.url }})
 
 {% endfor %}
 
