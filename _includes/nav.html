@@ -17,7 +17,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right" style="font-family:rm;">
                 {% for page in {{ site.pages | where_exp:"item",
-"item.title != '四〇四'" }} %}{% if page.title %}
+"item.title == '四〇四'" }} %}{% if page.title %}
                 <li>
 					<a href="{{ page.url | prepend: site.baseurl }}"><i id="nav-{{ page.title }}">&nbsp;&nbsp;</i>{{ page.title }}</a>
                 </li>
