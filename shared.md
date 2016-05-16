@@ -7,9 +7,6 @@ custom_css: true
 nav-display: true
 ---
 
-
-{{ site.pages | sort: 'title', 'last' }} 
-
 {% if page.custom_css %}
 <style type="text/css">
 ul {list-style-type: none;}
