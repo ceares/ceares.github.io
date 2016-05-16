@@ -25,6 +25,9 @@ column-count:5;}
 #MyTags {color:#11b7ae}
 </style>
 
+{% for pg in {{ site.pages | sort: 'title', 'last' }} %}
+- {{pg.title}}
+{% endfor %}
 
 <div id='tag_cloud'>
 {% for tag in site.tags  %}
