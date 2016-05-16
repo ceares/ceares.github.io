@@ -3,11 +3,11 @@ layout: page
 title: "Shared"
 description: "独乐乐不如众乐乐"
 header-img: "img/orange.jpg"
-custom_css: true
+custom_css_shared: true
 nav-display: true
 ---
 
-{% if page.custom_css %}
+{% if page.custom_css_shared %}
 <style type="text/css">
 ul {list-style-type: none;}
 </style>  

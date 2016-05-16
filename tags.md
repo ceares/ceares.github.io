@@ -2,10 +2,13 @@
 layout: page
 title: "Tags"
 description: "不要随意贴人标签"  
-header-img: "img/semantic.jpg"  
+header-img: "img/semantic.jpg" 
+custom_css_tags: true 
 nav-display: true
 ---
 
+
+{% if page.custom_css_tags %}
 <style type="text/css">
 @media all and (max-width:768px){
 #tag_cloud {margin:0.5in 0em;font-weight: normal;
@@ -23,12 +26,13 @@ column-count:5;}
 }
 #MatchingGene {font-style:italic;color:pink;margin:0em 1em 0.5in}
 #MyTags {color:#11b7ae}
+#tag-sup {font-size}
 </style>
-
+{% endif %}
 
 <div id='tag_cloud'>
 {% for tag in site.tags  %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><i id="MyTags" class="fa fa-tags">&nbsp;&nbsp;</i>{{ tag[0] }}</a><sup>{{ tag[1].size }}</sup><br/>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><i id="MyTags" class="fa fa-tags">&nbsp;&nbsp;</i>{{ tag[0] }}<sup id="tag-sup">{{ tag[1].size }}</sup></a><br/>
 {% endfor %}
 </div>
 
