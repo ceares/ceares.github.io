@@ -3,7 +3,7 @@ title: 三步搭建 GitHub 博客简明教程
 tags: [GitHub,建站教程]
 ---
 
-在了解如何用 GitHub Pages 搭建独立博客之前，首先应该先问自己为什么要这样做？
+在了解如何用 GitHub Pages 搭建独立博客（[示范博客](http://www.zhaohengbo.com/)）之前，首先应该先问自己为什么要这样做？
 
 1. 独立博客更为个性，但也更加折腾，需要学习和钻研精神；
 2. 独乐乐不如众乐乐，博客应当用来分享学习札记、心路历程等；
@@ -18,7 +18,7 @@ tags: [GitHub,建站教程]
 实际上，建立 GitHub 博客只需要非常简单的三个步骤就足够了：
 
 1. 注册一个 [GitHub](https://github.com/) 账户，假设账户名为 `username`；
-2. 选择一个 [现成的博客模版](http://jekyllthemes.org/)，进入模版主页找到其项目源文件，然后 fork 它。以 [示范博客](http://www.zhaohengbo.com/) 为例：
+2. 选择一个 [现成的博客模版](http://jekyllthemes.org/)，进入模版主页找到其项目源文件，然后 fork 它：
   - 示范博客 fork 自项目：[cnfeat/cnfeat.github.io](https://github.com/cnfeat/cnfeat.github.io)
   - 点击右上角的 fork 按钮，将该项目 fork 至自己的 GitHub 仓库（Repositories）中
 3. 登入自己的 GitHub 仓库，将该项目的名称更改为 `username`.github.io，同时删除项目根目录中的 CNAME 文件（如果存在）。
