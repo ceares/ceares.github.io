@@ -25,9 +25,10 @@ column-count:5;}
 #MyTags {color:#11b7ae}
 </style>
 
+
 <div id='tag_cloud'>
 {% for tag in site.tags  %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}"><i id="MyTags" class="fa fa-tags">&nbsp;&nbsp;</i>{{ tag[0] }}<sup>{{ tag[1].size }}</sup></a><br/>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><i id="MyTags" class="fa fa-tags">&nbsp;&nbsp;</i>{{ tag[0] }}</a><sup>{{ tag[1].size }}</sup><br/>
 {% endfor %}
 </div>
 
@@ -44,7 +45,6 @@ column-count:5;}
 {% endfor %}
 </ul>
 
-<!--
 <script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
 <script language="javascript">
 $.fn.tagcloud.defaults = {
@@ -56,4 +56,3 @@ $(function () {
     $('#tag_cloud a').tagcloud();
 });
 </script>
--->
