@@ -214,9 +214,7 @@ git push origin master
 
 # 5、个性化的域名
 
-`username`.github.io 的域名缺乏个性，也不便于推广。
-
-如果已经注册了一个域名[^DNS]，如 `zhaohengbo.com`，需要首先在域名设置里新增一条解析：
+`username`.github.io 缺乏个性，也不便于推广。如果已经注册了一个域名[^DNS]，如 `zhaohengbo.com`，需要首先在域名设置里新增一条解析：
 
 |记录类型|主机记录|记录值|
 |:--|:--|:--|
@@ -226,7 +224,7 @@ git push origin master
 
 > www.zhaohengbo.com
 
-即可通过 <http://www.zhaohengbo.com/> 访问自己的博客。
+此时可以通过 <http://www.zhaohengbo.com/> 访问自己的博客。
 
 ##### 多个二级域名
 
