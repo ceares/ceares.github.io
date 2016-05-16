@@ -78,7 +78,7 @@ imges、css、js 等文件夹
 最重要的 _posts 文件夹 
 :   博文都存放在里面，如 `1992-04-13-FirstArticle.md`，支持 Markdown、html 类型。
 
-博客外观细节的调整虽然并不复杂，但却非常繁琐，需要大量 Jekyll[^Jekyll] 、Markdown[^Markdown]、HTML/CSS[^HTMLCSS] 与 JavaScript[^JavaScript] 等方面的基础性知识。若有一定的编程功底可能比较迅速就能掌握，否则并非一朝一夕之功，下面列出主要修改项目。
+博客外观细节的调整虽然并不复杂，但却非常繁琐，需要大量 Jekyll[^Jekyll] 、Markdown[^Markdown]、HTML/CSS[^HTMLCSS] 与 JavaScript[^JavaScript] 等方面的基础性知识。若有一定的编程功底可能比较迅速就能掌握，否则并非一朝一夕之功，下面列出主要修改项目：
 
 ##### 修改 `_config.yml` 中的大量信息，最主要是修改博客名称，即
 

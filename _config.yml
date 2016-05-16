@@ -53,7 +53,7 @@ defaults:
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : "Pandaman"
+    short_name : "pandaman"
   disqus :
       short_name : 
 
