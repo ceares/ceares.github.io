@@ -115,8 +115,9 @@ description: "请访问 blog.zhaohengbo.com"
 [Pandaman's Blog](http://blog.zhaohengbo.com/)
 ```
 
-##### 修改第三方评论插件：多说 
+##### 第三方评论插件：多说 
 
+Jekyll 静态博客无法实现评论功能，如果不需要该功能直接删除 `/_layouts/post.html` 文件中的相关代码，否则还需要注册多说帐号，并在后台管理中设置，然后再修改
 
 [^Jekyll]: [Jekyll：将纯文本转换为静态博客网站](http://jekyllcn.com/)
 
