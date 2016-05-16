@@ -108,11 +108,11 @@ layout: default
                 
                 <!-- 多说评论框 start -->
                 <div class="comment">
-				<!--
+				<!--a id="show_duoshuo" href="javascript:void(0);" onclick="toggleDuoshuoComments('#comment-box');">展开评论</a>
+<div id="comment-box" ></div>
                     <div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="{{site.url}}{{page.url}}"></div>
 				-->
-					<a id="show_duoshuo" href="javascript:void(0);" onclick="toggleDuoshuoComments('#comment-box');">展开评论</a>
-<div id="comment-box" ></div>
+					<div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="{{site.url}}{{page.url}}"></div>
                 </div>
                 <!-- 多说评论框 end -->
 
@@ -128,7 +128,7 @@ layout: default
 						 || document.getElementsByTagName('body')[0]).appendChild(ds);
 					})();
 					</script>
-				<!-- 多说公共JS代码 end -->
+				<!-- 多说公共JS代码 end 
 
 <script src="http://static.duoshuo.com/embed.js"></script>
 <script type="text/javascript">
@@ -139,7 +139,7 @@ function toggleDuoshuoComments(container){
     DUOSHUO.EmbedThread(el);
     jQuery(container).append(el);
 	$("#show_duoshuo").hide();
-}</script>
+}</script>-->
 
             </div>
         </div>
