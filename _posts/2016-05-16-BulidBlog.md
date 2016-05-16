@@ -25,7 +25,26 @@ tags: [GitHub,建站教程]
 
 现在，已经可以通过 `http://username.github.io` 访问 ~~自己~~ 的博客了。在这里之所以将自己删除，显而易见，这个博客除了源文件放在自己的仓库里以外，无论其外观还是内容都还是他人的。
 
-# 2、修改博客细节
+# 2、撰写首篇博文
+
+博文都存放在 `_posts/` 文件夹里面，只能采用形如 `年-月-日-标题.后缀` 的文件名，支持 Markdown、html 类型。
+
+以文章 `1992-04-13-FirstArticle.md` 为例，其内容如下：
+
+```
+---
+title: 第一篇博文
+tags: [博文范例]
+---
+
+这里是正文，建议采用 Markdown 语法书写。
+```
+
+其中 `---` 包围的部分应参考 `_posts/` 里原有博文的规范书写。
+
+值得注意的是，由于多方面的原因，博文书写完成后，需要等待一段时间后才能生效。
+
+# 3、修改博客细节
 
 Jekyll 博客目录的典型树形结构图如下：
 
@@ -75,9 +94,6 @@ About.md、404.html 等 `.md` 或 `.html` 文件
 imges、css、js 等文件夹 
 :   非必须的，通常用来存放各种资源文件。
 
-最重要的 _posts 文件夹 
-:   博文都存放在里面，如 `1992-04-13-FirstArticle.md`，支持 Markdown、html 类型。
-
 博客外观细节的调整虽然并不复杂，但却非常繁琐，需要大量 Jekyll[^Jekyll] 、Markdown[^Markdown]、HTML/CSS[^HTMLCSS] 与 JavaScript[^JavaScript] 等方面的基础性知识。若有一定的编程功底可能比较迅速就能掌握，否则并非一朝一夕之功，下面列出主要修改项目：
 
 ##### 修改 `_config.yml` 中的大量信息，最主要是修改博客名称，即
@@ -119,14 +135,15 @@ description: "请访问 blog.zhaohengbo.com"
 
 Jekyll 静态博客无法实现评论功能，以多说插件为例：
 
-- 1. [注册](http://duoshuo.com/) 多说帐号；
-- 2. 进入后台管理创建站点：
-  - 在站点地址一栏中填入博客地址，将多说帐号和博客关联起来；
-  - 填入多说域名项 http://`shortname`.duoshuo.com；
-- 3. 修改`/_layouts/post.html` 文件关于多说代码的 `short_name`项：
+1. [注册](http://duoshuo.com/) 多说帐号；
+2. 进入后台管理创建站点：
+ - 在站点地址一栏中填入博客地址 `http://www.zhaohengbo.com`；
+ - 填入多说域名项 `http://duoshuoname.duoshuo.com`；
+ - 在域名白名单中填入 `www.zhaohengbo.com`，将多说帐号和博客关联起来；
+3. 修改`/_layouts/post.html` 文件关于多说代码的 `short_name`项：
 
 ```js
-short_name: "shortnane"
+short_name: "duoshuoname"
 ```
 
 如果不需要评论功能可以直接删除 `/_layouts/post.html` 文件中的相关代码。
@@ -138,25 +155,6 @@ short_name: "shortnane"
 [^HTMLCSS]: [HTML 教程](http://www.w3school.com.cn/h.asp) 与 [CSS 教程](http://www.w3school.com.cn/css/index.asp)
 
 [^JavaScript]: [JavaScript 教程](http://www.w3school.com.cn/js/)
-
-# 3、撰写首篇博文
-
-博文只能采用形如 `年-月-日-标题.后缀` 的文件名，支持 Markdown、html 类型。
-
-以文章 `1992-04-13-FirstArticle.md` 为例，其内容如下：
-
-```
----
-title: 第一篇博文
-tags: [博文范例]
----
-
-这里是正文，建议采用 Markdown 语法书写。
-```
-
-其中 `---` 包围的部分应参考 `_posts/` 里原有博文的规范书写。
-
-值得注意的是，由于多方面的原因，博文书写完成后，需要等待一段时间后才能生效。
 
 # 4、使用 Git 摆脱网页端的束缚
 
