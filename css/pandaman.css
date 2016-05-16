@@ -141,7 +141,7 @@ blockquote {
 
 #markdown-toc {
     padding: 10px 20px;
-    margin: 2em 0em 1em 2em;
+    margin: 0em 0em 1em 1em;
     float: right;
     max-width: 50%;
     background: url('/img/signed.png') repeat;
