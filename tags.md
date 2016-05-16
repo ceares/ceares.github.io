@@ -37,7 +37,6 @@ column-count:5;}
   <li class="listing-seperator" id="{{ tag[0] }}" style="margin:1em auto">#&nbsp;{{ tag[0] }}</li>
 {% for post in tag[1] %}
   <li class="listing-item" style="text-indent:1em;font-weight:normal;">
-  <!--<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y/%m/%d" }}</time>-->
   <a href="{{ post.url }}" title="{{ post.title }}" style="margin-left:1em;"><i class="fa fa-link">&nbsp;&nbsp;</i>{{ post.title }}</a>
   </li>
 {% endfor %}

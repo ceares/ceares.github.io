@@ -14,3 +14,5 @@ header-img: "img/orange.jpg"
 [推荐：双拼输入法]({% post_url 2009-11-30-zirjma %})
 
 [中学时代文集]({{site.url}}/tags/#个人文集)
+
+{{site.tags."个人文集"}}
