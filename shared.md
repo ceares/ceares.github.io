@@ -7,6 +7,10 @@ custom_css: true
 nav-display: true
 ---
 
+
+{{ site.tags | array_to_sentence_string }}
+
+
 {% if page.custom_css %}
 
 <style type="text/css">
