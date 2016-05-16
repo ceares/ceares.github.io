@@ -178,6 +178,10 @@ short_name: "duoshuoname"
 
 则说明已经成功。
 
+##### Droid Edit
+
+Droid Edit 是一款手机文本编辑软件，内置一个小型的 Git 环境，可以通过该软件在手机端撰写博文。
+
 ##### pull & push
 
 `git pull` 和 `git push`[^push] 命令可以实现本地与云端同步，在使用它们之前，需要先将博客项目 clone 到本地。即在本地存储位置执行 cmd 命令：
@@ -209,10 +213,6 @@ git push origin master
 [^push]: [git push 提示 Everything up-to-date，但 GitHub 未更新]({% post_url 2016-04-23-gitpush %})
 
 在 `../username.github.io/_posts/` 路径下撰写博文，再运行 `push.bat` 就能将改动更新至 GitHub。
-
-##### Droid Edit
-
-Droid Edit 是一款手机文本编辑软件，内置一个小型的 Git 环境，可以通过该软件在手机端撰写博文。
 
 # 5、个性化的域名
 
