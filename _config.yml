@@ -3,7 +3,7 @@ title: "我不是熊猫人"
 header-img: "img/green.jpg"
 tagline: "cn"  
 description: "Pandaman's Blog"  
-baseurl: ""
+baseurl: "https://github.com"
 url: "http://blog.zhaohengbo.com"  
 
 # About/contact
@@ -26,14 +26,24 @@ zhihu_username:
 # Build settings  
 # use Github Flavored Markdown !important  
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
+
+
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Chengdu
+timezone: Asia/Beijing
 
 # Defaults for posts
 defaults:
