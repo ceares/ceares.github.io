@@ -8,10 +8,12 @@ description: 本文主要围绕两方面的内容进行简单介绍：1、连分
 ---
 
 # 一、连分数简介
+
 在数学中，[连分数](http://zh.wikipedia.org/zh-cn/%E8%BF%9E%E5%88%86%E6%95%B0) 即如下表达式：
-<p>
-$$x=a_0+\frac{1}{a_1+\frac{1}{a_2+\frac{1}{\ddots}}}=[a_0;a_1,a_2,\cdots]\,\text{ 其中，}a_i\in \mathbb{Z},i\in \mathbb{N}$$
-</p>
+
+$$x=a_0+\frac{1}{a_1+\frac{1}{a_2+\frac{1}{\ddots}}}=[a_0;a_1,a_2,\cdots]$$
+
+其中 $a_i\in \mathbb{Z},i\in \mathbb{N}$ 。
 
 连分数具有如下性质：
 
