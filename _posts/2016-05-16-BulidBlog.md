@@ -148,7 +148,7 @@ short_name: "duoshuoname"
 
 如果不需要评论功能可以直接删除 `/_layouts/post.html` 文件中的相关代码。
 
-[^Jekyll]: [Jekyll：将纯文本转换为静态博客网站](http://jekyllcn.com/)
+[^Jekyll]: [Jekyll 语法小节](http://yulijia.net/cn/%E8%BD%AF%E4%BB%B6%E4%B8%96%E7%95%8C/2015/03/12/jekyll-syntax.html)
 
 [^Markdown]: [标记语言 Markdown 简介]({% post_url 2014-2-22-Markdown %})
 

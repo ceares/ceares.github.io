@@ -7,6 +7,10 @@ custom_css: true
 nav-display: true
 ---
 
+{% for tag in site.tags %}
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><i id="MyTags" class="fa fa-tags">&nbsp;&nbsp;</i>{{ tag }}</a><br/>
+{% endfor %}
+
 {% if page.custom_css %}
 <style type="text/css">
 ul {list-style-type: none;}
