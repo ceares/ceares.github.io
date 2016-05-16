@@ -111,7 +111,7 @@ layout: default
 				<!--
                     <div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="{{site.url}}{{page.url}}"></div>
 				-->
-					<a href="javascript:void(0);" onclick="toggleDuoshuoComments('#comment-box');">展开评论</a>
+					<a id="show_duoshuo" href="javascript:void(0);" onclick="toggleDuoshuoComments('#comment-box');">展开评论</a>
 <div id="comment-box" ></div>
                 </div>
                 <!-- 多说评论框 end -->
@@ -138,6 +138,7 @@ function toggleDuoshuoComments(container){
     el.setAttribute('data-url', '{{site.url}}{{page.url}}');//必选参数
     DUOSHUO.EmbedThread(el);
     jQuery(container).append(el);
+	$("#show_duoshuo").hide();
 }</script>
 
             </div>
@@ -209,3 +210,6 @@ function toggleDuoshuoComments(container){
 		$(".post-content img").wrap("<center></center>");
 	});
 </script>
+
+<br />
+<hr />
