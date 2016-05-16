@@ -24,7 +24,7 @@ column-count:5;}
 #MyTags {color:#11b7ae}
 </style>
 
-{{ page.tags | sort }} 
+{{ site.tags | sort }} 
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
