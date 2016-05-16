@@ -19,5 +19,5 @@ header-img: "img/twitter.jpg"
 - &nbsp;外观设计：简洁大方，主次有序 ；
 - &nbsp;行文风格：脉络清晰，言简意赅 。
 
-本博客搭建于当前世界最大、最流行的代码托管平台&nbsp;&nbsp;<i class="fa fa-github">&nbsp;&nbsp;</i><a href="https://github.com/{{ site.github_username }}">GitHub</a> 之上，非常感谢其提供的 GitHub Pages 服务！关于如何在 GitHub 上搭建独立博客请参阅：「 [三步搭建 GitHub 博客简明教程]({% post_url 2016-05-16-BulidBlog %}) 」。
+本博客搭建于当前世界最大、最流行的代码托管平台&nbsp;&nbsp;<i class="fa fa-github">&nbsp;&nbsp;</i><a href="https://github.com/">GitHub</a> 之上，非常感谢其提供的 GitHub Pages 服务！关于如何在 GitHub 上搭建独立博客请参阅：「 [三步搭建 GitHub 博客简明教程]({% post_url 2016-05-16-BulidBlog %}) 」。
 

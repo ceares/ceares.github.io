@@ -25,7 +25,7 @@ tags: [GitHub,建站教程]
 
 现在，已经可以通过 `http://username.github.io` 访问 ~~自己~~ 的博客了。在这里之所以将自己删除，显而易见，这个博客除了源文件放在自己的仓库里以外，无论其外观还是内容都还是他人的。
 
-# 2、博客项目的典型结构
+# 2、修改博客细节
 
 Jekyll 博客目录的典型树形结构图如下：
 
@@ -77,8 +77,41 @@ imges、css、js 等文件夹
 
 最重要的 _posts 文件夹 
 :   博文都存放在里面，如 `1992-04-13-FirstArticle.md`，支持 Markdown、html 类型。
+
+##### 修改 _config.yml 中的大量信息，最主要是修改博客名称，即
+
+> title: 博客示例
+
+##### 修改 README.md
+
+```md
+本博客仅为示范，实际博客地址为：
+
+[Pandaman's Blog](http://blog.zhaohengbo.com/)
+```
+
+##### 删除 milestone.md、Interview.html 与 _posts 文件夹下原所有博文。
+
+##### 修改 CNAME
+
+> www.zhaohengbo.com
+
+##### 修改 index.html 的头信息
+
+```md
+---
+layout: page
+description: "请访问 blog.zhaohengbo.com"
+---
+```
+
+##### 修改 about.md 的正文
+
+```md
+本博客仅为示范，实际博客地址为 <http://blog.zhaohengbo.com/> 。
+```
  
-博客外观细节的调整虽然并不复杂，但却非常繁琐，需要大量 Jekyll[^Jekyll] 、Markdown[^Markdown]、HTML/CSS[^HTMLCSS] 与 JavaScript[^JavaScript] 等方面的基础性知识。若有一定的编程功底可能比较迅速就能掌握，否则也不是一朝一夕就能讲明白的，在此不再赘述。
+博客外观细节的调整虽然并不复杂，但却非常繁琐，需要大量 Jekyll[^Jekyll] 、Markdown[^Markdown]、HTML/CSS[^HTMLCSS] 与 JavaScript[^JavaScript] 等方面的基础性知识。若有一定的编程功底可能比较迅速就能掌握，否则并非一朝一夕之功，在此不再赘述。
 
 [^Jekyll]: [Jekyll：将纯文本转换为静态博客网站](http://jekyllcn.com/)
 
@@ -97,7 +130,7 @@ imges、css、js 等文件夹
 ```
 ---
 title: 第一篇博文
-tags: [范例]
+tags: [博文范例]
 ---
 
 这里是正文，建议采用 Markdown 语法书写。
