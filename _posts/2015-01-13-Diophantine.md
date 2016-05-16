@@ -7,6 +7,9 @@ tags: [Python,数学,Lisp,Project Euler]
 description: 本文主要围绕两方面的内容进行简单介绍：1、连分数及其求解方法；2、佩尔方程及其求解方法。
 ---
 
+* TOC
+{:toc}
+
 # 一、连分数简介
 
 在数学中，[连分数](http://zh.wikipedia.org/zh-cn/%E8%BF%9E%E5%88%86%E6%95%B0) 即如下表达式：
