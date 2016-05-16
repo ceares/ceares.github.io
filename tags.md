@@ -3,6 +3,7 @@ layout: page
 title: "Tags"
 description: "不要随意贴人标签"  
 header-img: "img/semantic.jpg"  
+nav-display: true
 ---
 
 <style type="text/css">

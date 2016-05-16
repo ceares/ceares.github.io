@@ -4,6 +4,7 @@ title: "Shared"
 description: "独乐乐不如众乐乐"
 header-img: "img/orange.jpg"
 custom_css: true
+nav-display: true
 ---
 
 {% if page.custom_css %}
