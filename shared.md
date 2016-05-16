@@ -7,10 +7,6 @@ custom_css: true
 nav-display: true
 ---
 
-{% for tag in {{ site.tags | sort : "tag" }} %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" >{{ tag[0] }}</a>
-{% endfor %}
-
 {% if page.custom_css %}
 <style type="text/css">
 ul {list-style-type: none;}
