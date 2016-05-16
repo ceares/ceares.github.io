@@ -172,11 +172,9 @@ short_name: "duoshuoname"
 3. 在 Personal settings 的 SSH and GPG keys 一栏中，点击 New SSH key 按钮；
 4. 将步骤 1 打开文件中的全部内容准确复制到 key 文本框里面，确认即可。
 
-完成上述步骤后，可以在 Git Bash 中输入命令 `ssh -T git@github.com` 测试是否成功，如果反馈 
+完成上述步骤后，可以在 Git Bash 中输入命令 `ssh -T git@github.com` 测试是否成功。如果成功则反馈： 
 
 > Hi username! You've successfully authenticated, but GitHub does not provide shell access.
-
-则说明已经成功。
 
 ##### Droid Edit
 
