@@ -6,7 +6,7 @@ header-img: "img/twitter.jpg"
 ---
 
 <center>
-    <p><img src="/img/wechat2code.jpg" align="center"></p>
+    <p><img src="{{ site.url }}/img/wechat2code.jpg" align="center"></p>
 </center>
 
 欢迎来到博主八卦页，感谢关注！我是 __熊猫人__ ，喜欢尝试各种新鲜事物。扫描上方二维码，即可关注我的微信公众号（ *Pandaman1992* ）。如果您有什么问题或者建议，也可以通过下面的方式与我取得联系。
