@@ -8,9 +8,6 @@ layout: default
         background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}');
 		background-repeat: repeat;
     }
-	#catalog, #MySignature {
-	background: url('{{ site.baseurl }}/img/signed.png') repeat;
-	}
 </style>
 <header class="intro-header" >
     <div class="container">
@@ -188,7 +185,7 @@ function toggleDuoshuoComments(container){
 <!--目录结构生成与图片居中-->
 <script type="text/javascript">
 	$(document).ready(function() {
-		//生成目录
+		/*//生成目录
 		x = $(".post-content").find("h1,h2");
 		n = 0;
 		c = "";
@@ -206,7 +203,7 @@ function toggleDuoshuoComments(container){
 		if(x.length!=0){
 		  $("#catalog").html(c);
 		  $("#catalog").show();
-		}
+		}*/
 		// 图片居中
 		$(".post-content img").wrap("<center></center>");
 });

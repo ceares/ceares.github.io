@@ -76,7 +76,9 @@
     -webkit-transform: rotateZ(360deg);
         -moz-transform: rotateZ(360deg);
 }
-
+#MySignature {
+	background: url('{{ site.baseurl }}/img/signed.png') repeat;
+}
 .post-content h1{font-size:30px;margin:1.5em auto;}
 .post-content h2{font-size:24px;margin:1.2em auto;}
 .post-content h3{font-size:18px;margin:1.2em auto;}
@@ -136,12 +138,20 @@ blockquote {
     font-style: normal;
     font-size: 14px;
 }
-#markdown-toc{
+
+#markdown-toc {
     padding: 10px 20px;
-    margin: 1em 0em 1em 2em;
+    margin: 2em 0em 1em 2em;
     float: right;
     max-width: 50%;
     background: url('/img/signed.png') repeat;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#markdown-toc ul {
+    list-style-type: none;
+    font-weight: normal;
 }
 
 
