@@ -16,7 +16,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right" style="font-family:rm;">
-                {% for page in site.pages %}{% if page.custom_css %}
+                {% for page in site.pages %}{% if page.custom_css == false %}
                 <li>
 					<a href="{{ page.url | prepend: site.baseurl }}"><i id="nav-{{ page.title }}">&nbsp;&nbsp;</i>{{ page.title }}</a>
                 </li>
