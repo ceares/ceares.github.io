@@ -137,9 +137,9 @@ Jekyll 静态博客无法实现评论功能，需要引入第三方插件，以�
 
 1. [注册](http://duoshuo.com/) 多说帐号；
 2. 进入后台管理创建站点：
- - 在站点地址一栏中填入博客地址 `http://www.zhaohengbo.com`；
- - 填入多说域名项 `http://duoshuoname.duoshuo.com`；
- - 在域名白名单中填入 `www.zhaohengbo.com`，将多说帐号和博客关联起来；
+ - 在 *站点地址* 一栏中填入博客地址 `http://www.zhaohengbo.com`；
+ - 填入 *多说域名项* `http://duoshuoname.duoshuo.com`；
+ - 在 *域名白名单* 中填入 `www.zhaohengbo.com`，将多说帐号和博客关联起来；
 3. 修改`/_layouts/post.html` 文件关于多说代码的 `short_name`项：
 
 ```js
