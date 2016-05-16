@@ -2,7 +2,7 @@
 layout: post
 title: AttributeError：'module' object has no attribute 
 date: 2012-10-18
-categories: blog
+categories: qa
 tags: [Python,QA,error]
 description: Attribute Error
 ---
