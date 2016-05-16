@@ -3,8 +3,17 @@ layout: page
 title: "Shared"
 description: "独乐乐不如众乐乐"
 header-img: "img/orange.jpg"
+custom_css: true
 ---
 
+{% if page.custom_css %}
+
+<style type="text/css">
+ul {list-style-type: none;}
+</style>
+  
+{% endif %}
+  
 ### # 推荐阅读
 
 - &nbsp;&nbsp;[How to Build a GitHub Blog？]({% post_url 2016-05-16-BulidBlog %})
