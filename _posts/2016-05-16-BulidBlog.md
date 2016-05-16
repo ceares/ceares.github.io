@@ -4,9 +4,6 @@ tags: [GitHub,Jekyll,blog]
 ---
 
 * TOC
-{:toc}
-
-[TOC]
 
 在了解如何用 GitHub Pages 搭建独立博客（[示范博客](http://www.zhaohengbo.com/)）之前，首先应该先问自己为什么要这样做？
 
@@ -26,11 +23,10 @@ tags: [GitHub,Jekyll,blog]
 2. 选择一个 [现成的博客模版](http://jekyllthemes.org/)，进入模版主页找到其项目源文件，然后 fork 它：
   - 示范博客 fork 自项目：[cnfeat/cnfeat.github.io](https://github.com/cnfeat/cnfeat.github.io)
   - 点击右上角的 fork 按钮，将该项目 fork 至自己的 GitHub 仓库（Repositories）中
+  - 推荐一个非常炫酷的主题：[Moon](http://taylantatli.me/Moon/)
 3. 登入自己的 GitHub 仓库，将该项目的名称更改为 `username`.github.io，同时删除项目根目录中的 CNAME 文件（如果存在）。
 
 现在，已经可以通过 `http://username.github.io` 访问 ~~自己~~ 的博客了。在这里之所以将自己删除，显而易见，这个博客除了源文件放在自己的仓库里以外，无论其外观还是内容都还是他人的。
-
-推荐一个非常炫酷的主题：[Moon](http://taylantatli.me/Moon/)
 
 # 2、撰写首篇博文
 
