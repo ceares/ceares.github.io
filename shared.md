@@ -13,7 +13,7 @@ header-img: "img/orange.jpg"
 
 - &nbsp;&nbsp;[双拼输入方案：自然码简介]({% post_url 2009-11-30-zirjma %})
 
-## # 中学文集
+### # 中学文集
 
 {% for post in site.categories.articles %}
 
