@@ -4,6 +4,7 @@ tags: [GitHub,Jekyll,blog]
 ---
 
 * TOC
+{:toc}
 
 在了解如何用 GitHub Pages 搭建独立博客（[示范博客](http://www.zhaohengbo.com/)）之前，首先应该先问自己为什么要这样做？
 
