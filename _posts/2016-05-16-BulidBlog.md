@@ -78,25 +78,21 @@ imges、css、js 等文件夹
 最重要的 _posts 文件夹 
 :   博文都存放在里面，如 `1992-04-13-FirstArticle.md`，支持 Markdown、html 类型。
 
-##### 修改 _config.yml 中的大量信息，最主要是修改博客名称，即
+博客外观细节的调整虽然并不复杂，但却非常繁琐，需要大量 Jekyll[^Jekyll] 、Markdown[^Markdown]、HTML/CSS[^HTMLCSS] 与 JavaScript[^JavaScript] 等方面的基础性知识。若有一定的编程功底可能比较迅速就能掌握，否则并非一朝一夕之功，下面列出主要修改项目。
 
-> title: 博客示例
-
-##### 修改 README.md
+##### 修改 `_config.yml` 中的大量信息，最主要是修改博客名称，即
 
 ```md
-本博客仅为示范，实际博客地址为：
-
-[Pandaman's Blog](http://blog.zhaohengbo.com/)
+title: 博客示例
 ```
 
-##### 删除 milestone.md、Interview.html 与 _posts 文件夹下原所有博文。
+##### 删除 `_posts` 文件夹下原所有博文，以及 `milestone.md`、`Interview.html` 文件。
 
-##### 修改 CNAME
+##### 修改 `CNAME` 文件内容
 
 > www.zhaohengbo.com
 
-##### 修改 index.html 的头信息
+##### 修改 `index.html` 的头信息
 
 ```md
 ---
@@ -105,13 +101,22 @@ description: "请访问 blog.zhaohengbo.com"
 ---
 ```
 
-##### 修改 about.md 的正文
+##### 修改 `about.md` 的正文
 
 ```md
 本博客仅为示范，实际博客地址为 <http://blog.zhaohengbo.com/> 。
 ```
- 
-博客外观细节的调整虽然并不复杂，但却非常繁琐，需要大量 Jekyll[^Jekyll] 、Markdown[^Markdown]、HTML/CSS[^HTMLCSS] 与 JavaScript[^JavaScript] 等方面的基础性知识。若有一定的编程功底可能比较迅速就能掌握，否则并非一朝一夕之功，在此不再赘述。
+
+##### 修改 `README.md` 文件内容
+
+```md
+本博客仅为示范，实际博客地址为：
+
+[Pandaman's Blog](http://blog.zhaohengbo.com/)
+```
+
+##### 修改第三方评论插件：多说 
+
 
 [^Jekyll]: [Jekyll：将纯文本转换为静态博客网站](http://jekyllcn.com/)
 
