@@ -180,7 +180,7 @@ short_name: "duoshuoname"
 
 ##### Droid Edit
 
-Droid Edit 是一款手机文本编辑软件，内置一个小型的 Git 环境，可以通过该软件在手机端撰写博文。
+Droid Edit 是一款文本编辑软件，内置一个小型的 Git 环境，可以通过该软件在手机端撰写博文。
 
 ##### pull & push
 
