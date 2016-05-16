@@ -138,9 +138,10 @@ blockquote {
 }
 #markdown-toc{
     padding: 10px 20px;
-    display: none;
     margin: 1em 0em 1em 2em;
     float: right;
     max-width: 50%;
+    background: url('/img/signed.png') repeat;
 }
+
 
