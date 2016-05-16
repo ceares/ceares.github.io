@@ -26,13 +26,13 @@ column-count:5;}
 }
 #MatchingGene {font-style:italic;color:pink;margin:0em 1em 0.5in}
 #MyTags {color:#11b7ae}
-#tag-sup {font-size:14px;margin-left:0.1em}
+#tag-sup {font-size:14px;margin-left:0.1em;color:#0590f0}
 </style>
 {% endif %}
 
 <div id='tag_cloud'>
 {% for tag in site.tags  %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><i id="MyTags" class="fa fa-tags">&nbsp;&nbsp;</i>{{ tag[0] }}<sup id="tag-sup">{{ tag[1].size }}</sup></a><br/>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><i id="MyTags" class="fa fa-tags">&nbsp;&nbsp;</i>{{ tag[0] }}</a><br/>
 {% endfor %}
 </div>
 
@@ -49,6 +49,7 @@ column-count:5;}
 {% endfor %}
 </ul>
 
+<!--
 <script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
 <script language="javascript">
 $.fn.tagcloud.defaults = {
@@ -60,3 +61,4 @@ $(function () {
     $('#tag_cloud a').tagcloud();
 });
 </script>
+-->
