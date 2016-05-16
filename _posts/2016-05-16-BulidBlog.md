@@ -133,7 +133,7 @@ description: "请访问 blog.zhaohengbo.com"
 
 ##### 第三方评论插件：多说 
 
-Jekyll 静态博客无法实现评论功能，以多说插件为例：
+Jekyll 静态博客无法实现评论功能，需要引入第三方插件，以多说为例：
 
 1. [注册](http://duoshuo.com/) 多说帐号；
 2. 进入后台管理创建站点：
