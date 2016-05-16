@@ -45,6 +45,7 @@ column-count:5;}
 {% endfor %}
 </ul>
 
+<!--
 <script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
 <script language="javascript">
 $.fn.tagcloud.defaults = {
@@ -56,3 +57,4 @@ $(function () {
     $('#tag_cloud a').tagcloud();
 });
 </script>
+-->
