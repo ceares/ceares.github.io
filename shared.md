@@ -7,12 +7,13 @@ custom_css: true
 nav-display: true
 ---
 
-{% if page.custom_css %}
 
+{{ site.pages | sort: 'title', 'last' }} 
+
+{% if page.custom_css %}
 <style type="text/css">
 ul {list-style-type: none;}
-</style>
-  
+</style>  
 {% endif %}
   
 ### # 推荐阅读

@@ -3,8 +3,6 @@ title: 三步搭建 GitHub 博客简明教程
 tags: [GitHub,Jekyll,blog]
 ---
 
-{{ page.tags | sort }}
-
 在了解如何用 GitHub Pages 搭建独立博客（[示范博客](http://www.zhaohengbo.com/)）之前，首先应该先问自己为什么要这样做？
 
 1. 独立博客更为个性，但也更加折腾，需要学习和钻研精神；
