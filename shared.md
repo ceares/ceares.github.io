@@ -35,7 +35,7 @@ column-count:2;}
 
 - &nbsp;&nbsp;[双拼输入方案：自然码简介]({% post_url 2009-11-30-zirjma %})
 
-### # 中学文集
+### # 文学作品
 
 <ul id="school-art" style="list-style-type: none;margin-top:1em">
 {% for post in site.categories.articles %}
