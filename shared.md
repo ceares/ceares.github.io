@@ -9,7 +9,7 @@ nav-display: true
 
 {% if page.custom_css_shared %}
 <style type="text/css">
-#school-art li {padding:1em 0}
+#school-art li {padding:0.5em 0}
 
 @media all and (max-width:768px){
 #school-art   {
@@ -37,7 +37,7 @@ column-count:2;}
 
 ### # 中学文集
 
-<ul id="school-art" style="list-style-type: none;">
+<ul id="school-art" style="list-style-type: none;margin-top:1em">
 {% for post in site.categories.articles %}
 <li><a href="{{ post.url }}" >&nbsp;&nbsp;{{ post.title }}</a></li>
 {% endfor %}
