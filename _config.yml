@@ -35,9 +35,11 @@ paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 kramdown:
-  toc_levels:       1..3
-
-  
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..2
+  enable_coderay:   false
 mathjax:            true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
