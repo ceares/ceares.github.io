@@ -10,18 +10,30 @@ nav-display: true
 
 {% if page.custom_css_tags %}
 <style type="text/css">
-@media all and (max-width:768px){
-#tag_cloud {margin:0.5in 0em;font-weight: normal;
--moz-column-count:2; /* Firefox */
--webkit-column-count:2; /* Safari and Chrome */
-column-count:2;}
-
+#tag_cloud {margin:0.5in 0em;font-weight: normal;}
+@media all and (max-width: 500px){
+	#tag_cloud {
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;}
 }
-@media all and (min-width:768px){
-#tag_cloud {margin:0.5in 0em;font-weight: normal;
--moz-column-count:5; /* Firefox */
--webkit-column-count:5; /* Safari and Chrome */
-column-count:5;}
+@media all and (min-width:500px) and (max-width: 768px){
+	#tag_cloud {
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;}
+}
+@media all and (min-width:768px) and (max-width: 1000px){
+	#tag_cloud {
+	-moz-column-count:4; /* Firefox */
+	-webkit-column-count:4; /* Safari and Chrome */
+	column-count:4;}
+}
+@media all and (min-width:1000px){
+	#tag_cloud {
+	-moz-column-count:5; /* Firefox */
+	-webkit-column-count:5; /* Safari and Chrome */
+	column-count:5;}
 }
 #MatchingGene {font-style:italic;color:#0590f0;margin:0em 1em 0.5in}
 #MyTags {color:lightgray} 
