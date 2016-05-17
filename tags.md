@@ -17,7 +17,7 @@ nav-display: true
 	-webkit-column-count:2; /* Safari and Chrome */
 	column-count:2;}
 }
-@media all and (min-width:500px) and (max-width: 750px){
+@media all and (min-width:500px) and (max-width:750px){
 	#tag_cloud {
 	-moz-column-count:3; /* Firefox */
 	-webkit-column-count:3; /* Safari and Chrome */
