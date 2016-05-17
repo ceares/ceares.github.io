@@ -151,6 +151,10 @@ blockquote {
     font-weight: normal;
 }
 
+@media all and (max-width:768px){
+#markdown-toc {
+    margin-top: 1.5em;
+}}
 @media all and (min-width:768px){
 #markdown-toc {
     margin: 0em 0em 1em 1em;
