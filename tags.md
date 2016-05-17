@@ -17,13 +17,13 @@ nav-display: true
 	-webkit-column-count:2; /* Safari and Chrome */
 	column-count:2;}
 }
-@media all and (min-width:500px) and (max-width: 768px){
+@media all and (min-width:500px) and (max-width: 750px){
 	#tag_cloud {
 	-moz-column-count:3; /* Firefox */
 	-webkit-column-count:3; /* Safari and Chrome */
 	column-count:3;}
 }
-@media all and (min-width:768px) and (max-width: 1000px){
+@media all and (min-width:750px) and (max-width: 1000px){
 	#tag_cloud {
 	-moz-column-count:4; /* Firefox */
 	-webkit-column-count:4; /* Safari and Chrome */
