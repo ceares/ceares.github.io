@@ -33,6 +33,7 @@
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
+	  TeX: {equationNumbers: {autoNumber: ["AMS"], useLabelIds: true}},
       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
       processEscapes: true,
 	  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
@@ -50,7 +51,25 @@
     });
 </script>
 
-
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+TeX: {
+  extensions: ["noErrors.js"],
+  noErrors: {
+    inlineDelimiters: ["",""],   // or ["$","$"] or ["\\(","\\)"]
+    multiLine: true,             // false for TeX on all one line
+    style: {
+      "font-size":   "90%",
+      "text-align":  "left",
+      "color":       "black",
+      "padding":     "1px 3px",
+      "border":      "1px solid"
+      // add any additional CSS styles that you want
+      //  (be sure there is no extra comma at the end of the last item)
+    }
+  }
+}
+</script>
 
 <!-- jQuery -->
 <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
