@@ -39,7 +39,7 @@ column-count:2;}
 
 <ul id="school-art">
 {% for post in site.categories.articles %}
-<li>&nbsp;&nbsp;[{{ post.title }}]({{ post.url }})</li>
+<li><a href="{{ post.url }}" >&nbsp;&nbsp;{{ post.title }}</a>/li>
 {% endfor %}
 </ul>
 
