@@ -44,8 +44,7 @@ layout: default
 			<div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
               
-                <div class="post-content">
-				
+            <div class="post-content">
 
 				<!--<div id="catalog" ></div>-->
 				
@@ -58,7 +57,7 @@ layout: default
 					<div style="text-align:right;padding-top:2px;padding-right:16px;">Copyright&nbsp;©&nbsp;<a href="http://blog.zhaohengbo.com/about">Pandaman</a></div>
 				</div>
 
-                </div>
+            </div>
             
                 <!-- Duoshuo Share start 
                 <style>
@@ -215,7 +214,10 @@ function toggleDuoshuoComments(container){
 		}*/
 		// 图片居中
 		$(".post-content img").wrap("<center></center>");
-		$(".note").pin({ containerSelector: ".container" });
+		$(".note").pin({
+			  containerSelector: ".container"
+		});
+});
 </script>
 
 <br />
