@@ -141,9 +141,6 @@ blockquote {
 
 #markdown-toc {
     padding: 10px 20px;
-    margin: 0em 0em 1em 1em;
-    float: right;
-    max-width: 50%;
     background: url('/img/signed.png') repeat;
     list-style-type: none;
     font-weight: bold;
@@ -154,4 +151,15 @@ blockquote {
     font-weight: normal;
 }
 
-
+@media all and (max-width:768px){
+#markdown-toc {
+    margin: 0em 0em 1em 1em;
+    float: right;
+    max-width: 50%;
+}}
+@media all and (min-width:768px){
+#markdown-toc {
+    margin: 0em 0em 1em 1em;
+    float: right;
+    max-width: 50%;
+}}
