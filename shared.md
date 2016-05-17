@@ -10,6 +10,20 @@ nav-display: true
 {% if page.custom_css_shared %}
 <style type="text/css">
 ul {list-style-type: none;}
+
+@media all and (max-width:768px){
+ul {
+-moz-column-count:2; /* Firefox */
+-webkit-column-count:2; /* Safari and Chrome */
+column-count:2;}
+
+}
+@media all and (min-width:768px){
+ul {
+-moz-column-count:5; /* Firefox */
+-webkit-column-count:5; /* Safari and Chrome */
+column-count:5;}
+}
 </style>  
 {% endif %}
   
