@@ -12,17 +12,17 @@ nav-display: true
 ul {list-style-type: none;}
 
 @media all and (max-width:768px){
-ul {
--moz-column-count:2; /* Firefox */
--webkit-column-count:2; /* Safari and Chrome */
-column-count:2;}
+#school-art ul {
+-moz-column-count:1; /* Firefox */
+-webkit-column-count:1; /* Safari and Chrome */
+column-count:1;}
 
 }
 @media all and (min-width:768px){
-ul {
--moz-column-count:5; /* Firefox */
--webkit-column-count:5; /* Safari and Chrome */
-column-count:5;}
+#school-art ul {
+-moz-column-count:2; /* Firefox */
+-webkit-column-count:2; /* Safari and Chrome */
+column-count:2;}
 }
 </style>  
 {% endif %}
@@ -37,11 +37,11 @@ column-count:5;}
 
 ### # 中学文集
 
+<ul id="school-art">
 {% for post in site.categories.articles %}
-
-- &nbsp;&nbsp;[{{ post.title }}]({{ post.url }})
-
+<li>&nbsp;&nbsp;[{{ post.title }}]({{ post.url }})</li>
 {% endfor %}
+</ul>
 
 <!--
 <ul class="listing" style="list-style-type: none;font-weight: bold;">
