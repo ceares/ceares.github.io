@@ -42,13 +42,14 @@ $$x=a_0+\frac{1}{a_1+\frac{1}{a_2+\frac{1}{\ddots}}}=[a_0;a_1,a_2,\cdots]$$
 
 ##### Lisp 的求法
 
-```lisp
+~~~
 (defun frac (n)
 	(write (floor n))(format t " ")
 	(setq a (- n (floor n))) 
 	(if (/= a 0) (frac (/ 1 a)))
 )(frac (/ 3245 1000))
-```
+~~~
+
 ---
 
 ```
