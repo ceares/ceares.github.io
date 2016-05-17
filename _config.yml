@@ -32,7 +32,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 8
-exclude: ["katex","less","README.md"]
+exclude: ["less","README.md"]
 
 kramdown:
   auto_ids:         true
