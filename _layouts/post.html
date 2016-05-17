@@ -33,10 +33,14 @@ layout: default
 <!-- Post Content -->
 <article>
     <div class="container">
-		<div class="note">
-                <a href="#top">back top</a>
-              </div>
-        <div class="row">
+			<div class="note">
+				<a href="#top" style="color:#404040">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-angle-double-up fa-stack-1x fa-inverse"></i>
+					</span>
+				</a>
+			<div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
               
                 <div class="post-content">
@@ -210,10 +214,7 @@ function toggleDuoshuoComments(container){
 		}*/
 		// 图片居中
 		$(".post-content img").wrap("<center></center>");
-		$(".note").pin({
-      containerSelector: ".container",
-	  padding: {top: 10, left: 10}
-});
+		$(".note").pin({ containerSelector: ".container" });
 </script>
 
 <br />
