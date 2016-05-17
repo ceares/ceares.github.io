@@ -38,6 +38,11 @@ layout: default
               
                 <div class="post-content">
 				
+				<div class="note">
+                <h3>Pin it!</h3>
+                <p>Great for pinned navigations — or just about anything you want to stick.</p>
+                <p>Developed by <a href="http://www.webpop.com">Webpop</a>.</p>
+              </div>
 				<!--<div id="catalog" ></div>-->
 				
                 	{{ content }}
@@ -206,7 +211,9 @@ function toggleDuoshuoComments(container){
 		}*/
 		// 图片居中
 		$(".post-content img").wrap("<center></center>");
-})
+		$(".note").pin({
+      containerSelector: ".container"
+});
 });
 </script>
 
