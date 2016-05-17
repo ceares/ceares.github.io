@@ -35,13 +35,17 @@ paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 kramdown:
-  input: GFM
   auto_ids:         true
   footnote_nr:      [1]
   entity_output:    as_char
   toc_levels:       1..3
   smart_quotes: lsquo,rsquo,ldquo,rdquo
+  use_coderay: false
 
+coderay:
+  coderay_line_numbers: inline
+  coderay_line_numbers_start: 1
+  coderay_tab_width: 4
 
   
 mathjax:            true
