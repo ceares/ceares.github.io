@@ -34,7 +34,13 @@
   MathJax.Hub.Config({
     tex2jax: {
       inlineMath: [ ['$','$']],
-      processEscapes: true,
+      processEscapes: true
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+	  TeX: {equationNumbers: {autoNumber: ["AMS"], useLabelIds: true},
 	  multiLine: true,             // false for TeX on all one line
       style: {
       "font-size":   "90%",
@@ -43,12 +49,8 @@
       "padding":     "1px 3px",
       "border":      "1px solid"
     }
-  });
-</script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-	  TeX: {equationNumbers: {autoNumber: ["AMS"], useLabelIds: true}},
+	  
+	  },
       tex2jax: {
         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
       }
