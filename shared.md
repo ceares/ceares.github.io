@@ -9,7 +9,7 @@ nav-display: true
 
 {% if page.custom_css_shared %}
 <style type="text/css">
-#school-art li {margin:1em 0}
+#school-art li {padding:1em 0}
 
 @media all and (max-width:768px){
 #school-art   {
