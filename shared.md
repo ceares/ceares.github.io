@@ -12,14 +12,14 @@ nav-display: true
 ul {list-style-type: none;}
 
 @media all and (max-width:768px){
-#school-art ul  {
+#school-art   {
 -moz-column-count:2; /* Firefox */
 -webkit-column-count:2; /* Safari and Chrome */
 column-count:2;}
 
 }
 @media all and (min-width:768px){
-#school-art ul {
+#school-art  {
 -moz-column-count:3; /* Firefox */
 -webkit-column-count:3; /* Safari and Chrome */
 column-count:3;}
@@ -39,7 +39,7 @@ column-count:3;}
 
 <ul id="school-art">
 {% for post in site.categories.articles %}
-<li><a href="{{ post.url }}" >&nbsp;&nbsp;[{{ post.title }}</a>/li>
+<li><a href="{{ post.url }}" >&nbsp;&nbsp;{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 
