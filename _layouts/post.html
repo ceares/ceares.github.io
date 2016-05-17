@@ -38,7 +38,7 @@ layout: default
 				<a href="#top" style="color:#404040">
 					<span class="fa-stack fa-lg">
 						<i class="fa fa-circle fa-stack-2x"></i>
-						<i class="fa fa-angle-double-up fa-stack-1x fa-inverse"></i>
+						<i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
 					</span>
 				</a>
 			</div>
@@ -214,13 +214,19 @@ function toggleDuoshuoComments(container){
 		}*/
 		// 图片居中
 		$(".post-content img").wrap("<center></center>");
-		$(".note").pin({
-			  containerSelector: ".row",
-			  minWidth: 940,
-			  padding: {top:50}
-		});
 });
 </script>
 
 <br />
 <hr />
+
+            <script type="text/javascript">
+              //initiating jQuery
+              jQuery(function($) {
+                $(document).ready( function() {
+                  //enabling stickUp on the '.navbar-wrapper' class
+                  $('.note').stickUp();
+                });
+              });
+
+            </script>
