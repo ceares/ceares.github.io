@@ -9,14 +9,17 @@ nav-display: true
 
 {% if page.custom_css_shared %}
 <style type="text/css">
+ul {list-style-type: none;}
+
 @media all and (max-width:768px){
-#school-art li {
+#school-art ul  {
 -moz-column-count:2; /* Firefox */
 -webkit-column-count:2; /* Safari and Chrome */
 column-count:2;}
+
 }
 @media all and (min-width:768px){
-#school-art li {
+#school-art ul {
 -moz-column-count:3; /* Firefox */
 -webkit-column-count:3; /* Safari and Chrome */
 column-count:3;}
@@ -34,11 +37,11 @@ column-count:3;}
 
 ### # 中学文集
 
-<div id="school-art" style="list-style-type: none;">
+<ul id="school-art">
 {% for post in site.categories.articles %}
-<a href="{{ post.url }}" >&nbsp;&nbsp;{{ post.title }}</a><br/>
+<li><a href="{{ post.url }}" >&nbsp;&nbsp;[{{ post.title }}</a>/li>
 {% endfor %}
-</div>
+</ul>
 
 <!--
 <ul class="listing" style="list-style-type: none;font-weight: bold;">
