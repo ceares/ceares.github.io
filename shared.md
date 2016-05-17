@@ -9,7 +9,6 @@ nav-display: true
 
 {% if page.custom_css_shared %}
 <style type="text/css">
-
 @media all and (max-width:768px){
 #school-art li {
 -moz-column-count:1; /* Firefox */
@@ -36,11 +35,11 @@ column-count:2;}
 
 ### # 中学文集
 
-<ul id="school-art" style="list-style-type: none;">
+<div id="school-art" style="list-style-type: none;">
 {% for post in site.categories.articles %}
-<li><a href="{{ post.url }}" >&nbsp;&nbsp;{{ post.title }}</a></li>
+<a href="{{ post.url }}" >&nbsp;&nbsp;{{ post.title }}</a><br/>
 {% endfor %}
-</ul>
+</div>
 
 <!--
 <ul class="listing" style="list-style-type: none;font-weight: bold;">
