@@ -6,6 +6,14 @@ header-img: "img/twitter.jpg"
 nav-display: true
 ---
 
+{% latex %} E = mc^2 {% endlatex %}
+
+And that's it!
+
+If you also want to have centred equations, you can do:
+
+{% latex centred %} E = mc^2 {% endlatex %}
+
 <center>
     <p><img src="{{ site.url }}/img/wechat2code.jpg" align="center"></p>
 </center>
