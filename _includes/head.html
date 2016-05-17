@@ -34,7 +34,14 @@
   MathJax.Hub.Config({
     tex2jax: {
       inlineMath: [ ['$','$']],
-      processEscapes: true
+      processEscapes: true,
+	  multiLine: true,             // false for TeX on all one line
+      style: {
+      "font-size":   "90%",
+      "text-align":  "left",
+      "color":       "black",
+      "padding":     "1px 3px",
+      "border":      "1px solid"
     }
   });
 </script>
