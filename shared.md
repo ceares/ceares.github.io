@@ -29,11 +29,11 @@ column-count:2;}
   
 ### # 推荐阅读
 
-- &nbsp;&nbsp;[How to Build a GitHub Blog？]({% post_url 2016-05-16-BulidBlog %})
+- &nbsp;&nbsp;[How to Build a Jakyll Blog  on GitHub ？]({% post_url 2016-05-16-BulidBlog %})
 
 - &nbsp;&nbsp;[标记语言 Markdown 简明语法]({% post_url 2014-02-22-Markdown %})
 
-- &nbsp;&nbsp;[双拼输入方案：自然码简介]({% post_url 2009-11-30-zirjma %})
+- &nbsp;&nbsp;[双拼自然码输入方案简介]({% post_url 2009-11-30-zirjma %})
 
 ### # 文学作品
 
