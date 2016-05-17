@@ -7,6 +7,8 @@ tags: [Python,异常,raise,assert,with]
 description: Python 是面向对象语言，所以程序抛出的异常也是类。文本是对 Python 异常处理的简介。
 ---
 
+* TOC
+{:toc}
 
 Python 是面向对象的语言，所以程序抛出的异常也是类。
 
