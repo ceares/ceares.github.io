@@ -9,20 +9,20 @@ nav-display: true
 
 {% if page.custom_css_shared %}
 <style type="text/css">
-ul {list-style-type: none;}
+#school-art li {margin:1em 0}
 
 @media all and (max-width:768px){
 #school-art   {
--moz-column-count:2; /* Firefox */
--webkit-column-count:2; /* Safari and Chrome */
-column-count:2;}
+-moz-column-count:1; /* Firefox */
+-webkit-column-count:1; /* Safari and Chrome */
+column-count:1;}
 
 }
 @media all and (min-width:768px){
 #school-art  {
--moz-column-count:3; /* Firefox */
--webkit-column-count:3; /* Safari and Chrome */
-column-count:3;}
+-moz-column-count:2; /* Firefox */
+-webkit-column-count:2; /* Safari and Chrome */
+column-count:2;}
 }
 </style>  
 {% endif %}
@@ -37,7 +37,7 @@ column-count:3;}
 
 ### # 中学文集
 
-<ul id="school-art">
+<ul id="school-art" style="list-style-type: none;">
 {% for post in site.categories.articles %}
 <li><a href="{{ post.url }}" >&nbsp;&nbsp;{{ post.title }}</a></li>
 {% endfor %}
