@@ -21,10 +21,10 @@ nav-display: true
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
-    <li class="listing-seperator"><i class="fa fa-refresh fa-spin"></i>&nbsp;&nbsp;{{ y }}</li>
+    <li class="listing-seperator"><i class="fa fa-calendar"></i>&nbsp;&nbsp;{{ y }}</li>
   {% endif %}
   <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%m,%d" }}</time>
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%B %-d " }}</time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
 {% endfor %}
