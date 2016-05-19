@@ -84,9 +84,10 @@ hr.small {
     width: 500px;
   }
 }
+/*
 .post-container a {
-  color: #2B4180;
-}
+  color: #4078c0;
+}*/
 .post-container a:hover,
 .post-container a:focus {
   color: #6bb4bf;
