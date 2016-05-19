@@ -156,7 +156,6 @@ short_name: "duoshuoname"
 
 [^Jekyll]: [Jekyll：将纯文本转换为静态博客网站](http://jekyllcn.com/)
 
-[^Markdown]: [标记语言 Markdown 简介]({% post_url 2014-02-22-Markdown %})
 
 [^HTMLCSS]: [HTML 教程](http://www.w3school.com.cn/h.asp) 、 [CSS 教程](http://www.w3school.com.cn/css/index.asp) 与 [less 教程](http://www.bootcss.com/p/lesscss/)
 
@@ -216,7 +215,7 @@ git commit -a -m "msg"
 git push origin master
 ```
 
-[^push]: [git push 提示 Everything up-to-date，但 GitHub 未更新]({% post_url 2016-04-23-gitpush %})
+
 
 在 `../username.github.io/_posts/` 路径下撰写博文，再运行 `push.bat` 就能将改动更新至 GitHub。
 
@@ -243,7 +242,6 @@ git push origin master
 需要注意的是，如果想用 Git 和不同的 GitHub 帐号同步，还应进行额外的配置[^domain]。
 
 [^DNS]: [万网（阿里云）域名注册服务](https://wanwang.aliyun.com/domain/)
-[^domain]: [同一台电脑上使用 Git 与多个 GitHub 账户同步]({% post_url 2016-05-15-push403 %})
 
 
 
