@@ -32,7 +32,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 8
-exclude: ["README.md","update.bat"]
+exclude: ["less","README.md","update.bat"]
 
 kramdown:
   auto_ids:         true
