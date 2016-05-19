@@ -27,7 +27,7 @@ column-count:2;}
   
 ### # 推荐阅读
 
-- &nbsp;&nbsp;[How to Build a Jakyll Blog  on GitHub ？]({% post_url 2016-05-16-BulidBlog %})
+- &nbsp;&nbsp;[How to Build a Jakyll Blog  on GitHub ？]({% post_url 2016-03-16-BulidBlog %})
 
 - &nbsp;&nbsp;[标记语言 Markdown 简明语法]({% post_url 2014-02-22-Markdown %})
 
