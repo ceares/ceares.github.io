@@ -22,6 +22,13 @@ column-count:1;}
 -webkit-column-count:2; /* Safari and Chrome */
 column-count:2;}
 }
+@media all and (max-width: 768px){
+	.listing-item{text-indent:0em;font-weight:normal;}
+	
+}
+@media all and (min-width:768px) {
+	.listing-item{text-indent:1em;font-weight:normal;}
+}
 </style>  
 {% endif %}
   
@@ -44,7 +51,7 @@ column-count:2;}
 <!--
 <ul class="listing" style="list-style-type: none;font-weight: bold;">
 {% for post in {{site.categories.articles}} %}
-  <li class="listing-item" style="text-indent:1em;font-weight:normal;">
+  <li class="listing-item" style="font-weight:normal;">
   <a href="{{ post.url }}" title="{{ post.title }}" style="margin-left:1em;"><i class="fa fa-link">&nbsp;&nbsp;</i>{{ post.title }}</a>
   </li>
 {% endfor %}

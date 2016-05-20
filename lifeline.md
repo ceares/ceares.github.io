@@ -11,7 +11,15 @@ nav-display: true
 	margin:1em auto;
 	color:cornflowerblue;
 }
-.listing-item { text-indent:3em; color:cornflowerblue;}
+@media all and (max-width: 768px){
+.listing-item { text-indent:0em; }
+	
+}
+@media all and (min-width:768px) {
+	.listing-item{text-indent:1em;}
+}
+
+.listing-item {color:#4da6ff}
 .listing-item a { margin-left:0.5em; color:#4da6ff;}
 .listing-item a:hover { color:#0590f0;}
 </style>
@@ -24,8 +32,7 @@ nav-display: true
     <li class="listing-seperator"><i class="fa fa-calendar"></i>&nbsp;&nbsp;{{ y }}</li>
   {% endif %}
   <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%B %-d " }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        <a href="{{ post.url }}" title="{{ post.title }}"><time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%B %-d " }}</time>{{ post.title }}</a>
   </li>
 {% endfor %}
 </ul>

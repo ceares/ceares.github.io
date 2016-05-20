@@ -38,6 +38,15 @@ nav-display: true
 #MatchingGene {font-style:italic;color:#0590f0;margin:0em 1em 0.5in}
 #MyTags {color:lightgray} 
 #tag-sup {font-size:14px;color:#0590f0}
+@media all and (max-width: 768px){
+	.listing-seperator {	margin:0em auto;}
+	.listing-item{text-indent:0em;font-weight:normal;}
+	
+}
+@media all and (min-width:768px) {
+	.listing-seperator {	margin:1em auto;}
+	.listing-item{text-indent:1em;font-weight:normal;}
+}
 </style>
 {% endif %}
 
@@ -51,9 +60,9 @@ nav-display: true
 
 <ul class="listing" style="list-style-type: none;font-weight: bold;">
 {% for tag in site.tags %}
-  <li class="listing-seperator" id="{{ tag[0] }}" style="margin:1em auto">#&nbsp;{{ tag[0] }}</li>
+  <li class="listing-seperator" id="{{ tag[0] }}" >#&nbsp;{{ tag[0] }}</li>
 {% for post in tag[1] %}
-  <li class="listing-item" style="text-indent:1em;font-weight:normal;">
+  <li class="listing-item" >
   <a href="{{ post.url }}" title="{{ post.title }}" style="margin-left:1em;"><i class="fa fa-link">&nbsp;&nbsp;</i>{{ post.title }}</a>
   </li>
 {% endfor %}
