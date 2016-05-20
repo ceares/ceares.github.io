@@ -39,7 +39,15 @@ nav-display: true
 #MyTags {color:lightgray} 
 #tag-sup {font-size:14px;color:#0590f0}
 .listing-seperator {	margin:1em auto;}
-.listing-item{text-indent:2em;font-weight:normal;}
+.listing-item{font-weight:normal;}
+@media all and (max-width:768px){
+#school-art   {
+.listing-item{text-indent:0em;}
+.listing {margin-left: -2em;}
+}
+@media all and (min-width:768px){
+.listing-item{text-indent:2em;}
+}
 </style>
 {% endif %}
 

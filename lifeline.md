@@ -11,11 +11,17 @@ nav-display: true
 	margin:1em auto;
 	color:cornflowerblue;
 }
-
-.listing-item{text-indent:5em;}
 .listing-item {color:cornflowerblue;}
 .listing-item a { margin-left:1em; color:#4da6ff;}
 .listing-item a:hover { color:#0590f0;}
+@media all and (max-width:768px){
+#school-art   {
+.listing-item{text-indent:0em;}
+.listing {margin-left: -2em;}
+}
+@media all and (min-width:768px){
+.listing-item{text-indent:5em;}
+}
 </style>
 
 <ul class="listing" style="list-style-type:none;font-weight:normal;margin-top:2em;">
