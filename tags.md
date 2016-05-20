@@ -41,7 +41,6 @@ nav-display: true
 .listing-seperator {	margin:1em auto;}
 .listing-item{font-weight:normal;}
 @media all and (max-width:768px){
-#school-art   {
 .listing-item{text-indent:0em;}
 .listing {margin-left: -2em;}
 }

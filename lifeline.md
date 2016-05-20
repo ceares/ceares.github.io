@@ -15,7 +15,6 @@ nav-display: true
 .listing-item a { margin-left:1em; color:#4da6ff;}
 .listing-item a:hover { color:#0590f0;}
 @media all and (max-width:768px){
-#school-art   {
 .listing-item{text-indent:0em;}
 .listing {margin-left: -2em;}
 }
