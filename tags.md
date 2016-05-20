@@ -39,7 +39,7 @@ nav-display: true
 #MyTags {color:lightgray} 
 #tag-sup {font-size:14px;color:#0590f0}
 .listing-seperator {	margin:1em auto;}
-.listing-item{text-indent:1em;font-weight:normal;}
+.listing-item{text-indent:2em;font-weight:normal;}
 </style>
 {% endif %}
 

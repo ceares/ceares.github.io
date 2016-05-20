@@ -12,10 +12,10 @@ nav-display: true
 	color:cornflowerblue;
 }
 
-.listing-item{text-indent:1em;}
-.listing-item {color:#4da6ff}
-.listing-item a { margin-left:1em; color:#4da6ff;text-decoration:underline}
-.listing-item a:hover { color:#0590f0;}
+.listing-item{text-indent:5em;}
+.listing-item {color:#0590f0;}
+.listing-item a { margin-left:1em; color:#4da6ff;}
+.listing-item a:hover { text-decoration:underline;}
 </style>
 
 <ul class="listing" style="list-style-type:none;font-weight:normal;margin-top:2em;">
