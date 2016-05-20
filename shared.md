@@ -14,14 +14,14 @@ nav-display: true
 #school-art   {
 -moz-column-count:1; /* Firefox */
 -webkit-column-count:1; /* Safari and Chrome */
-column-count:1;}
+column-count:1;
+margin-left:-2em}
 }
 @media all and (min-width:1000px){
 #school-art  {
 -moz-column-count:2; /* Firefox */
 -webkit-column-count:2; /* Safari and Chrome */
-column-count:2;
-margin-left：-2em}
+column-count:2;}
 }
 /*.listing-item{text-indent:1em;font-weight:normal;}*/
  </style>  
