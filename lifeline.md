@@ -13,9 +13,9 @@ nav-display: true
 }
 
 .listing-item{text-indent:5em;}
-.listing-item {color:#0590f0;}
+.listing-item {color:cornflowerblue;}
 .listing-item a { margin-left:1em; color:#4da6ff;}
-.listing-item a:hover { text-decoration:underline;}
+.listing-item a:hover { color:#0590f0;}
 </style>
 
 <ul class="listing" style="list-style-type:none;font-weight:normal;margin-top:2em;">
