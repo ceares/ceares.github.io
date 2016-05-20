@@ -1,6 +1,6 @@
 ---
 title: 三步搭建 GitHub 博客简明教程
-tags: [GitHub,Jekyll,blog]
+tags: [GitHub,Jekyll,blog,Javascript,Markdown,HTML,CSS]
 ---
 
 * TOC
