@@ -10,14 +10,14 @@ nav-display: true
 {% if page.custom_css_shared %}
 <style type="text/css">
 #school-art li {padding:0.5em 0}
-@media all and (max-width:1000px){
+@media all and (max-width:768px){
 #school-art   {
 -moz-column-count:1; /* Firefox */
 -webkit-column-count:1; /* Safari and Chrome */
 column-count:1;
 margin-left:-2em}
 }
-@media all and (min-width:1000px){
+@media all and (min-width:768px){
 #school-art  {
 -moz-column-count:2; /* Firefox */
 -webkit-column-count:2; /* Safari and Chrome */
