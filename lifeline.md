@@ -12,8 +12,8 @@ nav-display: true
 	color:cornflowerblue;
 }
 .listing-item { text-indent:3em; color:cornflowerblue;}
-.listing-item a { margin-left:0.5em; color:#0590f0;}
-.listing-item a:hover { text-decoration: underline;}
+.listing-item a { margin-left:0.5em; color:#4da6ff;}
+.listing-item a:hover { color:#0590f0;}
 </style>
 
 <ul class="listing" style="list-style-type:none;font-weight:normal;margin-top:2em;">
