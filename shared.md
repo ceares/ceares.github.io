@@ -23,7 +23,7 @@ column-count:1;}
 column-count:2;}
 }
 .listing-item{text-indent:1em;font-weight:normal;}
-</style>  
+ </style>  
 {% endif %}
   
 ### # 推荐阅读

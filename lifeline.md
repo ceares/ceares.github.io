@@ -13,7 +13,6 @@ nav-display: true
 }
 
 .listing-item{text-indent:1em;}
-
 .listing-item {color:#4da6ff}
 .listing-item a { margin-left:0.5em; color:#4da6ff;}
 .listing-item a:hover { color:#0590f0;}
