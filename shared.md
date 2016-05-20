@@ -2,7 +2,6 @@
 layout: page
 title: "Shared"
 description: "独乐乐不如众乐乐"
-header-img: "img/semantic.jpg"
 custom_css_shared: true
 nav-display: true
 ---
