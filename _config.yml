@@ -1,6 +1,6 @@
 # Site settings
 title: "我不是熊猫人"
-header-img: "img/homepage.jpg"
+header-img: "img/res/homepage.jpg"
 tagline: "cn"  
 description: "Pandaman's Blog"  
 baseurl: ""
@@ -13,8 +13,8 @@ owner:
   bio: "简约而不简单"
 
 # Data
-gavatar: "img/pandaman.jpg"
-favicon: "img/favicon.ico"
+gavatar: "img/res/pandaman.jpg"
+favicon: "img/res/favicon.ico"
 
 douban_username:  
 twitter_username: 
@@ -54,7 +54,7 @@ defaults:
     values:
       layout: "post"
       author: "Pandaman"
-      header-img: "img/post.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/res/post.jpg" # We don't want posts without a header image, that whould mean white on white
       categories: "blog"
       description: "http://blog.zhaohengbo.com" 
       permalink: "/:title"
