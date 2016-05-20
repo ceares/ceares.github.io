@@ -41,7 +41,7 @@ nav-display: true
 @media all and (max-width: 768px){
 	.listing-seperator {	margin:0em auto;}
 	.listing-item{text-indent:0em;font-weight:normal;}
-	
+	ul.listing{margin-left:0}
 }
 @media all and (min-width:768px) {
 	.listing-seperator {	margin:1em auto;}

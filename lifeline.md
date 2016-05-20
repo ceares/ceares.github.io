@@ -13,6 +13,7 @@ nav-display: true
 }
 @media all and (max-width: 768px){
 .listing-item { text-indent:0em; }
+ul.listing{margin-left:0}
 	
 }
 @media all and (min-width:768px) {
