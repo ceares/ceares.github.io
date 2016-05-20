@@ -38,15 +38,8 @@ nav-display: true
 #MatchingGene {font-style:italic;color:#0590f0;margin:0em 1em 0.5in}
 #MyTags {color:lightgray} 
 #tag-sup {font-size:14px;color:#0590f0}
-@media all and (max-width: 768px){
-	.listing-seperator {	margin:0em auto;}
-	.listing-item{text-indent:0em;font-weight:normal;}
-	ul.listing{margin-left:0}
-}
-@media all and (min-width:768px) {
-	.listing-seperator {	margin:1em auto;}
-	.listing-item{text-indent:1em;font-weight:normal;}
-}
+.listing-seperator {	margin:1em auto;}
+.listing-item{text-indent:1em;font-weight:normal;}
 </style>
 {% endif %}
 

@@ -11,14 +11,8 @@ nav-display: true
 	margin:1em auto;
 	color:cornflowerblue;
 }
-@media all and (max-width: 768px){
-.listing-item { text-indent:0em; }
-ul.listing{margin-left:0}
-	
-}
-@media all and (min-width:768px) {
-	.listing-item{text-indent:1em;}
-}
+
+.listing-item{text-indent:1em;}
 
 .listing-item {color:#4da6ff}
 .listing-item a { margin-left:0.5em; color:#4da6ff;}
