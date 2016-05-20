@@ -20,9 +20,10 @@ column-count:1;}
 #school-art  {
 -moz-column-count:2; /* Firefox */
 -webkit-column-count:2; /* Safari and Chrome */
-column-count:2;}
+column-count:2;
+margin-left：-2em}
 }
-.listing-item{text-indent:1em;font-weight:normal;}
+/*.listing-item{text-indent:1em;font-weight:normal;}*/
  </style>  
 {% endif %}
   
