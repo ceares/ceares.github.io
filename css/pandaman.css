@@ -137,6 +137,7 @@ a.footnote::after {
 blockquote {
     font-style: normal;
     font-size: 14px;
+	border-color: #ececec;
 }
 
 #markdown-toc {
@@ -144,6 +145,7 @@ blockquote {
     list-style-type: none;
     font-weight: bold;
 	border-left: 5px solid skyblue;
+	background: #fafafa;
 }
 
 #markdown-toc ul {
@@ -154,7 +156,6 @@ blockquote {
 @media all and (max-width:768px){
 #markdown-toc {
     margin-top: 2em;
-	border-radius: 5px;
 }}
 @media all and (min-width:768px){
 #markdown-toc {
@@ -164,4 +165,13 @@ blockquote {
     border-right: 5px solid skyblue;
 	border-radius: 1em;
 }}
+
+code {
+	color: purple;
+    background-color: #f0f0f0;
+}
+
+.highlight pre, pre, .highlight .hll {
+    border-style: dotted;
+}
 
