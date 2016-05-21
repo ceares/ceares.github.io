@@ -141,9 +141,9 @@ blockquote {
 
 #markdown-toc {
     padding: 10px 20px;
-    background: url('/img/res/signed.png') repeat;
     list-style-type: none;
     font-weight: bold;
+	border-left: 5px solid skyblue;
 }
 
 #markdown-toc ul {
@@ -154,11 +154,14 @@ blockquote {
 @media all and (max-width:768px){
 #markdown-toc {
     margin-top: 2em;
+	border-radius: 5px;
 }}
 @media all and (min-width:768px){
 #markdown-toc {
     margin: 0em 0em 1em 1em;
     float: right;
     max-width: 50%;
+    border-right: 5px solid skyblue;
+	border-radius: 1em;
 }}
 
