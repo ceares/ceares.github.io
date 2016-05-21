@@ -157,7 +157,7 @@ blockquote {
     margin-top: 2em;
 }
 .meta {
-    text-align: left;
+    text-align: left!important;
 }}
 @media all and (min-width:768px){
 #markdown-toc {
