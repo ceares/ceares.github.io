@@ -77,7 +77,7 @@
         -moz-transform: rotateZ(360deg);
 }
 #MySignature {
-	background: url('/img/signed.png') repeat;
+	background: url('/img/res/signed.png') repeat;
 }
 .post-content h1{font-size:30px;margin:1.5em auto;}
 .post-content h2{font-size:24px;margin:1.2em auto;}
@@ -141,7 +141,7 @@ blockquote {
 
 #markdown-toc {
     padding: 10px 20px;
-    background: url('/img/signed.png') repeat;
+    background: url('/img/res/signed.png') repeat;
     list-style-type: none;
     font-weight: bold;
 }
