@@ -31,7 +31,7 @@ nav-display: true
     <li class="listing-seperator"><i class="fa fa-calendar"></i>&nbsp;&nbsp;{{ y }}</li>
   {% endif %}
   <li class="listing-item">
-		<a href="{{ post.url }}" title="{{ post.title }}"><time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%B %-d, " }}</time> {{ post.title }}</a>
+		<a href="{{ post.url }}" title="{{ post.title }}"><time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%B %-d," }}</time>&nbsp;{{ post.title }}</a>
   </li>
 {% endfor %}
 </ul>
