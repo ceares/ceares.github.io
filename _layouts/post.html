@@ -31,8 +31,6 @@ layout: default
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
               
             <div class="post-content">
-
-				<!--<div id="catalog" ></div>-->
 				
                 	{{ content }}
                 	
@@ -44,42 +42,8 @@ layout: default
 				</div>
 
             </div>
-            
-                <!-- Duoshuo Share start 
-                <style>
-                    .ds-share{
-                        text-align: right;
-                    }
-                    
-                    @media only screen and (max-width: 700px) {
-                        .ds-share {
 
-                        }
-                    }
-                </style>
-                
-                
-                <div class="ds-share"
-                    
-                    data-thread-key="{{page.id}}" data-title="{{page.title}}"
-                    data-images="{{ site.url }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"
-                    data-content="{{ content | strip_html | truncate:80 }} | Pandaman's blog"
-                    data-url="{{site.url}}{{page.url}}">
-                    <div class="ds-share-inline">
-                      <ul  class="ds-share-icons-16">
-
-      	                    <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
-                            <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
-                            <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
-                            <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
-                            <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
-                      </ul>
-                      <div class="ds-share-icons-more">
-                      </div>
-                    </div>
-                <hr>
-                </div>
-                <!-- Duoshuo Share end-->
+                <!-- pager -->
                 
                  <ul class="pager"  style="text-align:left">
                     {% if page.previous.url %}
@@ -99,15 +63,11 @@ layout: default
                 
                 <!-- 多说评论框 start -->
                 <div class="comment">
-				<!--a id="show_duoshuo" href="javascript:void(0);" onclick="toggleDuoshuoComments('#comment-box');">展开评论</a>
-<div id="comment-box" ></div>
-                    <div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="{{site.url}}{{page.url}}"></div>
-				-->
 					<div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="{{site.url}}{{page.url}}"></div>
                 </div>
                 <!-- 多说评论框 end -->
 
-				<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+				<!-- 多说公共 JS 代码-->
 				<script type="text/javascript">
 				var duoshuoQuery = {short_name:"{{site.comments.duoshuo.short_name}}"};
 					(function() {
@@ -118,50 +78,13 @@ layout: default
 						(document.getElementsByTagName('head')[0] 
 						 || document.getElementsByTagName('body')[0]).appendChild(ds);
 					})();
-					</script>
-				<!-- 多说公共JS代码 end 
-
-<script src="http://static.duoshuo.com/embed.js"></script>
-<script type="text/javascript">
-function toggleDuoshuoComments(container){
-    var el = document.createElement('div');//该div不需要设置class="ds-thread"
-    el.setAttribute('data-thread-key', '"{{page.id}}"');//必选参数
-    el.setAttribute('data-url', '{{site.url}}{{page.url}}');//必选参数
-    DUOSHUO.EmbedThread(el);
-    jQuery(container).append(el);
-	$("#show_duoshuo").hide();
-}</script>-->
+				</script>
 
             </div>
         </div>
     </div>
 </article>
 
-
-
-<!-- async load function 
-<script>
-    function async(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
-    }
-</script>
-
-<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ 
-<script>
-    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
-        anchors.options = {
-          visible: 'always',
-          placement: 'right',
-          icon: '#'
-        }; 
-        anchors.add().remove('.intro-header h1').remove('.subheading');
-    })
-</script>  -->
 
 <style>
     /* place left on bigger screen */
@@ -175,30 +98,9 @@ function toggleDuoshuoComments(container){
     }
 </style>
 
-
-<!--目录结构生成与图片居中-->
+<!--图片居中-->
 <script type="text/javascript">
 	$(document).ready(function() {
-		/*//生成目录
-		x = $(".post-content").find("h1,h2");
-		n = 0;
-		c = "";
-		x.each(function() {
-			$(this).before("<a name='anchor" + n + "'></a>");
-			if ($(this).prop('tagName') == "H1") //不可用"h1"
-			{
-				c=c+"<a href='#anchor"+n+"' class='anchor-h1' style='font-weight:bold'>"+$(this).text()+"</a><br/>";
-			}
-			else {
-				c=c+"<a href='#anchor"+n+"' class='anchor-h2' style='margin-left:2em'>"+$(this).text()+"</a><br/>";
-			}
-			n = n + 1;
-		});
-		if(x.length!=0){
-		  $("#catalog").html(c);
-		  $("#catalog").show();
-		}*/
-		// 图片居中
 		$(".post-content img").wrap("<center></center>");
 });
 </script>
