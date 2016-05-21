@@ -69,7 +69,7 @@ print(GCD(3245,1000))
 
 ## 2、二次无理数的连分数
 
-Lisp 或 GSD 算法对无理数的连分数都有些无能为力。下面着重讨论无理数 $\sqrt{n}$ 的连分数展开技巧[^frac]：
+上述算法对无理数的连分数有些无能为力。下面着重讨论无理数 $\sqrt{n}$ 的连分数展开技巧[^frac]：
 
 [^frac]: 杨中和. [二次无理数的连分数](http://wenku.baidu.com/link?url=whoEM9f9zCklDblBAxyboqjeIj_FGqPp3CZ89Y-y8GiwxQGCy8ze2W8NNAhbFotQvygkFJGbjukUTyr4pmzY_wh1jWmwzT8c47qw31v6ELe) [J]. 西安文理学院学报：自然科学版, 2008, 11(2): 24-58.
 
@@ -140,7 +140,10 @@ $$x^2 - ny^2= 1,\,\,\,x,y \in \mathbb{Z},\,n \in \mathbb{N}^+$$
 $$\begin{bmatrix}x_{i+1}\\y_{i+1}\end{bmatrix}=\begin{bmatrix}x_1&ny_1\\y_1&x_1\end{bmatrix}\begin{bmatrix}x_{i}\\y_{i}\end{bmatrix}$$
 </p>
 
-规律：记 $\sqrt{n}$ 的连分数循环节长度为 $l$。当 $l$ 为偶数，$(p_l,q_l)$ 即是基本解；当 $l$ 为奇数，$(p_{2l},q_{2l})$ 即是基本解。
+规律：记 $\sqrt{n}$ 的连分数循环节长度为 $l$。
+
+1. 当 $l$ 为偶数，$(p_l,q_l)$ 即是基本解；
+2. 当 $l$ 为奇数，$(p_{2l},q_{2l})$ 即是基本解。
 
 ##### Example：求 $x^2 - 7y^2= 1$ 的解
 
