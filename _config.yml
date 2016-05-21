@@ -1,6 +1,6 @@
 # Site settings
 title: "我不是熊猫人"
-header-img: "img/res/homepage.jpg"
+header-img: "rgba(57,86,149,1)"
 tagline: "cn"  
 description: "Pandaman's Blog"  
 baseurl: ""
@@ -54,7 +54,7 @@ defaults:
     values:
       layout: "post"
       author: "Pandaman"
-      header-img: "img/res/post.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "rgba(20,84,109,1)" 
       categories: "blog"
       description: "http://blog.zhaohengbo.com" 
       permalink: "/:title"

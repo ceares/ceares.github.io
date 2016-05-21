@@ -137,7 +137,6 @@ a.footnote::after {
 blockquote {
     font-style: normal;
     font-size: 14px;
-	border-color: #ececec;
 }
 
 #markdown-toc {
@@ -168,7 +167,7 @@ blockquote {
 
 code {
 	color: purple;
-    background-color: #f0f0f0;
+    background-color: #eee;
 }
 
 .highlight pre, pre, .highlight .hll {

@@ -2,7 +2,7 @@
 layout: page
 title: "Shared"
 description: "独乐乐不如众乐乐"
-header-img: "img/res/shared.jpg"
+header-img: "rgba(71,165,237,1)"
 custom_css_shared: true
 nav-display: true
 ---

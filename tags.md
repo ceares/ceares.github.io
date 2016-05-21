@@ -2,7 +2,7 @@
 layout: page
 title: "Tags"
 description: "不要随意贴人标签"  
-header-img: "img/res/tags.jpg" 
+header-img: "rgba(17,181,174,1)" 
 custom_css_tags: true 
 nav-display: true
 ---

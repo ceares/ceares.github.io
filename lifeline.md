@@ -2,7 +2,7 @@
 layout: page
 title: "Lifeline"
 description: "生命在这里留下了痕迹"
-header-img: "img/res/lifeline.jpg"
+header-img: "rgba(5,102,197,1)"
 nav-display: true
 ---
 
