@@ -3,7 +3,7 @@
 
 <style type="text/css">
 header.intro-header{
-    background: {{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %};
+    background: {% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %};
 }
 </style>
 
