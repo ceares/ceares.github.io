@@ -99,7 +99,7 @@ function count() {
 }
 </script>
 
-<p>填写完下列表单内容，点击<button onclick="count()">评估风险</button>计算风险等级评估结果。</p>
+<p>填写完下列表单内容，点击&nbsp;<button onclick="count()">评估风险</button>&nbsp;计算风险等级评估结果。</p>
 
 <form>
 
@@ -185,3 +185,9 @@ function count() {
 </table>
 </form>
 
+<p>
+出现问题：由于&nbsp;JavaScript&nbsp;中的变量定义是弱类型，所以在做加法时很容易出现歧义，很多时候你是想当作数字加，但是脚本却当成了“连接”操作。
+</p>
+<p>
+解决方法：更改加法的方式，使脚本只能把它当作数字去操作。如&nbsp;<code>c=a-(-b)</code>&nbsp;或&nbsp;<code>c=a*1.0+b</code>&nbsp;。
+</p>
