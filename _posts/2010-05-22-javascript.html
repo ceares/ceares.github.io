@@ -4,190 +4,28 @@ tags: [JavaScript,HTML,加法陷阱]
 ---
 
 <p>
-出现问题：由于&nbsp;JavaScript&nbsp;中的变量定义是弱类型，所以在做加法时很容易出现歧义，很多时候你是想当作数字加，但是脚本却当成了“连接”操作。
+出现问题：由于&nbsp;JavaScript&nbsp;中的变量是弱类型，因而在加法运算时极易产生歧义，即将数字的加法当成了字符串“连接”操作。
 </p>
 <p>
 解决方法：更改加法的方式，使脚本只能把它当作数字去操作。如&nbsp;<code>c=a-(-b)</code>&nbsp;或&nbsp;<code>c=a*1.0+b</code>&nbsp;。
 </p>
 
 <script language="javascript">
-function level(R) {	
-	if (R<2000)
-	{
-		return "低<br/>（"+Math.round(R)+"）";
-	}
-	else if (R<4000)
-	{
-		return "较低<br/>（"+Math.round(R)+"）";
-	}
-	else if (R<6000)
-	{
-		return "中等<br/>（"+Math.round(R)+"）";
-	}
-	else if (R<8000)
-	{
-		return "较高<br/>（"+Math.round(R)+"）";
-	}
-	else 
-	{
-		return "高<br/>（"+Math.round(R)+"）";
-	}
-}
 function count() {
-	var P11 = 0.01*document.getElementById("P11").value;
-    var P111 = P11*document.getElementById("P111").value;
-	var P112 = P11*document.getElementById("P112").value;
-	var P113 = P11*document.getElementById("P113").value;
-	var P12 = 0.01*document.getElementById("P12").value;
-	var P121 = P12*document.getElementById("P121").value;
-	var P122 = P12*document.getElementById("P122").value;
-	var P123 = P12*document.getElementById("P123").value;
-	var P13 = 0.01*document.getElementById("P13").value;
-	var P131 = P13*document.getElementById("P131").value;
-	var P132 = P13*document.getElementById("P132").value;
-	var P133 = P13*document.getElementById("P133").value;
-	var P134 = P13*document.getElementById("P134").value;
-	var P1 = P111+P112+P113+P121+P122+P123+P131+P132+P133+P134;
-	var P21 = 0.01*document.getElementById("P21").value;
-    var P211 = P21*document.getElementById("P211").value;
-	var P212 = P21*document.getElementById("P212").value;
-	var P213 = P21*document.getElementById("P213").value;
-	var P22 = 0.01*document.getElementById("P22").value;
-	var P221 = P22*document.getElementById("P221").value;
-	var P222 = P22*document.getElementById("P222").value;
-	var P223 = P22*document.getElementById("P223").value;
-	var P23 = 0.01*document.getElementById("P23").value;
-	var P231 = P23*document.getElementById("P231").value;
-	var P232 = P23*document.getElementById("P232").value;
-	var P233 = P23*document.getElementById("P233").value;
-	var P234 = P23*document.getElementById("P234").value;
-	var P235 = P23*document.getElementById("P235").value;
-	var P2 = P211+P212+P213+P221+P222+P223+P231+P232+P233+P234+P235;	
-	var P31 = 0.01*document.getElementById("P31").value;
-    var P311 = P31*document.getElementById("P311").value;
-	var P312 = P31*document.getElementById("P312").value;
-	var P313 = P31*document.getElementById("P313").value;
-	var P32 = 0.01*document.getElementById("P32").value;
-	var P321 = P32*document.getElementById("P321").value;
-	var P322 = P32*document.getElementById("P322").value;
-	var P323 = P32*document.getElementById("P323").value;
-	var P33 = 0.01*document.getElementById("P33").value;
-	var P331 = P33*document.getElementById("P331").value;
-	var P332 = P33*document.getElementById("P332").value;
-	var P333 = P33*document.getElementById("P333").value;
-	var P334 = P33*document.getElementById("P334").value;
-	var P335 = P33*document.getElementById("P335").value;
-	var P336 = P33*document.getElementById("P336").value;
-	var P337 = P33*document.getElementById("P337").value;
-	var P3 = P311+P312+P313+P321+P322+P323+P331+P332+P333+P334+P335+P336+P337;
-	var C1 = 0.01*document.getElementById("C1").value;
-    var C11 = C1*document.getElementById("C11").value;
-	var C12 = C1*document.getElementById("C12").value;
-	var C13 = C1*document.getElementById("C13").value;
-	var C2 = 0.01*document.getElementById("C2").value;
-	var C21 = C2*document.getElementById("C21").value;
-	var C22 = C2*document.getElementById("C22").value;
-	var C3 = 0.01*document.getElementById("C3").value;
-	var C31 = C3*document.getElementById("C31").value;
-	var C32 = C3*document.getElementById("C32").value;
-	var C33 = C3*document.getElementById("C33").value;
-	var C34 = C3*document.getElementById("C34").value;	
-	var C35 = C3*document.getElementById("C35").value;	
-	var C4 = 0.01*document.getElementById("C4").value;	
-	var C41 = C4*document.getElementById("C41").value;	
-	var C42 = C4*document.getElementById("C42").value;	
-	var C5 = 0.01*document.getElementById("C5").value;	
-	var C51 = C5*document.getElementById("C51").value;	
-	var C52 = C5*document.getElementById("C52").value;	
-	var C = C11+C12+C13+C21+C22+C31+C32+C33+C34+C35+C41+C42+C51+C52;
-    document.getElementById("R1").innerHTML = level(P1*C);
-	document.getElementById("R2").innerHTML = level(P2*C);
-	document.getElementById("R3").innerHTML = level(P3*C);
+	var a = document.getElementById("a").value;
+	var b = document.getElementById("b").value;	
+    document.getElementById("inc").innerHTML = a+b;
+	document.getElementById("dec").innerHTML = a-(-b);
 }
 </script>
 
-<p>填写完下列表单内容，点击&nbsp;<button onclick="count()">评估风险</button>&nbsp;计算风险等级评估结果。</p>
-
-<form>
-
-<h1>表一：失效可能性评估指标与风险等级</h1> 
-
-<table id="P" border="1" cellpadding="5" cellspacing="0">
-<tr>  <th>一级指标</th>    <th>二级指标</th>  <th>权重（%）</th>	<th>三级指标</th>  <th>分值</th>	 <th>风险等级</th> </tr>
-
-<tr>  <td rowspan="10">第一施工环节（P<sub>1</sub>）</td>  
-<td rowspan="3">施工监理（P<sub>11</sub>）</td> 	<td rowspan="3" align="right"><input style="width:3em;text-align:right"  type="number" id="P11" value="5"></td> 
-		<td>资质（P<sub>111</sub>）</td>		<td align="right"><input style="width:3em;text-align:right"  type="number" id="P111" value="30"></td> 
-		<td rowspan="10" align="center"><span id="R1">尚未评估</span></td></tr>
-<tr>  	<td>经验（P<sub>112</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P112" value="40"></td>	</tr>
-<tr>  	<td>责任心（P<sub>113</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P113" value="50"></td>	</tr>
-<tr>  	<td rowspan="3">施工单位（P<sub>12</sub>）</td>  <td rowspan="3" align="right"><input style="width:3em;text-align:right"  type="number" id="P12" value="5"></td>  
-		<td>资质（P<sub>121</sub>）</td>		<td align="right"><input style="width:3em;text-align:right"  type="number" id="P121" value="30"></td> </tr>
-<tr>  	<td>经验（P<sub>122</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P122" value="40"></td>	</tr>
-<tr>  	<td>责任心（P<sub>123</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P123" value="50"></td>	</tr>
-<tr>  <td rowspan="4">挖沟施工（P<sub>13</sub>）</td>  <td rowspan="4" align="right"><input style="width:3em;text-align:right"  type="number" id="P13" value="10"></td>  
-		<td>管沟开挖深度（P<sub>131</sub>）</td>	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P131" value="20"></td> </tr>
-<tr>  	<td>管沟坡度（P<sub>132</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P132" value="30"></td>	</tr>
-<tr>  	<td>沟底宽带（P<sub>133</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P133" value="25"></td>	</tr>
-<tr>  	<td>沟底平直程度（P<sub>134</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P134" value="20"></td>	</tr>
-<tr>  <td rowspan="11">第二施工环节（P<sub>2</sub>）</td>  
-<td rowspan="3">施工监理（P<sub>21</sub>）</td> 	<td rowspan="3" align="right"><input style="width:3em;text-align:right"  type="number" id="P21" value="5"></td> 
-		<td>资质（P<sub>211</sub>）</td>		<td align="right"><input style="width:3em;text-align:right"  type="number" id="P211" value="5"></td> 
-		<td rowspan="11" align="center"><span id="R2">尚未评估</span></td></tr>
-<tr>  	<td>经验（P<sub>212</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P212" value="20"></td>	</tr>
-<tr>  	<td>责任心（P<sub>213</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P213" value="20"></td>	</tr>
-<tr>  	<td rowspan="3">施工单位（P<sub>22</sub>）</td>  <td rowspan="3" align="right"><input style="width:3em;text-align:right"  type="number" id="P22" value="5"></td>  
-		<td>资质（P<sub>221</sub>）</td>		<td align="right"><input style="width:3em;text-align:right"  type="number" id="P221" value="15"></td> </tr>
-<tr>  	<td>经验（P<sub>222</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P222" value="20"></td>	</tr>
-<tr>  	<td>责任心（P<sub>223</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P223" value="20"></td>	</tr>
-<tr>  <td rowspan="5">管线组对焊接（C<sub>1</sub>）</td>  <td rowspan="5" align="right"><input style="width:3em;text-align:right"  type="number" id="P23" value="30"></td>  
-		<td>焊接工艺指导书编制（P<sub>231</sub>）</td>	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P231" value="30"></td> </tr>
-<tr>  	<td>焊工资质（P<sub>232</sub>）</td> 			<td align="right"><input style="width:3em;text-align:right"  type="number" id="P232" value="40"></td>	</tr>
-<tr>  	<td>焊缝外观（P<sub>233</sub>）</td> 			<td align="right"><input style="width:3em;text-align:right"  type="number" id="P233" value="20"></td>	</tr>
-<tr>  	<td>焊缝高度（P<sub>234</sub>）</td> 			<td align="right"><input style="width:3em;text-align:right"  type="number" id="P234" value="50"></td>	</tr>
-<tr>  	<td>焊缝表面宽度（P<sub>235</sub>）</td> 			<td align="right"><input style="width:3em;text-align:right"  type="number" id="P235" value="30"></td>	</tr>
-<tr>  <td rowspan="13">第三施工环节（P<sub>3</sub>）</td>  
-<td rowspan="3">施工监理（P<sub>31</sub>）</td> 	<td rowspan="3" align="right"><input style="width:3em;text-align:right"  type="number" id="P31" value="5"></td> 
-		<td>资质（P<sub>311</sub>）</td>		<td align="right"><input style="width:3em;text-align:right"  type="number" id="P311" value="5"></td> 
-		<td rowspan="13" align="center"><span id="R3">尚未评估</span></td></tr>
-<tr>  	<td>经验（P<sub>312</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P312" value="15"></td>	</tr>
-<tr>  	<td>责任心（P<sub>313</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P313" value="10"></td>	</tr>
-<tr>  	<td rowspan="3">施工单位（P<sub>32</sub>）</td>  <td rowspan="3" align="right"><input style="width:3em;text-align:right"  type="number" id="P32" value="5"></td>  
-		<td>资质（P<sub>321</sub>）</td>		<td align="right"><input style="width:3em;text-align:right"  type="number" id="P321" value="5"></td> </tr>
-<tr>  	<td>经验（P<sub>322</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P322" value="15"></td>	</tr>
-<tr>  	<td>责任心（P<sub>323</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P323" value="10"></td>	</tr>
-<tr>  <td rowspan="7">管线清扫、试压、干燥（P<sub>33</sub>）</td>  <td rowspan="7" align="right"><input style="width:3em;text-align:right"  type="number" id="P33" value="30"></td> 
-		<td>清管次数（P<sub>331</sub>）</td>			<td align="right"><input style="width:3em;text-align:right"  type="number" id="P331" value="30"></td> </tr>
-<tr>  	<td>清管球直径过盈量（P<sub>332</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="P332" value="20"></td>	</tr>
-<tr>  	<td>强度试验（P<sub>333</sub>）</td> 		<td align="right"><input style="width:3em;text-align:right"  type="number" id="P333" value="35"></td>	</tr>
-<tr> 	<td>严密性试验（P<sub>334</sub>）</td> 		<td align="right"><input style="width:3em;text-align:right"  type="number" id="P334" value="35"></td>	</tr>
-<tr> 	<td>试压装置（P<sub>335</sub>）</td> 		<td align="right"><input style="width:3em;text-align:right"  type="number" id="P335" value="45"></td>	</tr>
-<tr>  	<td>干燥剂含量（P<sub>336</sub>）</td> 		<td align="right"><input style="width:3em;text-align:right"  type="number" id="P336" value="35"></td>	</tr>
-<tr>  	<td>水露点值（P<sub>337</sub>）</td> 		<td align="right"><input style="width:3em;text-align:right"  type="number" id="P337" value="35"></td>	</tr>
-</table>
-
-<h1>表二：失效后果评估指标</h1>
-
-<table id="C" border="1" cellpadding="5" cellspacing="0">	
-<tr>  <th>一级指标</th>  <th>权重（%）</th>  <th>二级指标</th>  <th>分值</th>	</tr>
-<tr>  <td rowspan="3">人员伤亡（C<sub>1</sub>）</td>  <td rowspan="3" align="right"><input style="width:3em;text-align:right"  type="number" id="C1" value="44"></td>  
-		<td>死亡（C<sub>11</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="C11" value="65"></td>	</tr>
-<tr>  	<td>重伤（C<sub>12</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="C12" value="20"></td>	</tr>
-<tr>  	<td>轻伤（C<sub>13</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="C13" value="10"></td>	</tr>
-<tr>  <td rowspan="2">工程成本增加（C<sub>2</sub>）</td>  <td rowspan="2" align="right"><input style="width:3em;text-align:right"  type="number" id="C2" value="16"></td> 
-		<td>工程返工（C<sub>21</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="C21" value="50"></td>	</tr>
-<tr>  	<td>材料浪费（C<sub>22</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="C22" value="50"></td>	</tr>
-<tr>  	<td rowspan="5">工期延误（C<sub>3</sub>）</td>  <td rowspan="5" align="right"><input style="width:3em;text-align:right"  type="number" id="C3" value="16"></td>  
-		<td>劳动力不足（C<sub>31</sub>）</td> 		<td align="right"><input style="width:3em;text-align:right"  type="number" id="C31" value="25"></td>	</tr>
-<tr>  	<td>工资支出超额（C<sub>32</sub>）</td> 		<td align="right"><input style="width:3em;text-align:right"  type="number" id="C32" value="60"></td>	</tr>
-<tr>  	<td>工程罚款（C<sub>33</sub>）</td> 			<td align="right"><input style="width:3em;text-align:right"  type="number" id="C33" value="55"></td>	</tr>
-<tr>  	<td>工程进度延误（C<sub>34</sub>）</td> 		<td align="right"><input style="width:3em;text-align:right"  type="number" id="C34" value="65"></td></tr>
-<tr> 	<td>工程质量不过关（C<sub>35</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="C35" value="60"></td>	</tr>
-<tr>  <td rowspan="2">无形损失（C<sub>4</sub>）</td>  <td rowspan="2" align="right"><input style="width:3em;text-align:right"  type="number" id="C4" value="8"></td>  
-		<td>商誉受损（C<sub>41</sub>）</td> 				<td align="right"><input style="width:3em;text-align:right"  type="number" id="C41" value="50"></td>	</tr>
-<tr>  	<td>对建成后管道有影响（C<sub>42</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="C42" value="50"></td>	</tr>
-<tr>  <td rowspan="2">环境污染（C<sub>5</sub>）</td>  <td rowspan="2" align="right"><input style="width:3em;text-align:right"  type="number" id="C5" value="16"></td>  
-		<td>植被、动物被破坏（C<sub>51</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="C51" value="50"></td>	</tr>
-<tr>  	<td>干扰动物正常生活（C<sub>52</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="C52" value="50"></td>	</tr>
-</table>
-</form>
+<form id="cmp">
+<table id="test" border="1" cellpadding="10" cellspacing="0" >	
+<caption><button onclick="count()">评估风险</button></caption>
+<thead><tr> <th>a</th> <th>b</th> <th>a+b</th> <th>a-(-b)</th> </tr></thead>
+<tbody style="text-align:right"> <tr>  	
+	<td><input type="number" id="a" value="3"></td> 	
+	<td><input type="number" id="b" value="4"></td>	
+	<td><span id="inc"></span></td>	
+	<td><span id="dec"></span></td> </tr>
+</tbody> </table> </form>
