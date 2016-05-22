@@ -1,13 +1,11 @@
 ---
 title: JavaScript 的加法陷阱
-tags: [JavaScript,HTML,加法陷阱]
+tags: [JavaScript,QA,HTML,加法陷阱]
+categories: qa
 ---
 
 <p>
-出现问题：由于&nbsp;JavaScript&nbsp;中的变量是弱类型，因而在加法运算时极易产生歧义，即将数字的加法当成了字符串“连接”操作。
-</p>
-<p>
-解决方法：更改加法的方式，使脚本只能把它当作数字去操作。如&nbsp;<code>c=a-(-b)</code>&nbsp;或&nbsp;<code>c=a*1.0+b</code>&nbsp;。
+由于&nbsp;JavaScript&nbsp;中的变量是弱类型，因而在加法运算时极易产生歧义，即将数字的加法当成了字符串“连接”操作。
 </p>
 
 <script language="javascript">
@@ -19,13 +17,20 @@ function count() {
 }
 </script>
 
+<p style="text-align:right">
+<button onclick="count()">举个“栗子”</button>
+</p>
+
 <form id="cmp">
 <table id="test" border="1" cellpadding="10" cellspacing="0" >	
-<caption><button onclick="count()">评估风险</button></caption>
-<thead><tr> <th>a</th> <th>b</th> <th>a+b</th> <th>a-(-b)</th> </tr></thead>
+<thead style="text-align:center"><tr> <th>a</th> <th>b</th> <th>a+b</th> <th>a-(-b)</th> </tr></thead>
 <tbody style="text-align:right"> <tr>  	
 	<td><input type="number" id="a" value="3"></td> 	
 	<td><input type="number" id="b" value="4"></td>	
 	<td><span id="inc"></span></td>	
 	<td><span id="dec"></span></td> </tr>
 </tbody> </table> </form>
+
+<p>
+由此可见，更改加法的方式，如&nbsp;<code>c=a-(-b)</code>&nbsp;或&nbsp;<code>c=a*1.0+b</code>&nbsp;，使脚本只能把它当作数字去操作。
+</p>
