@@ -1,7 +1,14 @@
 ---
-title: JavaScript 表单制作
+title: JavaScript 表单数据计算时遭遇加法陷阱
 tags: [JavaScript,HTML,CSS]
 ---
+
+<p>
+出现问题：由于&nbsp;JavaScript&nbsp;中的变量定义是弱类型，所以在做加法时很容易出现歧义，很多时候你是想当作数字加，但是脚本却当成了“连接”操作。
+</p>
+<p>
+解决方法：更改加法的方式，使脚本只能把它当作数字去操作。如&nbsp;<code>c=a-(-b)</code>&nbsp;或&nbsp;<code>c=a*1.0+b</code>&nbsp;。
+</p>
 
 <script language="javascript">
 function level(R) {	
@@ -184,10 +191,3 @@ function count() {
 <tr>  	<td>干扰动物正常生活（C<sub>52</sub>）</td> 	<td align="right"><input style="width:3em;text-align:right"  type="number" id="C52" value="50"></td>	</tr>
 </table>
 </form>
-
-<p>
-出现问题：由于&nbsp;JavaScript&nbsp;中的变量定义是弱类型，所以在做加法时很容易出现歧义，很多时候你是想当作数字加，但是脚本却当成了“连接”操作。
-</p>
-<p>
-解决方法：更改加法的方式，使脚本只能把它当作数字去操作。如&nbsp;<code>c=a-(-b)</code>&nbsp;或&nbsp;<code>c=a*1.0+b</code>&nbsp;。
-</p>
