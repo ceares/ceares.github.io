@@ -5,7 +5,7 @@ categories: qa
 ---
 
 <p>
-由于&nbsp;JavaScript&nbsp;中的变量是弱类型，因而在加法运算时极易产生歧义：
+由于&nbsp;JavaScript&nbsp;中的变量是弱类型，因而在加法运算时极易产生歧义：<button onclick="count()">举个“栗子”</button>
 </p>
 
 <script language="javascript">
@@ -17,10 +17,6 @@ function count() {
 	document.getElementById("times").innerHTML = Math.round(a*1.0+b);
 }
 </script>
-
-<p style="text-align:right">
-<button onclick="count()">举个“栗子”</button>
-</p>
 
 <form id="cmp">
 <table id="test" border="1" cellpadding="10" cellspacing="0" >	
