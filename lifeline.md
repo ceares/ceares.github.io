@@ -25,6 +25,7 @@ nav-display: true
 
 <ul class="listing" style="list-style-type:none;font-weight:normal;margin-top:2em;">
 {% for post in site.posts %}
+{% if post.display %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
@@ -33,5 +34,6 @@ nav-display: true
   <li class="listing-item">
 		<a href="{{ post.url }}" title="{{ post.title }}"><time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%B %-d," }}</time>&nbsp;{{ post.title }}</a>
   </li>
+{% endif %}
 {% endfor %}
 </ul>
