@@ -4,6 +4,7 @@ description: "此地无银三百两"
 ---
 
 {% for post in paginator.posts %}
+{% if post.display %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            
@@ -20,8 +21,8 @@ description: "此地无银三百两"
     </a>
     <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
-
 <hr>
+{% endif %}
 {% endfor %}
 
 <!-- Pager -->

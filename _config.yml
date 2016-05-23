@@ -58,6 +58,7 @@ defaults:
       categories: "blog"
       description: "http://blog.zhaohengbo.com" 
       permalink: "/:title"
+      display: true
 
 # Comments 
 comments :
