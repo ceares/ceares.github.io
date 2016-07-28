@@ -170,7 +170,7 @@ short_name: "duoshuoname"
 
 1. 启动 Git Bash；
 2. 输入命令 `$ cd ~/.ssh`，如果提示 No such file or directory 说明是首次使用；
-3. 继续输入命令 `ssh-keygen -t rsa -C "E-mail"`，其中 E-mail 可以填写 Github 注册时的邮箱地址；
+3. 继续输入命令 `$ ssh-keygen -t rsa -C "E-mail"`，其中 E-mail 可以填写 Github 注册时的邮箱地址；
 4. 一路回车，直到提示 `The key's randomart image is:` 后出现文本图形。
 
 下面将生成的 ssh key 文件添加到 GitHub 上：
