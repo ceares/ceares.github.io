@@ -6,7 +6,7 @@ tags: [GitHub,Jekyll,blog,JavaScript,Markdown,HTML,CSS]
 * TOC
 {:toc}
 
-在了解如何用 GitHub Pages 搭建独立博客（[示范博客](http://www.zhaohengbo.com/)）之前，首先应该先问自己为什么要这样做？
+在了解如何用 GitHub Pages 搭建独立博客（[示范博客](http://example.zhaohengbo.com/)）之前，首先应该先问自己为什么要这样做？
 
 1. 独立博客更为个性，但也更加折腾，需要学习和钻研精神；
 2. 独乐乐不如众乐乐，博客应当用来分享学习札记、心路历程等；
