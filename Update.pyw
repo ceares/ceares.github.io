@@ -1,10 +1,10 @@
-import re,os
+﻿import re,os
 from tkinter import *  
 from tkinter.ttk import *
 
 root = Tk()  
 root.title('Update')
-root.geometry('0x0+0+0') 
+root.geometry('300x100+0+0') 
 root.maxsize(300,170) 
 str = StringVar()
 Label(root,textvariable=str).pack(side=TOP,fill=X,padx=15,pady=5)
