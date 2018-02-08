@@ -1,5 +1,5 @@
 ---
-title: Use iPhone for 7 days
+title: Use iPhone for 7 Days
 tags: [iPhone]
 ---
 
