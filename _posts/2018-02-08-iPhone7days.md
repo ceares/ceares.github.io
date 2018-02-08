@@ -91,7 +91,7 @@ tags: [iPhone]
 
 因为home键是按键不像很多安卓机一样是触控感应，使用中突然发力的感觉并不好。所以我选择使用小圆点。此外，对于iPhoneX用户而言也没有home键可用。分享一个我的设置，如下图所示。
 
-![](https://7xrrbc.com1.z0.glb.clouddn.com/15180411843588.jpg)
+![](http://7xrrbc.com1.z0.glb.clouddn.com/15180411843588.jpg)
 这样设置后小圆点基本可以等效为home实体键。
 
 > 这里说明三点：
@@ -188,7 +188,7 @@ workflow上手并不容易，磨刀不误砍柴工，教程见这里[^workflow]�
 
 因为Gmail和维基。想下个VPN。第一次选择了`西风VPN`，只要6元，但是居然启动VPN的时候有广告。果断不能忍，马上申请退款。苹果处理也快。第二天起来就发现退款成功了，如图：
 
-![](https://7xrrbc.com1.z0.glb.clouddn.com/15180496970268.jpg)
+![](http://7xrrbc.com1.z0.glb.clouddn.com/15180496970268.jpg)
 
 最终换了`极速VPN`，虽然只能免费1h/d，但貌似不关闭就能继续用。
 
