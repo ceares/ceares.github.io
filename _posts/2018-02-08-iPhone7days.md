@@ -1,6 +1,6 @@
 ---
-title: Use iPhone for 7 Days
-tags: [iPhone]
+title: Use iPhone 8 plus for 7 Days
+tags: [iPhone,ios11]
 ---
 
 本人刚从安卓阵营换到苹果一周，绝大部分功能都了解了，下面谈几点感受。
