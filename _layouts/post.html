@@ -53,8 +53,7 @@ layout: default
 						<i class="fa fa-reply">&nbsp;&nbsp;</i>上一篇：{{page.previous.title}}</a>
                     </li>
                     {% endif %}
-                    <br/>
-                    {% if page.next.url %}
+                    <br/>                    {% if page.next.url %}
                     <li class="next">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" >
 						<i class="fa fa-share">&nbsp;&nbsp;</i>下一篇：{{page.next.title}}</a>
@@ -82,7 +81,7 @@ layout: default
 }
 
 var gitment = new Gitment({
-  id: 'document.title', // 可选。默认为 location.href
+  id: document.title, // 可选。默认为 location.href
   owner: 'ceares',
   repo: 'ceares.github.io',
   oauth: {
