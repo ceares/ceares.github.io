@@ -61,24 +61,21 @@ layout: default
                     {% endif %}
                 </ul>               
                 
-                <!-- 多说评论框 start -->
-                <div class="comment">
-					<div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="{{site.url}}{{page.url}}"></div>
-                </div>
-                <!-- 多说评论框 end -->
-
-				<!-- 多说公共 JS 代码-->
-				<script type="text/javascript">
-				var duoshuoQuery = {short_name:"{{site.comments.duoshuo.short_name}}"};
-					(function() {
-						var ds = document.createElement('script');
-						ds.type = 'text/javascript';ds.async = true;
-						ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-						ds.charset = 'UTF-8';
-						(document.getElementsByTagName('head')[0] 
-						 || document.getElementsByTagName('body')[0]).appendChild(ds);
-					})();
-				</script>
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: 'pandaman', // 可选。默认为 location.href
+  owner: 'ceares',
+  repo: '43f0b264ebe987a5020931cec19e811055fe3389',
+  oauth: {
+    client_id: '54d577d5aa369ead7180',
+    client_secret: '51ed5d85d883b8f7e4cfbf26111fa2084c4a8727',
+  },
+})
+gitment.render('container')
+</script>
 
             </div>
         </div>
