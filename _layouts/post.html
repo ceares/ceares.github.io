@@ -64,11 +64,11 @@ layout: default
  	<!-- Gitment -->	
          
 <div id="container"></div>
+
+<script>
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
 
-gitment.render('container')
 	const myTheme = {
   render(state, instance) {
     const container = document.createElement('div')
@@ -91,6 +91,8 @@ var gitment = new Gitment({
     client_secret: '51ed5d85d883b8f7e4cfbf26111fa2084c4a8727',
   },
 })
+
+gitment.render('container')
 </script>
 
             </div>
