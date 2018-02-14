@@ -13,8 +13,8 @@ owner:
   bio: "简约而不简单"
 
 # Data
-gavatar: img/res/gavatar.jpg
-favicon: img/res/favicon.ico
+gavatar: "img/res/gavatar.jpg"
+favicon: "img/res/favicon.ico"
 
 douban_username:  
 twitter_username: 
