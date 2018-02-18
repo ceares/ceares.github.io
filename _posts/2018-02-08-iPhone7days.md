@@ -14,7 +14,7 @@ tags: [iPhone,ios11]
 
 入手苹果太晚，iCloud邮箱基本被抢注得差不多了，用QQ邮箱注册。后来补注册一个iCloud账号，发现好像不能将ID更改为注册未满30天的iCloud账号[^id]。
 
-[^id]: https://support.apple.com/zh-cn/HT202667
+[^id]: <https://support.apple.com/zh-cn/HT202667>
 
 ## ⒉ 数据迁徙
 
@@ -41,7 +41,7 @@ tags: [iPhone,ios11]
 
 关于这点连同imessage一起吐槽，为什么不能设置“不接受联系人以外的日程邀请或者imessage信息”呢？
 
-[^calendar]: https://www.zhihu.com/question/49329317
+[^calendar]: <https://www.zhihu.com/question/49329317>
 
 ### ⑶ 提醒事项与备忘录
 
@@ -69,7 +69,7 @@ tags: [iPhone,ios11]
 
 下载iCloud就能同步IE和safari的收藏夹。考虑到现在很多人在用edge。实际上通过简单设置[^set]就能实现edge和IE同步，从而使得三者同步。并能方便地在PC上管理。
 
-[^set]: https://jingyan.baidu.com/article/0964eca27114898285f53617.html
+[^set]: <https://jingyan.baidu.com/article/0964eca27114898285f53617.html>
 
 # 二、设置
 
@@ -111,7 +111,7 @@ App Store里充斥着大量垃圾评论，看部分评论的意思好像是不�
 
 这里说一下如何自定义来电铃声[^ring]:
 
-[^ring]: http://iphone.tgbus.com/tutorial/use/201604/20160420151812.shtml
+[^ring]: <http://iphone.tgbus.com/tutorial/use/201604/20160420151812.shtml>
 
 1. 在iTunes中选择该乐曲，右键选取`歌曲信息`；
 2. 选取`选项`，输入`开始`与`停止`时间，总时长不超过40秒（铃声）或25秒（短信）；
@@ -151,8 +151,8 @@ workflow上手并不容易，磨刀不误砍柴工，教程见这里[^workflow]�
 * Zip or Unzip
 
 [^tips]: 严格讲这并不算内置应用，但去年三月就被苹果收购了。
-[^workflow]: https://sspai.com/post/27733
-[^pi]: http://workflow.sspai.com/#/main/workflow
+[^workflow]: <https://sspai.com/post/27733>
+[^pi]: <http://workflow.sspai.com/#/main/workflow>
 [^bing]: 由于墙，我将谷歌翻译改为必应翻译。API配置：`www.microsofttranslator.com/bv.aspx?to=zh-CHS&refd=www.bing.com&r=true&a=url`
 
 ### ⑸ 文件
