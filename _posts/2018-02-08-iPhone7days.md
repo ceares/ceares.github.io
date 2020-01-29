@@ -1,5 +1,5 @@
 ---
-title: Use iPhone 8p for 7 Days
+title: Use iPhone 8P for 7 Days
 tags: [iPhone,ios11]
 ---
 
