@@ -115,7 +115,9 @@ $$\sqrt{n}=0-\frac{k}{1}-k-\frac{a_1}{n_k}-i_1-\frac{a_2}{q_1}-i_2-\frac{a_3}{q_
 对渐进分数列 $\\{\frac{p_i}{q_i},\,i\in \mathbb{N}^+\\}$，有 $\frac{p_1}{q_1}=\frac{a_0}{1},\frac{p_1}{q_1}=\frac{a_1a_0+1}{a_1}$，其递推式为：
 
 <p>
+
 $$\begin{bmatrix}p_{i+1}\\q_{i+1}\end{bmatrix}=\begin{bmatrix}p_i&p_{i-1}\\q_i&q_{i-1}\end{bmatrix}\begin{bmatrix}a_{i}\\1\end{bmatrix}$$
+
 </p>
 
 显然，渐近分数列的奇数项小于原值，偶数项大于原值。
@@ -137,7 +139,9 @@ $$x^2 - ny^2= 1,\,\,\,x,y \in \mathbb{Z},\,n \in \mathbb{N}^+$$
 设 $\\{\frac{p_i}{q_i}\\}$ 是 $\sqrt{n}$ 的的渐近分数列，则存在 $i$ 使得 $(p_i,q_i)$ 为佩尔方程的解。取 $\min i$ 对应的 $(p_i,q_i)$ 作为佩尔方程的基本解（最小解），记作$(x_1,y_1)$，则全部的非平凡解解 $\\{x,y\\}$ 可表示为 $x_i + y_i\sqrt n = (x_1 + y_1\sqrt n)^i$，或由递推关系式求得：
 
 <p>
+
 $$\begin{bmatrix}x_{i+1}\\y_{i+1}\end{bmatrix}=\begin{bmatrix}x_1&ny_1\\y_1&x_1\end{bmatrix}\begin{bmatrix}x_{i}\\y_{i}\end{bmatrix}$$
+
 </p>
 
 规律：记 $\sqrt{n}$ 的连分数循环节长度为 $l$。
@@ -145,7 +149,7 @@ $$\begin{bmatrix}x_{i+1}\\y_{i+1}\end{bmatrix}=\begin{bmatrix}x_1&ny_1\\y_1&x_1\
 1. 当 $l$ 为偶数，$(p_l,q_l)$ 即是基本解；
 2. 当 $l$ 为奇数，$(p_{2l},q_{2l})$ 即是基本解。
 
-##### Example：求 $x^2 - 7y^2= 1$ 的解
+##### Example：求方程 $x^2 - 7y^2= 1$ 的解
 
 由 $\sqrt{7}$ 的渐近分数列 $\\{\frac{p_i}{q_i}\\}=\frac{2}{1},\frac{3}{1},\frac{5}{2},\frac{8}{3},\cdots$，求得 $x^2 - 7y^2= 1$ 的基本解 $(8,3)$，其所有非平凡解 
 
